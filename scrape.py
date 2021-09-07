@@ -6,8 +6,6 @@ problems=[]
 proposers=[]
 statement=""
 
-test=""
-
 #driver = webdriver.Chrome("/snap/chromium/current/usr/lib/chromium-browser/chromedriver")
 #driver.get("https://artofproblemsolving.com/community/c1306546_2020imo")
 #content = driver.page_source
