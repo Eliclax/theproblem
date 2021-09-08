@@ -1,0 +1,760 @@
+source,year,label,statement,author,difficulty,rating
+2020 ISL,2020 ,A1,"\textit{Version 1}. Let $n$ be a positive integer, and set $N=2^{n}$. Determine the smallest real number $a_{n}$ such that, for all real $x$,
+\[
+\sqrt[N]{\frac{x^{2 N}+1}{2}} \leqslant a_{n}(x-1)^{2}+x .
+\]\textit{Version 2}. For every positive integer $N$, determine the smallest real number $b_{N}$ such that, for all real $x$,
+\[
+\sqrt[N]{\frac{x^{2 N}+1}{2}} \leqslant b_{N}(x-1)^{2}+x .
+\]",,-1,-1
+2020 ISL,2020 ,A2,"Let $\mathcal{A}$ denote the set of all polynomials in three variables $x, y, z$ with integer coefficients. Let $\mathcal{B}$ denote the subset of $\mathcal{A}$ formed by all polynomials which can be expressed as
+\begin{align*}
+(x + y + z)P(x, y, z) + (xy + yz + zx)Q(x, y, z) + xyzR(x, y, z)
+\end{align*}with $P, Q, R \in \mathcal{A}$.  Find the smallest non-negative integer $n$ such that $x^i y^j z^k \in \mathcal{B}$ for all non-negative integers $i, j, k$ satisfying $i + j + k \geq n$.",,-1,-1
+2020 ISL,2020 ,A3,"Suppose that $a,b,c,d$ are positive real numbers satisfying $(a+c)(b+d)=ac+bd$. Find the smallest possible value of
+$$\frac{a}{b}+\frac{b}{c}+\frac{c}{d}+\frac{d}{a}.$$\textit{Israel}",,-1,-1
+2020 ISL,2020 ,A4,"The real numbers $a, b, c, d$ are such that $a\geq b\geq c\geq d>0$ and $a+b+c+d=1$. Prove that
+\[(a+2b+3c+4d)a^ab^bc^cd^d<1\]","Stijn Cambie, Belgium",-1,-1
+2020 ISL,2020 ,A5,"A magician intends to perform the following trick. She announces a positive integer $n$, along with $2n$ real numbers $x_1 < \dots < x_{2n}$, to the audience. A member of the audience then secretly chooses a polynomial $P(x)$ of degree $n$ with real coefficients, computes the $2n$ values $P(x_1), \dots , P(x_{2n})$, and writes down these $2n$ values on the blackboard in non-decreasing order. After that the magician announces the secret polynomial to the audience. Can the magician find a strategy to perform such a trick?",,-1,-1
+2020 ISL,2020 ,A6,"Find all functions $f : \mathbb{Z}\rightarrow \mathbb{Z}$ satisfying
+\[f^{a^{2} + b^{2}}(a+b) = af(a) +bf(b)\]for all integers $a$ and $b$",,-1,-1
+2020 ISL,2020 ,A7,"Let $n$ and $k$ be positive integers. Prove that for $a_1, \dots, a_n \in [1,2^k]$ one has
+\[ \sum_{i = 1}^n \frac{a_i}{\sqrt{a_1^2 + \dots + a_i^2}} \le 4 \sqrt{kn}. \]",,-1,-1
+2020 ISL,2020 ,A8,"Let $R+$ be the set of positive real numbers. Determine all functions $f:R+$ $\rightarrow$ $R+$ such that for all positive real numbers $x$ and $y$
+$f(x+f(xy))+y=f(x)f(y)+1$
+
+$(Ukraine)$",,-1,-1
+2020 ISL,2020 ,C1,"Let $n$ be a positive integer. Find the number of permutations $a_1$, $a_2$, $\dots a_n$ of the
+sequence $1$, $2$, $\dots$ , $n$ satisfying
+$$a_1 \le 2a_2\le 3a_3 \le \dots \le na_n$$.
+
+Proposed by United Kingdom",,-1,-1
+2020 ISL,2020 ,C2,"In a regular 100-gon, 41 vertices are colored black and the remaining 59 vertices are colored white. Prove that there exist 24 convex quadrilaterals $Q_{1}, \ldots, Q_{24}$ whose corners are vertices of the 100-gon, so that
+\begin{itemize}
+\item the quadrilaterals $Q_{1}, \ldots, Q_{24}$ are pairwise disjoint, and
+\item every quadrilateral $Q_{i}$ has three corners of one color and one corner of the other color.
+\end{itemize}
+",,-1,-1
+2020 ISL,2020 ,C3,"There is an integer $n > 1$. There are $n^2$ stations on a slope of a mountain, all at different altitudes. Each of two cable car companies, $A$ and $B$, operates $k$ cable cars; each cable car provides a transfer from one of the stations to a higher one (with no intermediate stops). The $k$ cable cars of $A$ have $k$ different starting points and $k$ different finishing points, and a cable car which starts higher also finishes higher. The same conditions hold for $B$. We say that two stations are linked by a company if one can start from the lower station and reach the higher one by using one or more cars of that company (no other movements between stations are allowed). Determine the smallest positive integer $k$ for which one can guarantee that there are two stations that are linked by both companies.","Tejaswi Navilarekallu, India",-1,-1
+2020 ISL,2020 ,C4,"The Fibonacci numbers $F_0, F_1, F_2, . . .$ are defined inductively by $F_0=0, F_1=1$, and $F_{n+1}=F_n+F_{n-1}$ for $n \ge 1$. Given an integer $n \ge 2$, determine the smallest size of a set $S$ of integers such that for every $k=2, 3, . . . , n$ there exist some $x, y \in S$ such that $x-y=F_k$.
+
+\textit{$Proposed \;  by \; Croatia$}",,-1,-1
+2020 ISL,2020 ,C5,"Let $p$ be an odd prime, and put $N=\frac{1}{4} (p^3 -p) -1.$ The numbers $1,2, \dots, N$ are painted arbitrarily in two colors, red and blue. For any positive integer $n \leqslant N,$ denote $r(n)$ the fraction of integers $\{ 1,2, \dots, n \}$ that are red.
+Prove that there exists a positive integer $a \in \{ 1,2, \dots, p-1\}$ such that $r(n) \neq a/p$ for all $n = 1,2, \dots , N.$
+
+\textit{Netherlands}",,-1,-1
+2020 ISL,2020 ,C6,"There are $4n$ pebbles of weights $1, 2, 3, \dots, 4n.$ Each pebble is coloured in one of $n$ colours and there are four pebbles of each colour. Show that we can arrange the pebbles into two piles so that the following two conditions are both satisfied:
+\begin{itemize}
+\item The total weights of both piles are the same.
+\item Each pile contains two pebbles of each colour.
+\end{itemize}","Milan Haiman, Hungary and Carl Schildkraut, USA",-1,-1
+2020 ISL,2020 ,C7,"Consider any rectangular table having finitely many rows and columns, with a real number $a(r, c)$ in the cell in row $r$ and column $c$. A pair $(R, C)$, where $R$ is a set of rows and $C$ a set of columns, is called a \textit{saddle pair} if the following two conditions are satisfied:
+\begin{itemize}
+\item $(i)$ For each row $r^{\prime}$, there is $r \in R$ such that $a(r, c) \geqslant a\left(r^{\prime}, c\right)$ for all $c \in C$;
+\item $(ii)$ For each column $c^{\prime}$, there is $c \in C$ such that $a(r, c) \leqslant a\left(r, c^{\prime}\right)$ for all $r \in R$.
+\end{itemize}
+A saddle pair $(R, C)$ is called a \textit{minimal pair} if for each saddle pair $\left(R^{\prime}, C^{\prime}\right)$ with $R^{\prime} \subseteq R$ and $C^{\prime} \subseteq C$, we have $R^{\prime}=R$ and $C^{\prime}=C$. Prove that any two minimal pairs contain the same number of rows.",,-1,-1
+2020 ISL,2020 ,C8,"Players $A$ and $B$ play a game on a blackboard that initially contains 2020 copies of the number 1 . In every round, player $A$ erases two numbers $x$ and $y$ from the blackboard, and then player $B$ writes one of the numbers $x+y$ and $|x-y|$ on the blackboard. The game terminates as soon as, at the end of some round, one of the following holds:
+\begin{itemize}
+\item $(1)$ one of the numbers on the blackboard is larger than the sum of all other numbers;
+\item $(2)$ there are only zeros on the blackboard.
+\end{itemize}
+Player $B$ must then give as many cookies to player $A$ as there are numbers on the blackboard. Player $A$ wants to get as many cookies as possible, whereas player $B$ wants to give as few as possible. Determine the number of cookies that $A$ receives if both players play optimally.",,-1,-1
+2020 ISL,2020 ,G1,"Let $ABC$ be an isosceles triangle with $BC=CA$, and let $D$ be a point inside side $AB$ such that $AD< DB$. Let $P$ and $Q$ be two points inside sides $BC$ and $CA$, respectively, such that $\angle DPB = \angle DQA = 90^{\circ}$. Let the perpendicular bisector of $PQ$ meet line segment $CQ$ at $E$, and let the circumcircles of triangles $ABC$ and $CPQ$ meet again at point $F$, different from $C$.
+Suppose that $P$, $E$, $F$ are collinear. Prove that $\angle ACB = 90^{\circ}$.",,-1,-1
+2020 ISL,2020 ,G2,"Consider the convex quadrilateral $ABCD$. The point $P$ is in the interior of $ABCD$. The following ratio equalities hold:
+\[\angle PAD:\angle PBA:\angle DPA=1:2:3=\angle CBP:\angle BAP:\angle BPC\]Prove that the following three lines meet in a point: the internal bisectors of angles $\angle ADP$ and $\angle PCB$ and the perpendicular bisector of segment $AB$.","Dominik Burek, Poland",-1,-1
+2020 ISL,2020 ,G3,"Let $ABCD$ be a convex quadrilateral with $\angle ABC>90$, $CDA>90$ and $\angle DAB=\angle BCD$. Denote by $E$ and $F$ the reflections of $A$ in lines $BC$ and $CD$, respectively. Suppose that the segments $AE$ and $AF$ meet the line $BD$ at $K$ and $L$, respectively. Prove that the circumcircles of triangles $BEK$ and $DFL$ are tangent to each other.
+
+$\emph{Slovakia}$",,-1,-1
+2020 ISL,2020 ,G4,"In the plane, there are $n \geqslant 6$ pairwise disjoint disks $D_{1}, D_{2}, \ldots, D_{n}$ with radii $R_{1} \geqslant R_{2} \geqslant \ldots \geqslant R_{n}$. For every $i=1,2, \ldots, n$, a point $P_{i}$ is chosen in disk $D_{i}$. Let $O$ be an arbitrary point in the plane. Prove that \[O P_{1}+O P_{2}+\ldots+O P_{n} \geqslant R_{6}+R_{7}+\ldots+R_{n}.\](A disk is assumed to contain its boundary.)",,-1,-1
+2020 ISL,2020 ,G5,"Let $ABCD$ be a cyclic quadrilateral. Points $K, L, M, N$ are chosen on $AB, BC, CD, DA$ such that $KLMN$ is a rhombus with $KL \parallel AC$ and $LM \parallel BD$. Let $\omega_A, \omega_B, \omega_C, \omega_D$ be the incircles of $\triangle ANK, \triangle BKL, \triangle CLM, \triangle DMN$.
+
+Prove that the common internal tangents to $\omega_A$, and $\omega_C$ and the common internal tangents to $\omega_B$ and $\omega_D$ are concurrent.",,-1,-1
+2020 ISL,2020 ,G6,"Let $ABC$ be a triangle with $AB < AC$, incenter $I$, and $A$ excenter $I_{A}$. The incircle meets $BC$ at $D$. Define $E = AD\cap BI_{A}$, $F = AD\cap CI_{A}$. Show that the circumcircle of $\triangle AID$ and $\triangle I_{A}EF$ are tangent to each other",,-1,-1
+2020 ISL,2020 ,G7,"Let $P$ be a point on the circumcircle of acute triangle $ABC$. Let $D,E,F$ be the reflections of $P$ in the $A$-midline, $B$-midline, and $C$-midline. Let $\omega$ be the circumcircle of the triangle formed by the perpendicular bisectors of $AD, BE, CF$.
+
+Show that the circumcircles of $\triangle ADP, \triangle BEP, \triangle CFP,$ and $\omega$ share a common point.",,-1,-1
+2020 ISL,2020 ,G8,"Let $ABC$ be a triangle with incenter $I$ and circumcircle $\Gamma$. Circles $\omega_{B}$ passing through $B$ and $\omega_{C}$ passing through $C$ are tangent at $I$. Let $\omega_{B}$ meet minor arc $AB$ of $\Gamma$ at $P$ and $AB$ at $M\neq B$, and let $\omega_{C}$ meet minor arc $AC$ of $\Gamma$ at $Q$ and $AC$ at $N\neq C$. Rays $PM$ and $QN$ meet at $X$. Let $Y$ be a point such that $YB$ is tangent to $\omega_{B}$ and $YC$ is tangent to $\omega_{C}$.
+
+Show that $A,X,Y$ are collinear.",,-1,-1
+2020 ISL,2020 ,G9,"Prove that there exists a positive constant $c$ such that the following statement is true:
+Consider an integer $n > 1$, and a set $\mathcal S$ of $n$ points in the plane such that the distance between any two different points in $\mathcal S$ is at least 1. It follows that there is a line $\ell$ separating $\mathcal S$ such that the distance from any point of $\mathcal S$ to $\ell$ is at least $cn^{-1/3}$.
+
+(A line $\ell$ separates a set of points S if some segment joining two points in $\mathcal S$ crosses $\ell$.)
+
+\textit{Note. Weaker results with $cn^{-1/3}$ replaced by $cn^{-\alpha}$ may be awarded points depending on the value of the constant $\alpha > 1/3$.}","Ting-Feng Lin and Hung-Hsun Hans Yu, Taiwan",-1,-1
+2020 ISL,2020 ,N1,"Given a positive integer $k$ show that there exists a prime $p$ such that one can choose distinct integers $a_1,a_2\cdots, a_{k+3} \in \{1, 2, \cdots ,p-1\}$  such that p divides $a_ia_{i+1}a_{i+2}a_{i+3}-i$ for all $i= 1, 2, \cdots, k$.
+
+
+\textit{South Africa }",,-1,-1
+2020 ISL,2020 ,N2,"For each prime $p$, construct a graph $G_p$ on $\{1,2,\ldots p\}$, where $m\neq n$ are adjacent if and only if $p$ divides $(m^{2} + 1-n)(n^{2} + 1-m)$. Prove that $G_p$ is disconnected for infinitely many $p$",,-1,-1
+2020 ISL,2020 ,N3,"A deck of $n > 1$ cards is given. A positive integer is written on each card. The deck has the property that the arithmetic mean of the numbers on each pair of cards is also the geometric mean of the numbers on some collection of one or more cards.
+For which $n$ does it follow that the numbers on the cards are all equal?","Oleg Košik, Estonia",-1,-1
+2020 ISL,2020 ,N4,"For any odd prime $p$ and any integer $n,$ let $d_p (n) \in \{ 0,1, \dots, p-1 \}$ denote the remainder when $n$ is divided by $p.$ We say that $(a_0, a_1, a_2, \dots)$ is a \textit{p-sequence}, if $a_0$ is a positive integer coprime to $p,$ and $a_{n+1} =a_n + d_p (a_n)$ for $n \geqslant 0.$
+(a) Do there exist infinitely many primes $p$ for which there exist $p$-sequences $(a_0, a_1, a_2, \dots)$ and $(b_0, b_1, b_2, \dots)$ such that $a_n >b_n$ for infinitely many $n,$ and $b_n > a_n$ for infinitely many $n?$
+(b) Do there exist infinitely many primes $p$ for which there exist $p$-sequences $(a_0, a_1, a_2, \dots)$ and $(b_0, b_1, b_2, \dots)$ such that $a_0 <b_0,$ but $a_n >b_n$ for all $n \geqslant 1?$
+
+\textit{United Kingdom}",,-1,-1
+2020 ISL,2020 ,N5,"Determine all functions $f$ defined on the set of all positive integers and taking non-negative integer values, satisfying the three conditions:
+\begin{itemize}
+\item $(i)$ $f(n) \neq 0$ for at least one $n$;
+\item $(ii)$ $f(x y)=f(x)+f(y)$ for every positive integers $x$ and $y$;
+\item $(iii)$ there are infinitely many positive integers $n$ such that $f(k)=f(n-k)$ for all $k<n$.
+\end{itemize}
+",,-1,-1
+2020 ISL,2020 ,N6,"For a positive integer $n$, let $d(n)$ be the number of positive divisors of $n$, and let $\varphi(n)$ be the number of positive integers not exceeding $n$ which are coprime to $n$. Does there exist a constant $C$ such that
+
+$$ \frac {\varphi ( d(n))}{d(\varphi(n))}\le C$$for all $n\ge 1$
+
+\textit{Cyprus}",,-1,-1
+2020 ISL,2020 ,N7,"Let $\mathcal{S}$ be a set consisting of $n \ge 3$ positive integers, none of which is a sum of two other distinct members of $\mathcal{S}$. Prove that the elements of $\mathcal{S}$ may be ordered as $a_1, a_2, \dots, a_n$ so that $a_i$ does not divide $a_{i - 1} + a_{i + 1}$ for all $i = 2, 3, \dots, n - 1$.",,-1,-1
+2019 ISL,2019 ,A1,"Let $\mathbb{Z}$ be the set of integers. Determine all functions $f: \mathbb{Z} \rightarrow \mathbb{Z}$ such that, for all integers $a$ and $b$, $$f(2a)+2f(b)=f(f(a+b)).$$","Liam Baker, South Africa",-1,-1
+2019 ISL,2019 ,A2,"Let $u_1, u_2, \dots, u_{2019}$ be real numbers satisfying \[u_{1}+u_{2}+\cdots+u_{2019}=0 \quad \text { and } \quad u_{1}^{2}+u_{2}^{2}+\cdots+u_{2019}^{2}=1.\]Let $a=\min \left(u_{1}, u_{2}, \ldots, u_{2019}\right)$ and $b=\max \left(u_{1}, u_{2}, \ldots, u_{2019}\right)$. Prove that
+\[
+a b \leqslant-\frac{1}{2019}.
+\]",,-1,-1
+2019 ISL,2019 ,A3,"Let $n \geqslant 3$ be a positive integer and let $\left(a_{1}, a_{2}, \ldots, a_{n}\right)$ be a strictly increasing sequence of $n$ positive real numbers with sum equal to 2. Let $X$ be a subset of $\{1,2, \ldots, n\}$ such that the value of
+\[
+\left|1-\sum_{i \in X} a_{i}\right|
+\]is minimised. Prove that there exists a strictly increasing sequence of $n$ positive real numbers $\left(b_{1}, b_{2}, \ldots, b_{n}\right)$ with sum equal to 2 such that
+\[
+\sum_{i \in X} b_{i}=1.
+\]",,-1,-1
+2019 ISL,2019 ,A4,"Let $n\geqslant 2$ be a positive integer and $a_1,a_2, \ldots ,a_n$ be real numbers such that \[a_1+a_2+\dots+a_n=0.\]Define the set $A$ by
+\[A=\left\{(i, j)\,|\,1 \leqslant i<j \leqslant n,\left|a_{i}-a_{j}\right| \geqslant 1\right\}\]Prove that, if $A$ is not empty, then
+\[\sum_{(i, j) \in A} a_{i} a_{j}<0.\]",,-1,-1
+2019 ISL,2019 ,A5,"Let $x_1, x_2, \dots, x_n$ be different real numbers. Prove that
+\[\sum_{1 \leqslant i \leqslant n} \prod_{j \neq i} \frac{1-x_{i} x_{j}}{x_{i}-x_{j}}=\left\{\begin{array}{ll}
+0, & \text { if } n \text { is even; } \\
+1, & \text { if } n \text { is odd. }
+\end{array}\right.\]",,-1,-1
+2019 ISL,2019 ,A6,"A polynomial $P(x, y, z)$ in three variables with real coefficients satisfies the identities
+
+$$P(x, y, z)=P(x, y, xy-z)=P(x, zx-y, z)=P(yz-x, y, z).$$
+Prove that there exists a polynomial $F(t)$ in one variable such that
+
+$$P(x,y,z)=F(x^2+y^2+z^2-xyz).$$",,-1,-1
+2019 ISL,2019 ,A7,"Let $\mathbb Z$ be the set of integers. We consider functions $f :\mathbb Z\to\mathbb Z$ satisfying
+\[f\left(f(x+y)+y\right)=f\left(f(x)+y\right)\]for all integers $x$ and $y$. For such a function, we say that an integer $v$ is \textit{f-rare} if the set
+\[X_v=\{x\in\mathbb Z:f(x)=v\}\]is finite and nonempty.
+(a) Prove that there exists such a function $f$ for which there is an $f$-rare integer.
+(b) Prove that no such function $f$ can have more than one $f$-rare integer.
+
+\textit{Netherlands}",,-1,-1
+2019 ISL,2019 ,C1,"The infinite sequence $a_0,a _1, a_2, \dots$ of (not necessarily distinct) integers has the following properties: $0\le a_i \le i$ for all integers $i\ge 0$, and \[\binom{k}{a_0} + \binom{k}{a_1} + \dots + \binom{k}{a_k} = 2^k\]for all integers $k\ge 0$. Prove that all integers $N\ge 0$ occur in the sequence (that is, for all $N\ge 0$, there exists $i\ge 0$ with $a_i=N$).",,-1,-1
+2019 ISL,2019 ,C2,"You are given a set of $n$ blocks, each weighing at least $1$; their total weight is $2n$. Prove that for every real number $r$ with $0 \leq r \leq 2n-2$ you can choose a subset of the blocks whose total weight is at least $r$ but at most $r + 2$.",,-1,-1
+2019 ISL,2019 ,C3,"The Bank of Bath issues coins with an $H$ on one side and a $T$ on the other. Harry has $n$ of these coins arranged in a line from left to right. He repeatedly performs the following operation: if there are exactly $k>0$ coins showing $H$, then he turns over the $k$th coin from the left; otherwise, all coins show $T$ and he stops. For example, if $n=3$ the process starting with the configuration $THT$ would be $THT \to HHT  \to HTT \to TTT$, which stops after three operations.
+
+(a) Show that, for each initial configuration, Harry stops after a finite number of operations.
+
+(b) For each initial configuration $C$, let $L(C)$ be the number of operations before Harry stops. For example, $L(THT) = 3$ and $L(TTT) = 0$. Determine the average value of $L(C)$ over all $2^n$ possible initial configurations $C$.","David Altizio, USA",-1,-1
+2019 ISL,2019 ,C4,"On a flat plane in Camelot, King Arthur builds a labyrinth $\mathfrak{L}$ consisting of $n$ walls, each of which is an infinite straight line. No two walls are parallel, and no three walls have a common point. Merlin then paints one side of each wall entirely red and the other side entirely blue.
+
+At the intersection of two walls there are four corners: two diagonally opposite corners where a red side and a blue side meet, one corner where two red sides meet, and one corner where two blue sides meet. At each such intersection, there is a two-way door connecting the two diagonally opposite corners at which sides of different colours meet.
+
+After Merlin paints the walls, Morgana then places some knights in the labyrinth. The knights can walk through doors, but cannot walk through walls.
+
+Let $k(\mathfrak{L})$ be the largest number $k$ such that, no matter how Merlin paints the labyrinth $\mathfrak{L},$ Morgana can always place at least $k$ knights such that no two of them can ever meet. For each $n,$ what are all possible values for $k(\mathfrak{L}),$ where $\mathfrak{L}$ is a labyrinth with $n$ walls?",,-1,-1
+2019 ISL,2019 ,C5,"A social network has $2019$ users, some pairs of whom are friends. Whenever user $A$ is friends with user $B$, user $B$ is also friends with user $A$. Events of the following kind may happen repeatedly, one at a time:
+\begin{itemize}
+\item Three users $A$, $B$, and $C$ such that $A$ is friends with both $B$ and $C$, but $B$ and $C$ are not friends, change their friendship statuses such that $B$ and $C$ are now friends, but $A$ is no longer friends with $B$, and no longer friends with $C$. All other friendship statuses are unchanged.
+\end{itemize}
+Initially, $1010$ users have $1009$ friends each, and $1009$ users have $1010$ friends each. Prove that there exists a sequence of such events after which each user is friends with at most one other user.","Adrian Beker, Croatia",-1,-1
+2019 ISL,2019 ,C6,"Let $n>1$ be an integer. Suppose we are given $2n$ points in the plane such that no three of them are collinear. The points are to be labelled $A_1, A_2, \dots , A_{2n}$ in some order. We then consider the $2n$ angles $\angle A_1A_2A_3, \angle A_2A_3A_4, \dots , \angle A_{2n-2}A_{2n-1}A_{2n}, \angle A_{2n-1}A_{2n}A_1, \angle A_{2n}A_1A_2$. We measure each angle in the way that gives the smallest positive value (i.e. between $0^{\circ}$ and $180^{\circ}$). Prove that there exists an ordering of the given points such that the resulting $2n$ angles can be separated into two groups with the sum of one group of angles equal to the sum of the other group.",,-1,-1
+2019 ISL,2019 ,C7,"There are 60 empty boxes $B_1,\ldots,B_{60}$ in a row on a table and an unlimited supply of pebbles. Given a positive integer $n$, Alice and Bob play the following game.
+In the first round, Alice takes $n$ pebbles and distributes them into the 60 boxes as she wishes. Each subsequent round consists of two steps:
+(a) Bob chooses an integer $k$ with $1\leq k\leq 59$ and splits the boxes into the two groups $B_1,\ldots,B_k$ and $B_{k+1},\ldots,B_{60}$.
+(b) Alice picks one of these two groups, adds one pebble to each box in that group, and removes one pebble from each box in the other group.
+Bob wins if, at the end of any round, some box contains no pebbles. Find the smallest $n$ such that Alice can prevent Bob from winning.
+
+\textit{Czech Republic}",,-1,-1
+2019 ISL,2019 ,C8,"Alice has a map of Wonderland, a country consisting of $n \geq 2$ towns. For every pair of towns, there is a narrow road going from one town to the other. One day, all the roads are declared to be “one way” only. Alice has no information on the direction of the roads, but the King of Hearts has offered to help her. She is allowed to ask him a number of questions. For each question in turn, Alice chooses a pair of towns and the King of Hearts tells her the direction of the road connecting those two towns.
+
+Alice wants to know whether there is at least one town in Wonderland with at most one outgoing road. Prove that she can always find out by asking at most $4n$ questions.",,-1,-1
+2019 ISL,2019 ,C9,"For any two different real numbers $x$ and $y$, we define $D(x,y)$ to be the unique integer $d$ satisfying $2^d\le |x-y| < 2^{d+1}$. Given a set of reals $\mathcal F$, and an element $x\in \mathcal F$, we say that the \textit{scales} of $x$ in $\mathcal F$ are the values of $D(x,y)$ for $y\in\mathcal F$ with $x\neq y$. Let $k$ be a given positive integer.
+
+Suppose that each member $x$ of $\mathcal F$ has at most $k$ different scales in $\mathcal F$ (note that these scales may depend on $x$). What is the maximum possible size of $\mathcal F$?",,-1,-1
+2019 ISL,2019 ,G1,"Let $ABC$ be a triangle. Circle $\Gamma$ passes through $A$, meets segments $AB$ and $AC$ again at points $D$ and $E$ respectively, and intersects segment $BC$ at $F$ and $G$ such that $F$ lies between $B$ and $G$. The tangent to circle $BDF$ at $F$ and the tangent to circle $CEG$ at $G$ meet at point $T$. Suppose that points $A$ and $T$ are distinct. Prove that line $AT$ is parallel to $BC$.
+
+(Nigeria)",,-1,-1
+2019 ISL,2019 ,G2,"Let $ABC$ be an acute-angled triangle and let $D, E$, and $F$ be the feet of altitudes from $A, B$, and $C$ to sides $BC, CA$, and $AB$, respectively. Denote by $\omega_B$ and $\omega_C$ the incircles of triangles $BDF$ and $CDE$, and let these circles be tangent to segments $DF$ and $DE$ at $M$ and $N$, respectively. Let line $MN$ meet circles $\omega_B$ and $\omega_C$ again at $P \ne M$ and $Q \ne N$, respectively. Prove that $MP = NQ$.
+
+(Vietnam)",,-1,-1
+2019 ISL,2019 ,G3,"In triangle $ABC$, point $A_1$ lies on side $BC$ and point $B_1$ lies on side $AC$. Let $P$ and $Q$ be points on segments $AA_1$ and $BB_1$, respectively, such that $PQ$ is parallel to $AB$. Let $P_1$ be a point on line $PB_1$, such that $B_1$ lies strictly between $P$ and $P_1$, and $\angle PP_1C=\angle BAC$. Similarly, let $Q_1$ be the point on line $QA_1$, such that $A_1$ lies strictly between $Q$ and $Q_1$, and $\angle CQ_1Q=\angle CBA$.
+
+Prove that points $P,Q,P_1$, and $Q_1$ are concyclic.","Anton Trygub, Ukraine",-1,-1
+2019 ISL,2019 ,G4,"Let $P$ be a point inside triangle $ABC$. Let $AP$ meet $BC$ at $A_1$, let $BP$ meet $CA$ at $B_1$, and let $CP$ meet $AB$ at $C_1$. Let $A_2$ be the point such that $A_1$ is the midpoint of $PA_2$, let $B_2$ be the point such that $B_1$ is the midpoint of $PB_2$, and let $C_2$ be the point such that $C_1$ is the midpoint of $PC_2$. Prove that points $A_2, B_2$, and $C_2$ cannot all lie strictly inside the circumcircle of triangle $ABC$.
+
+(Australia)",,-1,-1
+2019 ISL,2019 ,G5,"Let $ABCDE$ be a convex pentagon with $CD= DE$ and $\angle EDC \ne 2 \cdot \angle ADB$.
+Suppose that a point $P$ is located in the interior of the pentagon such that $AP =AE$ and $BP= BC$.
+Prove that $P$ lies on the diagonal $CE$ if and only if area $(BCD)$ + area $(ADE)$ = area $(ABD)$ + area $(ABP)$.
+
+(Hungary)",,-1,-1
+2019 ISL,2019 ,G6,"Let $I$ be the incentre of acute-angled triangle $ABC$. Let the incircle meet $BC, CA$, and $AB$ at $D, E$, and $F,$ respectively. Let line $EF$ intersect the circumcircle of the triangle at $P$ and $Q$, such that $F$ lies between $E$ and $P$. Prove that $\angle DPA + \angle AQD =\angle QIP$.
+
+(Slovakia)",,-1,-1
+2019 ISL,2019 ,G7,"Let $I$ be the incentre of acute triangle $ABC$ with $AB\neq AC$. The incircle $\omega$ of $ABC$ is tangent to sides $BC, CA$, and $AB$ at $D, E,$ and $F$, respectively. The line through $D$ perpendicular to $EF$ meets $\omega$ at $R$. Line $AR$ meets $\omega$ again at $P$. The circumcircles of triangle $PCE$ and $PBF$ meet again at $Q$.
+
+Prove that lines $DI$ and $PQ$ meet on the line through $A$ perpendicular to $AI$.","Anant Mudgal, India",-1,-1
+2019 ISL,2019 ,G8,"Let $\mathcal L$ be the set of all lines in the plane and let $f$ be a function that assigns to each line $\ell\in\mathcal L$ a point $f(\ell)$ on $f(\ell)$. Suppose that for any point $X$, and for any three lines $\ell_1,\ell_2,\ell_3$ passing through $X$, the points $f(\ell_1),f(\ell_2),f(\ell_3)$, and $X$ lie on a circle.
+Prove that there is a unique point $P$ such that $f(\ell)=P$ for any line $\ell$ passing through $P$.
+
+\textit{Australia}",,-1,-1
+2019 ISL,2019 ,N1,"Find all pairs $(k,n)$ of positive integers such that \[ k!=(2^n-1)(2^n-2)(2^n-4)\cdots(2^n-2^{n-1}). \]","Gabriel Chicas Reyes, El Salvador",-1,-1
+2019 ISL,2019 ,N2,"Find all triples $(a, b, c)$ of positive integers such that $a^3 + b^3 + c^3 = (abc)^2$.",,-1,-1
+2019 ISL,2019 ,N3,"We say that a set $S$ of integers is \textit{rootiful} if, for any positive integer $n$ and any $a_0, a_1, \cdots, a_n \in S$, all integer roots of the polynomial $a_0+a_1x+\cdots+a_nx^n$ are also in $S$. Find all rootiful sets of integers that contain all numbers of the form $2^a - 2^b$ for positive integers $a$ and $b$.",,-1,-1
+2019 ISL,2019 ,N4,Find all functions $f:\mathbb Z_{>0}\to \mathbb Z_{>0}$ such that $a+f(b)$ divides $a^2+bf(a)$ for all positive integers $a$ and $b$ with $a+b>2019$.,,-1,-1
+2019 ISL,2019 ,N5,"Let $a$ be a positive integer. We say that a positive integer $b$ is \textit{$a$-good} if $\tbinom{an}{b}-1$ is divisible by $an+1$ for all positive integers $n$ with $an \geq b$. Suppose $b$ is a positive integer such that $b$ is $a$-good, but $b+2$ is not $a$-good. Prove that $b+1$ is prime.",,-1,-1
+2019 ISL,2019 ,N6,"Let $H = \{ \lfloor i\sqrt{2}\rfloor : i \in \mathbb Z_{>0}\} = \{1,2,4,5,7,\dots \}$ and let $n$ be a positive integer. Prove that there exists a constant $C$ such that, if $A\subseteq \{1,2,\dots, n\}$ satisfies $|A| \ge C\sqrt{n}$, then there exist $a,b\in A$ such that $a-b\in H$. (Here $\mathbb Z_{>0}$ is the set of positive integers, and $\lfloor z\rfloor$ denotes the greatest integer less than or equal to $z$.)",,-1,-1
+2019 ISL,2019 ,N7,"Prove that there is a constant $c>0$ and infinitely many positive integers $n$ with the following property: there are infinitely many positive integers that cannot be expressed as the sum of fewer than $cn\log(n)$ pairwise coprime $n$th  powers.
+
+\textit{Canada}",,-1,-1
+2019 ISL,2019 ,N8,"Let $a$ and $b$ be two positive integers. Prove that the integer
+\[a^2+\left\lceil\frac{4a^2}b\right\rceil\]is not a square. (Here $\lceil z\rceil$ denotes the least integer greater than or equal to $z$.)
+
+\textit{Russia}",,-1,-1
+2018 IMO Shortlist,2018 ,A1,"Let $\mathbb{Q}_{>0}$ denote the set of all positive rational numbers. Determine all functions $f:\mathbb{Q}_{>0}\to \mathbb{Q}_{>0}$ satisfying $$f(x^2f(y)^2)=f(x)^2f(y)$$for all $x,y\in\mathbb{Q}_{>0}$",,-1,-1
+2018 IMO Shortlist,2018 ,A2,"Find all integers $n \geq 3$ for which there exist real numbers $a_1, a_2, \dots a_{n + 2}$ satisfying $a_{n + 1} = a_1$, $a_{n + 2} = a_2$ and
+$$a_ia_{i + 1} + 1 = a_{i + 2},$$for $i = 1, 2, \dots, n$.","Patrik Bak, Slovakia",-1,-1
+2018 IMO Shortlist,2018 ,A3,"Given any set $S$ of positive integers, show that at least one of the following two assertions holds:
+
+(1) There exist distinct finite subsets $F$ and $G$ of $S$ such that $\sum_{x\in F}1/x=\sum_{x\in G}1/x$;
+
+(2) There exists a positive rational number $r<1$ such that $\sum_{x\in F}1/x\neq r$ for all finite subsets $F$ of $S$.",,-1,-1
+2018 IMO Shortlist,2018 ,A4,"Let $a_0,a_1,a_2,\dots $ be a sequence of real numbers such that $a_0=0, a_1=1,$ and for every $n\geq 2$ there exists $1\geq k \geq n$ satisfying $$a_n=\frac{a_{n-1}+\dots + a_{n-k}}{k}.$$Find the maximum possible value of $a_{2018}-a_{2017}$.",,-1,-1
+2018 IMO Shortlist,2018 ,A5,"Determine all functions $f:(0,\infty)\to\mathbb{R}$ satisfying $$\left(x+\frac{1}{x}\right)f(y)=f(xy)+f\left(\frac{y}{x}\right)$$for all $x,y>0$.",,-1,-1
+2018 IMO Shortlist,2018 ,A6,"Let $m,n\geq 2$ be integers. Let $f(x_1,\dots, x_n)$ be a polynomial with real coefficients such that $$f(x_1,\dots, x_n)=\left\lfloor \frac{x_1+\dots + x_n}{m} \right\rfloor\text{ for every } x_1,\dots, x_n\in \{0,1,\dots, m-1\}.$$Prove that the total degree of $f$ is at least $n$.",,-1,-1
+2018 IMO Shortlist,2018 ,A7,"Find the maximal value of
+\[S = \sqrt[3]{\frac{a}{b+7}} + \sqrt[3]{\frac{b}{c+7}} + \sqrt[3]{\frac{c}{d+7}} + \sqrt[3]{\frac{d}{a+7}},\]where $a$, $b$, $c$, $d$ are nonnegative real numbers which satisfy $a+b+c+d = 100$.","Evan Chen, Taiwan",-1,-1
+2018 IMO Shortlist,2018 ,C1,"Let $n\geqslant 3$ be an integer. Prove that there exists a set $S$ of $2n$ positive integers satisfying the following property: For every $m=2,3,...,n$ the set $S$ can be partitioned into two subsets with equal sums of elements, with one of subsets of cardinality $m$.",,-1,-1
+2018 IMO Shortlist,2018 ,C2,"A \textit{site} is any point $(x, y)$ in the plane such that $x$ and $y$ are both positive integers less than or equal to 20.
+
+Initially, each of the 400 sites is unoccupied. Amy and Ben take turns placing stones with Amy going first. On her turn, Amy places a new red stone on an unoccupied site such that the distance between any two sites occupied by red stones is not equal to $\sqrt{5}$. On his turn, Ben places a new blue stone on any unoccupied site. (A site occupied by a blue stone is allowed to be at any distance from any other occupied site.) They stop as soon as a player cannot place a stone.
+
+Find the greatest $K$ such that Amy can ensure that she places at least $K$ red stones, no matter how Ben places his blue stones.","Gurgen Asatryan, Armenia",-1,-1
+2018 IMO Shortlist,2018 ,C3,"Let $n$ be a given positive integer. Sisyphus performs a sequence of turns on a board consisting of $n + 1$ squares in a row, numbered $0$ to $n$ from left to right. Initially, $n$ stones are put into square $0$, and the other squares are empty. At every turn, Sisyphus chooses any nonempty square, say with $k$ stones, takes one of these stones and moves it to the right by at most $k$ squares (the stone should say within the board). Sisyphus' aim is to move all $n$ stones to square $n$.
+Prove that Sisyphus cannot reach the aim in less than
+\[ \left \lceil \frac{n}{1} \right \rceil + \left \lceil \frac{n}{2} \right \rceil + \left \lceil \frac{n}{3} \right \rceil + \dots + \left \lceil \frac{n}{n} \right \rceil \]turns. (As usual, $\lceil x \rceil$ stands for the least integer not smaller than $x$. )",,-1,-1
+2018 IMO Shortlist,2018 ,C4,"An \textit{anti-Pascal} triangle is an equilateral triangular array of numbers such that, except for the numbers in the bottom row, each number is the absolute value of the difference of the two numbers immediately below it. For example, the following is an anti-Pascal triangle with four rows which contains every integer from $1$ to $10$.
+\[\begin{array}{
+c@{\hspace{4pt}}c@{\hspace{4pt}}
+c@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{4pt}}c
+} \vspace{4pt}
+ & & & 4 & & &  \\\vspace{4pt}
+ & & 2 & & 6 & &  \\\vspace{4pt}
+ & 5 & & 7 & & 1 & \\\vspace{4pt}
+ 8 & & 3 & & 10 & & 9 \\\vspace{4pt}
+\end{array}\]Does there exist an anti-Pascal triangle with $2018$ rows which contains every integer from $1$ to $1 + 2 + 3 + \dots + 2018$?","Morteza Saghafian, Iran",-1,-1
+2018 IMO Shortlist,2018 ,C5,"Let $k$ be a positive integer. The organising commitee of a tennis tournament is to schedule the matches for $2k$ players so that every two players play once, each day exactly one match is played, and each player arrives to the tournament site the day of his first match, and departs the day of his last match. For every day a player is present on the tournament, the committee has to pay $1$ coin to the hotel. The organisers want to design the schedule so as to minimise the total cost of all players' stays. Determine this minimum cost.",,-1,-1
+2018 IMO Shortlist,2018 ,C6,"Let $a$ and $b$ be distinct positive integers. The following infinite process takes place on an initially empty board.
+\begin{enumerate}
+\item If there is at least a pair of equal numbers on the board, we choose such a pair and increase one of its components by $a$ and the other by $b$.
+\item If no such pair exists, we write two times the number $0$.
+\end{enumerate}
+Prove that, no matter how we make the choices in $(i)$, operation $(ii)$ will be performed only finitely many times.
+
+Proposed by \textit{Serbia}.",,-1,-1
+2018 IMO Shortlist,2018 ,C7,"Consider $2018$ pairwise crossing circles no three of which are concurrent. These circles subdivide the plane into regions bounded by circular $edges$ that meet at $vertices$. Notice that there are an even number of vertices on each circle. Given the circle, alternately colour the vertices on that circle red and blue. In doing so for each circle, every vertex is coloured twice- once for each of the two circle that cross at that point. If the two colours agree at a vertex, then it is assigned that colour; otherwise, it becomes yellow. Show that, if some circle contains at least $2061$ yellow points, then the vertices of some region are all yellow.
+
+
+Proposed by \textit{India}",,-1,-1
+2018 IMO Shortlist,2018 ,G1,Let $\Gamma$ be the circumcircle of acute triangle $ABC$. Points $D$ and $E$ are on segments $AB$ and $AC$ respectively such that $AD = AE$. The perpendicular bisectors of $BD$ and $CE$ intersect minor arcs $AB$ and $AC$ of $\Gamma$ at points $F$ and $G$ respectively. Prove that lines $DE$ and $FG$ are either parallel or they are the same line.,"Silouanos Brazitikos, Evangelos Psychas and Michael Sarantis, Greece",-1,-1
+2018 IMO Shortlist,2018 ,G2,"Let $ABC$ be a triangle with $AB=AC$, and let $M$ be the midpoint of $BC$. Let $P$ be a point such that $PB<PC$ and $PA$ is parallel to $BC$. Let $X$ and $Y$ be points on the lines $PB$ and $PC$, respectively, so that $B$ lies on the segment $PX$, $C$ lies on the segment $PY$, and $\angle PXM=\angle PYM$. Prove that the quadrilateral $APXY$ is cyclic.",,-1,-1
+2018 IMO Shortlist,2018 ,G3,"A circle $\omega$ with radius $1$ is given. A collection $T$ of triangles is called \textit{good}, if the following conditions hold:
+\begin{enumerate}
+\item each triangle from $T$ is inscribed in $\omega$;
+\item no two triangles from $T$ have a common interior point.
+\end{enumerate}
+Determine all positive real numbers $t$ such that, for each positive integer $n$, there exists a good collection of $n$ triangles, each of perimeter greater than $t$.",,-1,-1
+2018 IMO Shortlist,2018 ,G4,"A point $T$ is chosen inside a triangle $ABC$. Let $A_1$, $B_1$, and $C_1$ be the reflections of $T$ in $BC$, $CA$, and $AB$, respectively. Let $\Omega$ be the circumcircle of the triangle $A_1B_1C_1$. The lines $A_1T$, $B_1T$, and $C_1T$ meet $\Omega$ again at $A_2$, $B_2$, and $C_2$, respectively. Prove that the lines $AA_2$, $BB_2$, and $CC_2$ are concurrent on $\Omega$.",Mongolia,-1,-1
+2018 IMO Shortlist,2018 ,G5,"Let $ABC$ be a triangle with circumcircle $\Omega$ and incentre $I$. A line $\ell$ intersects the lines $AI$, $BI$, and $CI$ at points $D$, $E$, and $F$, respectively, distinct from the points $A$, $B$, $C$, and $I$. The perpendicular bisectors $x$, $y$, and $z$ of the segments $AD$, $BE$, and $CF$, respectively determine a triangle $\Theta$. Show that the circumcircle of the triangle $\Theta$ is tangent to $\Omega$.",,-1,-1
+2018 IMO Shortlist,2018 ,G6,"A convex quadrilateral $ABCD$ satisfies $AB\cdot CD = BC\cdot DA$. Point $X$ lies inside $ABCD$ so that \[\angle{XAB} = \angle{XCD}\quad\,\,\text{and}\quad\,\,\angle{XBC} = \angle{XDA}.\]Prove that $\angle{BXA} + \angle{DXC} = 180^\circ$.","Tomasz Ciesla, Poland",-1,-1
+2018 IMO Shortlist,2018 ,G7,"Let $O$ be the circumcentre, and $\Omega$ be the circumcircle of an acute-angled triangle $ABC$. Let $P$ be an arbitrary point on $\Omega$, distinct from $A$, $B$, $C$, and their antipodes in $\Omega$. Denote the circumcentres of the triangles $AOP$, $BOP$, and $COP$ by $O_A$, $O_B$, and $O_C$, respectively. The lines $\ell_A$, $\ell_B$, $\ell_C$ perpendicular to $BC$, $CA$, and $AB$ pass through $O_A$, $O_B$, and $O_C$, respectively. Prove that the circumcircle of triangle formed by $\ell_A$, $\ell_B$, and $\ell_C$ is tangent to the line $OP$.",,-1,-1
+2018 IMO Shortlist,2018 ,N1,"Determine all pairs $(n, k)$ of distinct positive integers such that there exists a positive integer $s$ for which the number of divisors of $sn$ and of $sk$ are equal.",,-1,-1
+2018 IMO Shortlist,2018 ,N2,"Let $n>1$ be a positive integer. Each cell of an $n\times n$ table contains an integer. Suppose that the following conditions are satisfied:
+\begin{enumerate}
+\item Each number in the table is congruent to $1$ modulo $n$.
+\item The sum of numbers in any row, as well as the sum of numbers in any column, is congruent to $n$ modulo $n^2$.
+\end{enumerate}
+Let $R_i$ be the product of the numbers in the $i^{\text{th}}$ row, and $C_j$ be the product of the number in the $j^{\text{th}}$ column. Prove that the sums $R_1+\hdots R_n$ and $C_1+\hdots C_n$ are congruent modulo $n^4$.",,-1,-1
+2018 IMO Shortlist,2018 ,N3,"Define the sequence $a_0,a_1,a_2,\hdots$ by $a_n=2^n+2^{\lfloor n/2\rfloor}$. Prove that there are infinitely many terms of the sequence which can be expressed as a sum of (two or more) distinct terms of the sequence, as well as infinitely many of those which cannot be expressed in such a way.",,-1,-1
+2018 IMO Shortlist,2018 ,N4,"Let $a_1$, $a_2$, $\ldots$ be an infinite sequence of positive integers. Suppose that there is an integer $N > 1$ such that, for each $n \geq N$, the number
+$$\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n-1}}{a_n} + \frac{a_n}{a_1}$$is an integer. Prove that there is a positive integer $M$ such that $a_m = a_{m+1}$ for all $m \geq M$.","Bayarmagnai Gombodorj, Mongolia",-1,-1
+2018 IMO Shortlist,2018 ,N5,"Four positive integers $x,y,z$ and $t$ satisfy the relations
+\[ xy - zt = x + y = z + t. \]Is it possible that both $xy$ and $zt$ are perfect squares?",,-1,-1
+2018 IMO Shortlist,2018 ,N6,"Let $f : \{ 1, 2, 3, \dots \} \to \{ 2, 3, \dots \}$ be a function such that $f(m + n) | f(m) + f(n) $ for all pairs $m,n$ of positive integers. Prove that there exists a positive integer $c > 1$ which divides all values of $f$.",,-1,-1
+2018 IMO Shortlist,2018 ,N7,"Let $n \ge 2018$ be an integer, and let $a_1, a_2, \dots, a_n, b_1, b_2, \dots, b_n$ be pairwise distinct positive integers not exceeding $5n$. Suppose that the sequence
+\[ \frac{a_1}{b_1}, \frac{a_2}{b_2}, \dots, \frac{a_n}{b_n} \]forms an arithmetic progression. Prove that the terms of the sequence are equal.",,-1,-1
+2017 IMO ShortIist,2017 ,A1,"Let $a_1,a_2,\ldots a_n,k$, and $M$ be positive integers such that
+$$\frac{1}{a_1}+\frac{1}{a_2}+\cdots+\frac{1}{a_n}=k\quad\text{and}\quad a_1a_2\cdots a_n=M.$$If $M>1$, prove that the polynomial
+$$P(x)=M(x+1)^k-(x+a_1)(x+a_2)\cdots (x+a_n)$$has no positive roots.",,-1,-1
+2017 IMO ShortIist,2017 ,A2,"Let $q$ be a real number. Gugu has a napkin with ten distinct real numbers written on it, and he writes the following three lines of real numbers on the blackboard:
+\begin{itemize}
+\item In the first line, Gugu writes down every number of the form $a-b$, where $a$ and $b$ are two (not necessarily distinct) numbers on his napkin.
+\item In the second line, Gugu writes down every number of the form $qab$, where $a$ and $b$ are
+two (not necessarily distinct) numbers from the first line.
+\item In the third line, Gugu writes down every number of the form $a^2+b^2-c^2-d^2$, where $a, b, c, d$ are four (not necessarily distinct) numbers from the first line.
+\end{itemize}
+Determine all values of $q$ such that, regardless of the numbers on Gugu's napkin, every number in the second line is also a number in the third line.",,-1,-1
+2017 IMO ShortIist,2017 ,A3,"Let $S$ be a finite set, and let $\mathcal{A}$ be the set of all functions from $S$ to $S$. Let $f$ be an element of $\mathcal{A}$, and let $T=f(S)$ be the image of $S$ under $f$. Suppose that $f\circ g\circ f\ne g\circ f\circ g$ for every $g$ in $\mathcal{A}$ with $g\ne f$. Show that $f(T)=T$.",,-1,-1
+2017 IMO ShortIist,2017 ,A4,"A sequence of real numbers $a_1,a_2,\ldots$ satisfies the relation
+$$a_n=-\max_{i+j=n}(a_i+a_j)\qquad\text{for all}\quad n>2017.$$Prove that the sequence is bounded, i.e., there is a constant $M$ such that $|a_n|\leq M$ for all positive integers $n$.",,-1,-1
+2017 IMO ShortIist,2017 ,A5,"An integer $n \geq 3$ is given. We call an $n$-tuple of real numbers $(x_1, x_2, \dots, x_n)$ \textit{Shiny} if for each permutation $y_1, y_2, \dots, y_n$ of these numbers, we have
+$$\sum \limits_{i=1}^{n-1} y_i y_{i+1} = y_1y_2 + y_2y_3 + y_3y_4 + \cdots + y_{n-1}y_n \geq -1.$$Find the largest constant $K = K(n)$ such that
+$$\sum \limits_{1 \leq i < j \leq n} x_i x_j \geq K$$holds for every Shiny $n$-tuple $(x_1, x_2, \dots, x_n)$.",,-1,-1
+2017 IMO ShortIist,2017 ,A6,"Let $\mathbb{R}$ be the set of real numbers. Determine all functions $f: \mathbb{R} \rightarrow \mathbb{R}$ such that, for any real numbers $x$ and $y$, \[ f(f(x)f(y)) + f(x+y) = f(xy). \]","Dorlir Ahmeti, Albania",-1,-1
+2017 IMO ShortIist,2017 ,A7,"Let $a_0,a_1,a_2,\ldots$ be a sequence of integers and $b_0,b_1,b_2,\ldots$ be a sequence of \textit{positive} integers such that $a_0=0,a_1=1$, and
+\[
+a_{n+1} =
+        \begin{cases}
+            a_nb_n+a_{n-1} & \text{if $b_{n-1}=1$} \\
+            a_nb_n-a_{n-1} & \text{if $b_{n-1}>1$}
+        \end{cases}\qquad\text{for }n=1,2,\ldots.
+\]for $n=1,2,\ldots.$ Prove that at least one of the two numbers $a_{2017}$ and $a_{2018}$ must be greater than or equal to $2017$.",,-1,-1
+2017 IMO ShortIist,2017 ,A8,"A function $f:\mathbb{R} \to \mathbb{R}$ has the following property:
+$$\text{For every } x,y \in \mathbb{R} \text{ such that }(f(x)+y)(f(y)+x) > 0, \text{ we have } f(x)+y = f(y)+x.$$Prove that $f(x)+y \leq f(y)+x$ whenever $x>y$.",,-1,-1
+2017 IMO ShortIist,2017 ,C1,A rectangle $\mathcal{R}$ with odd integer side lengths is divided into small rectangles with integer side lengths. Prove that there is at least one among the small rectangles whose distances from the four sides of $\mathcal{R}$ are either all odd or all even.,"Jeck Lim, Singapore",-1,-1
+2017 IMO ShortIist,2017 ,C2,"Let $n$ be a positive integer. Define a chameleon to be any sequence of $3n$ letters, with exactly $n$ occurrences of each of the letters $a, b,$ and $c$. Define a swap to be the transposition of two adjacent letters in a chameleon. Prove that for any chameleon $X$ , there exists a chameleon $Y$ such that $X$ cannot be changed to $Y$ using fewer than $3n^2/2$ swaps.",,-1,-1
+2017 IMO ShortIist,2017 ,C3,"Sir Alex plays the following game on a row of 9 cells. Initially, all cells are empty. In each move, Sir Alex is allowed to perform exactly one of the following two operations:
+\begin{enumerate}
+\item Choose any number of the form $2^j$, where $j$ is a non-negative integer, and put it into an empty cell.
+\item Choose two (not necessarily adjacent) cells with the same number in them; denote that number by $2^j$. Replace the number in one of the cells with $2^{j+1}$ and erase the number in the other cell.
+\end{enumerate}
+At the end of the game, one cell contains $2^n$, where $n$ is a given positive integer, while the other cells are empty. Determine the maximum number of moves that Sir Alex could have made, in terms of $n$.","Warut Suksompong, Thailand",-1,-1
+2017 IMO ShortIist,2017 ,C4,"An integer $N \ge 2$ is given. A collection of $N(N + 1)$ soccer players, no two of whom are of the same height, stand in a row. Sir Alex wants to remove $N(N - 1)$ players from this row leaving a new row of $2N$ players in which the following $N$ conditions hold:
+($1$) no one stands between the two tallest players,
+($2$) no one stands between the third and fourth tallest players,
+$\;\;\vdots$
+($N$) no one stands between the two shortest players.
+
+Show that this is always possible.","Grigory Chelnokov, Russia",-1,-1
+2017 IMO ShortIist,2017 ,C5,"A hunter and an invisible rabbit play a game in the Euclidean plane. The rabbit's starting point, $A_0,$ and the hunter's starting point, $B_0$ are the same. After $n-1$ rounds of the game, the rabbit is at point $A_{n-1}$ and the hunter is at point $B_{n-1}.$ In the $n^{\text{th}}$ round of the game, three things occur in order:
+\begin{enumerate}
+\item The rabbit moves invisibly to a point $A_n$ such that the distance between $A_{n-1}$ and $A_n$ is exactly $1.$
+
+\item A tracking device reports a point $P_n$ to the hunter. The only guarantee provided by the tracking device to the hunter is that the distance between $P_n$ and $A_n$ is at most $1.$
+
+\item The hunter moves visibly to a point $B_n$ such that the distance between $B_{n-1}$ and $B_n$ is exactly $1.$
+\end{enumerate}
+Is it always possible, no matter how the rabbit moves, and no matter what points are reported by the tracking device, for the hunter to choose her moves so that after $10^9$ rounds, she can ensure that the distance between her and the rabbit is at most $100?$","Gerhard Woeginger, Austria",-1,-1
+2017 IMO ShortIist,2017 ,C6,"Let $n > 1$ be a given integer. An $n \times n \times n$ cube is composed of $n^3$ unit cubes. Each unit cube is painted with one colour. For each $n \times n \times 1$ box consisting of $n^2$ unit cubes (in any of the three possible orientations), we consider the set of colours present in that box (each colour is listed only once). This way, we get $3n$ sets of colours, split into three groups according to the orientation.
+
+It happens that for every set in any group, the same set appears in both of the other groups. Determine, in terms of $n$, the maximal possible number of colours that are present.",,-1,-1
+2017 IMO ShortIist,2017 ,C7,"For any finite sets $X$ and $Y$ of positive integers, denote by $f_X(k)$ the $k^{\text{th}}$ smallest positive integer not in $X$, and let $$X*Y=X\cup \{ f_X(y):y\in Y\}.$$Let  $A$ be a set of $a>0$ positive integers and let $B$ be a set of $b>0$ positive integers. Prove that if $A*B=B*A$, then $$\underbrace{A*(A*\cdots (A*(A*A))\cdots )}_{\text{ A appears $b$ times}}=\underbrace{B*(B*\cdots (B*(B*B))\cdots )}_{\text{ B appears $a$ times}}.$$","Alex Zhai, United States",-1,-1
+2017 IMO ShortIist,2017 ,C8,"Let $n$ be a given positive integer. In the Cartesian plane, each lattice point with nonnegative coordinates initially contains a butterfly, and there are no other butterflies. The \textit{neighborhood} of a lattice point $c$ consists of all lattice points within the axis-aligned $(2n+1) \times (2n+1)$ square entered at $c$, apart from $c$ itself. We call a butterfly \textit{lonely}, \textit{crowded}, or \textit{comfortable}, depending on whether the number of butterflies in its neighborhood $N$ is respectively less than, greater than, or equal to half of the number of lattice points in $N$. Every minute, all lonely butterflies fly away simultaneously. This process goes on for as long as there are any lonely butterflies. Assuming that the process eventually stops, determine the number of comfortable butterflies at the final state.",,-1,-1
+2017 IMO ShortIist,2017 ,G1,"Let $ABCDE$ be a convex pentagon such that $AB=BC=CD$, $\angle{EAB}=\angle{BCD}$, and $\angle{EDC}=\angle{CBA}$. Prove that the perpendicular line from $E$ to $BC$ and the line segments $AC$ and $BD$ are concurrent.",,-1,-1
+2017 IMO ShortIist,2017 ,G2,Let $R$ and $S$ be different points on a circle $\Omega$ such that $RS$ is not a diameter. Let $\ell$ be the tangent line to $\Omega$ at $R$. Point $T$ is such that $S$ is the midpoint of the line segment $RT$. Point $J$ is chosen on the shorter arc $RS$ of $\Omega$ so that the circumcircle $\Gamma$ of triangle $JST$ intersects $\ell$ at two distinct points. Let $A$ be the common point of $\Gamma$ and $\ell$ that is closer to $R$. Line $AJ$ meets $\Omega$ again at $K$. Prove that the line $KT$ is tangent to $\Gamma$.,"Charles Leytem, Luxembourg",-1,-1
+2017 IMO ShortIist,2017 ,G3,"Let $O$ be the circumcenter of an acute triangle $ABC$. Line $OA$ intersects the altitudes of $ABC$ through $B$ and $C$ at $P$ and $Q$, respectively. The altitudes meet at $H$. Prove that the circumcenter of triangle $PQH$ lies on a median of triangle $ABC$.",,-1,-1
+2017 IMO ShortIist,2017 ,G4,"In triangle $ABC$, let $\omega$ be the excircle opposite to $A$. Let $D, E$ and $F$ be the points where $\omega$ is tangent to $BC, CA$, and $AB$, respectively. The circle $AEF$ intersects line $BC$ at $P$ and $Q$. Let $M$ be the midpoint of $AD$. Prove that the circle $MPQ$ is tangent to $\omega$.",,-1,-1
+2017 IMO ShortIist,2017 ,G5,"Let $ABCC_1B_1A_1$ be a convex hexagon such that $AB=BC$, and suppose that the line segments $AA_1, BB_1$, and $CC_1$ have the same perpendicular bisector. Let the diagonals $AC_1$ and $A_1C$ meet at $D$, and denote by $\omega$ the circle $ABC$. Let $\omega$ intersect the circle $A_1BC_1$ again at $E \neq B$. Prove that the lines $BB_1$ and $DE$ intersect on $\omega$.",,-1,-1
+2017 IMO ShortIist,2017 ,G6,"Let $n\ge3$ be an integer. Two regular $n$-gons $\mathcal{A}$ and $\mathcal{B}$ are given in the plane. Prove that the vertices of $\mathcal{A}$ that lie inside $\mathcal{B}$ or on its boundary are consecutive.
+
+(That is, prove that there exists a line separating those vertices of $\mathcal{A}$ that lie inside $\mathcal{B}$ or on its boundary from the other vertices of $\mathcal{A}$.)",,-1,-1
+2017 IMO ShortIist,2017 ,G7,"A convex  quadrilateral $ABCD$ has an inscribed circle with center $I$. Let $I_a, I_b, I_c$ and $I_d$ be the incenters of the triangles $DAB, ABC, BCD$ and $CDA$, respectively. Suppose that the common external tangents of the circles $AI_bI_d$ and $CI_bI_d$ meet at $X$, and the common external tangents of the circles $BI_aI_c$ and $DI_aI_c$ meet at $Y$. Prove that $\angle{XIY}=90^{\circ}$.",,-1,-1
+2017 IMO ShortIist,2017 ,G8,"There are $2017$ mutually external circles drawn on a blackboard, such that no two are tangent and no three share a common tangent. A tangent segment is a line segment that is a common tangent to two circles, starting at one tangent point and ending at the other one. Luciano is drawing tangent segments on the blackboard, one at a time, so that no tangent segment intersects any other circles or previously drawn tangent segments. Luciano keeps drawing tangent segments until no more can be drawn.
+
+Find all possible numbers of tangent segments when Luciano stops drawing.",,-1,-1
+2017 IMO ShortIist,2017 ,N1,"For each integer $a_0 > 1$, define the sequence $a_0, a_1, a_2, \ldots$ for $n \geq 0$ as
+$$a_{n+1} = 
+\begin{cases}
+\sqrt{a_n} & \text{if } \sqrt{a_n} \text{ is an integer,} \\
+a_n + 3 & \text{otherwise.}
+\end{cases}
+$$Determine all values of $a_0$ such that there exists a number $A$ such that $a_n = A$ for infinitely many values of $n$.","Stephan Wagner, South Africa",-1,-1
+2017 IMO ShortIist,2017 ,N2,"Let $ p \geq 2$ be a prime number. Eduardo and Fernando play the following game making moves alternately: in each move, the current player chooses an index $i$ in the set $\{0,1,2,\ldots, p-1 \}$ that was not chosen before by either of the two players and then chooses an element $a_i$ from the set $\{0,1,2,3,4,5,6,7,8,9\}$. Eduardo has the first move. The game ends after all the indices have been chosen .Then the following number is computed:
+$$M=a_0+a_110+a_210^2+\cdots+a_{p-1}10^{p-1}= \sum_{i=0}^{p-1}a_i.10^i$$.
+The goal of Eduardo is to make  $M$ divisible by $p$, and the goal of Fernando is to prevent this.
+
+Prove that Eduardo has a winning strategy.","Amine Natik, Morocco",-1,-1
+2017 IMO ShortIist,2017 ,N3,"Determine all integers $ n\geq 2$ having the following property: for any integers $a_1,a_2,\ldots, a_n$ whose sum is not divisible by $n$, there exists an index $1 \leq i \leq n$ such that none of the numbers $$a_i,a_i+a_{i+1},\ldots,a_i+a_{i+1}+\ldots+a_{i+n-1}$$is divisible by $n$. Here, we let $a_i=a_{i-n}$ when $i >n$.","Warut Suksompong, Thailand",-1,-1
+2017 IMO ShortIist,2017 ,N4,"Call a rational number \textit{short} if it has finitely many digits in its decimal expansion. For a positive integer $m$, we say that a positive integer $t$ is $m-$\textit{tastic} if there exists a number $c\in \{1,2,3,\ldots ,2017\}$ such that $\dfrac{10^t-1}{c\cdot m}$ is short, and such that $\dfrac{10^k-1}{c\cdot m}$ is not short for any $1\le k<t$. Let $S(m)$ be the the set of $m-$tastic numbers. Consider $S(m)$ for $m=1,2,\ldots{}.$ What is the maximum number of elements in $S(m)$?",,-1,-1
+2017 IMO ShortIist,2017 ,N5,"Find all pairs $(p,q)$ of prime numbers which $p>q$ and
+$$\frac{(p+q)^{p+q}(p-q)^{p-q}-1}{(p+q)^{p-q}(p-q)^{p+q}-1}$$is an integer.",,-1,-1
+2017 IMO ShortIist,2017 ,N6,"Find the smallest positive integer $n$ or show no such $n$ exists, with the following property: there are infinitely many distinct $n$-tuples of positive rational numbers $(a_1, a_2, \ldots, a_n)$ such that both
+$$a_1+a_2+\dots +a_n \quad \text{and} \quad \frac{1}{a_1} + \frac{1}{a_2} + \dots + \frac{1}{a_n}$$are integers.",,-1,-1
+2017 IMO ShortIist,2017 ,N7,"An ordered pair $(x, y)$ of integers is a primitive point if the greatest common divisor of $x$ and $y$ is $1$. Given a finite set $S$ of primitive points, prove that there exist a positive integer $n$ and integers $a_0, a_1, \ldots , a_n$ such that, for each $(x, y)$ in $S$, we have:
+$$a_0x^n + a_1x^{n-1} y + a_2x^{n-2}y^2 + \cdots + a_{n-1}xy^{n-1} + a_ny^n = 1.$$","John Berman, United States",-1,-1
+2017 IMO ShortIist,2017 ,N8,"Let $p$ be an odd prime number and $\mathbb{Z}_{>0}$ be the set of positive integers. Suppose that a function $f:\mathbb{Z}_{>0}\times\mathbb{Z}_{>0}\to\{0,1\}$ satisfies the following properties:
+\begin{itemize}
+\item $f(1,1)=0$.
+\item $f(a,b)+f(b,a)=1$ for any pair of relatively prime positive integers $(a,b)$ not both equal to 1;
+\item $f(a+b,b)=f(a,b)$ for any pair of relatively prime positive integers $(a,b)$.
+\end{itemize}
+Prove that
+$$\sum_{n=1}^{p-1}f(n^2,p) \geqslant \sqrt{2p}-2.$$",,-1,-1
+2016 IMO Shortlist,2016 ,A1,"Let $a$, $b$, $c$ be positive real numbers such that $\min(ab,bc,ca) \ge 1$. Prove that $$\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)} \le \left(\frac{a+b+c}{3}\right)^2 + 1.$$",,-1,-1
+2016 IMO Shortlist,2016 ,A2,"Find the smallest constant $C > 0$ for which the following statement holds: among any five positive real numbers $a_1,a_2,a_3,a_4,a_5$ (not necessarily distinct), one can always choose distinct subscripts $i,j,k,l$ such that
+\[ \left| \frac{a_i}{a_j} - \frac {a_k}{a_l} \right| \le C. \]",,-1,-1
+2016 IMO Shortlist,2016 ,A3,"Find all positive integers $n$ such that the following statement holds: Suppose real numbers $a_1$, $a_2$, $\dots$, $a_n$, $b_1$, $b_2$, $\dots$, $b_n$ satisfy $|a_k|+|b_k|=1$ for all $k=1,\dots,n$. Then there exists $\varepsilon_1$, $\varepsilon_2$, $\dots$, $\varepsilon_n$, each of which is either $-1$ or $1$, such that
+\[ \left| \sum_{i=1}^n \varepsilon_i a_i \right| + \left| \sum_{i=1}^n \varepsilon_i b_i \right| \le 1. \]",,-1,-1
+2016 IMO Shortlist,2016 ,A4,"Find all functions $f:(0,\infty)\rightarrow (0,\infty)$ such that for any $x,y\in (0,\infty)$, $$xf(x^2)f(f(y)) + f(yf(x)) = f(xy) \left(f(f(x^2)) + f(f(y^2))\right).$$",,-1,-1
+2016 IMO Shortlist,2016 ,A5,"Consider fractions $\frac{a}{b}$ where $a$ and $b$ are positive integers.
+(a) Prove that for every positive integer $n$, there exists such a fraction $\frac{a}{b}$ such that $\sqrt{n} \le \frac{a}{b} \le \sqrt{n+1}$ and $b \le \sqrt{n}+1$.
+(b) Show that there are infinitely many positive integers $n$ such that no such fraction $\frac{a}{b}$ satisfies $\sqrt{n} \le \frac{a}{b} \le \sqrt{n+1}$ and $b \le \sqrt{n}$.",,-1,-1
+2016 IMO Shortlist,2016 ,A6,"The equation
+$$(x-1)(x-2)\cdots(x-2016)=(x-1)(x-2)\cdots (x-2016)$$is written on the board, with $2016$ linear factors on each side. What is the least possible value of $k$ for which it is possible to erase exactly $k$ of these $4032$ linear factors so that at least one factor remains on each side and the resulting equation has no real solutions?",,-1,-1
+2016 IMO Shortlist,2016 ,A7,"Find all functions $f:\mathbb{R}\rightarrow\mathbb{R}$ such that $f(0)\neq 0$ and for all $x,y\in\mathbb{R}$,
+\[ f(x+y)^2 = 2f(x)f(y) + \max \left\{ f(x^2+y^2), f(x^2)+f(y^2) \right\}. \]",,-1,-1
+2016 IMO Shortlist,2016 ,A8,"Find the largest real constant $a$ such that for all $n \geq 1$ and for all real numbers $x_0, x_1, ... , x_n$ satisfying $0 = x_0 < x_1 < x_2 < \cdots < x_n$ we have
+\[\frac{1}{x_1-x_0} + \frac{1}{x_2-x_1} + \dots + \frac{1}{x_n-x_{n-1}} \geq a \left( \frac{2}{x_1} + \frac{3}{x_2} + \dots + \frac{n+1}{x_n} \right)\]",,-1,-1
+2016 IMO Shortlist,2016 ,C1,"The leader of an IMO team chooses positive integers $n$ and $k$ with $n > k$, and announces them to the deputy leader and a contestant. The leader then secretly tells the deputy leader an $n$-digit binary string, and the deputy leader writes down all $n$-digit binary strings which differ from the leader’s in exactly $k$ positions. (For example, if $n = 3$ and $k = 1$, and if the leader chooses $101$, the deputy leader would write down $001, 111$ and $100$.) The contestant is allowed to look at the strings written by the deputy leader and guess the leader’s string. What is the minimum number of guesses (in terms of $n$ and $k$) needed to guarantee the correct answer?",,-1,-1
+2016 IMO Shortlist,2016 ,C2,"Find all positive integers $n$ for which all positive divisors of $n$ can be put into the cells of a rectangular table under the following constraints:
+\begin{itemize}
+\item each cell contains a distinct divisor;
+\item the sums of all rows are equal; and
+\item the sums of all columns are equal.
+\end{itemize}
+",,-1,-1
+2016 IMO Shortlist,2016 ,C3,Let $n$ be a positive integer relatively prime to $6$. We paint the vertices of a regular $n$-gon with three colours so that there is an odd number of vertices of each colour. Show that there exists an isosceles triangle whose three vertices are of different colours.,,-1,-1
+2016 IMO Shortlist,2016 ,C4,"Find all integers $n$ for which each cell of $n \times n$ table can be filled with one of the letters $I,M$ and $O$ in such a way that:
+\begin{itemize}
+\item in each row and each column, one third of the entries are $I$, one third are $M$ and one third are $O$; and 
+\item in any diagonal, if the number of entries on the diagonal is a multiple of three, then one third of the entries are $I$, one third are $M$ and one third are $O$.
+\end{itemize}
+\textbf{Note.} The rows and columns of an $n \times n$ table are each labelled $1$ to $n$ in a natural order. Thus each cell corresponds to a pair of positive integer $(i,j)$ with $1 \le i,j \le n$. For $n>1$, the table has $4n-2$ diagonals of two types. A diagonal of first type consists all cells $(i,j)$  for which $i+j$ is a constant, and the diagonal of this second type consists all cells $(i,j)$ for which $i-j$ is constant.",,-1,-1
+2016 IMO Shortlist,2016 ,C5,"Let $n \geq 3$ be a positive integer. Find the maximum number of diagonals in a regular $n$-gon one can select, so that any two of them do not intersect in the interior or they are perpendicular to each other.",,-1,-1
+2016 IMO Shortlist,2016 ,C6,"There are $n \geq 3$ islands in a city. Initially, the ferry company offers some routes between some pairs of islands so that it is impossible to divide the islands into two groups such that no two islands in different groups are connected by a ferry route.
+
+After each year, the ferry company will close a ferry route between some two islands $X$ and $Y$. At the same time, in order to maintain its service, the company will open new routes according to the following rule: for any island which is connected to a ferry route to exactly one of $X$ and $Y$, a new route between this island and the other of $X$ and $Y$ is added.
+
+Suppose at any moment, if we partition all islands into two nonempty groups in any way, then it is known that the ferry company will close a certain route connecting two islands from the two groups after some years. Prove that after some years there will be an island which is connected to all other islands by ferry routes.",,-1,-1
+2016 IMO Shortlist,2016 ,C7,"There are $n\ge 2$ line segments in the plane such that every two segments cross and no three segments meet at a point. Geoff has to choose an endpoint of each segment and place a frog on it facing the other endpoint. Then he will clap his hands $n-1$ times. Every time he claps,each frog will immediately jump forward to the next intersection point on its segment. Frogs never change the direction of their jumps. Geoff wishes to place the frogs in such a way that no two of them will ever occupy the same intersection point at the same time.
+
+(a) Prove that Geoff can always fulfill his wish if $n$ is odd.
+
+(b) Prove that Geoff can never fulfill his wish if $n$ is even.",,-1,-1
+2016 IMO Shortlist,2016 ,C8,"Let $n$ be a positive integer. Determine the smallest positive integer $k$ with the following property: it is possible to mark $k$ cells on a $2n \times 2n$ board so that there exists a unique partition of the board into $1 \times 2$ and $2 \times 1$ dominoes, none of which contain two marked cells.",,-1,-1
+2016 IMO Shortlist,2016 ,G1,"Triangle $BCF$ has a right angle at $B$. Let $A$ be the point on line $CF$ such that $FA=FB$ and $F$ lies between $A$ and $C$. Point $D$ is chosen so that $DA=DC$ and $AC$ is the bisector of $\angle{DAB}$. Point $E$ is chosen so that $EA=ED$ and $AD$ is the bisector of $\angle{EAC}$. Let $M$ be the midpoint of $CF$. Let $X$ be the point such that $AMXE$ is a parallelogram. Prove that $BD,FX$ and $ME$ are concurrent.",,-1,-1
+2016 IMO Shortlist,2016 ,G2,"Let $ABC$ be a triangle with circumcircle $\Gamma$ and incenter $I$ and let $M$ be the midpoint of $\overline{BC}$. The points $D$, $E$, $F$ are selected on sides $\overline{BC}$, $\overline{CA}$, $\overline{AB}$ such that $\overline{ID} \perp \overline{BC}$, $\overline{IE}\perp \overline{AI}$, and $\overline{IF}\perp \overline{AI}$. Suppose that the circumcircle of $\triangle AEF$ intersects $\Gamma$ at a point $X$ other than $A$. Prove that lines $XD$ and $AM$ meet on $\Gamma$.","Evan Chen, Taiwan",-1,-1
+2016 IMO Shortlist,2016 ,G3,"Let $B = (-1, 0)$ and $C = (1, 0)$ be fixed points on the coordinate plane. A nonempty, bounded subset $S$ of the plane is said to be \textit{nice} if
+
+$\text{(i)}$ there is a point $T$ in $S$ such that for every point $Q$ in $S$, the segment $TQ$ lies entirely in $S$; and
+
+$\text{(ii)}$ for any triangle $P_1P_2P_3$, there exists a unique point $A$ in $S$ and a permutation $\sigma$ of the indices $\{1, 2, 3\}$ for which triangles $ABC$ and $P_{\sigma(1)}P_{\sigma(2)}P_{\sigma(3)}$ are similar.
+
+Prove that there exist two distinct nice subsets $S$ and $S'$ of the set $\{(x, y) : x \geq 0, y \geq 0\}$ such that if $A \in S$ and $A' \in S'$ are the unique choices of points in $\text{(ii)}$, then the product $BA \cdot BA'$ is a constant independent of the triangle $P_1P_2P_3$.",,-1,-1
+2016 IMO Shortlist,2016 ,G4,"Let $ABC$ be a triangle with $AB = AC \neq BC$ and let $I$ be its incentre. The line $BI$ meets $AC$ at $D$, and the line through $D$ perpendicular to $AC$ meets $AI$ at $E$. Prove that the reflection of $I$ in $AC$ lies on the circumcircle of triangle $BDE$.",,-1,-1
+2016 IMO Shortlist,2016 ,G5,"Let $D$ be the foot of perpendicular from $A$ to the Euler line (the line passing through the circumcentre and the orthocentre) of an acute scalene triangle $ABC$. A circle $\omega$ with centre $S$ passes through $A$ and $D$, and it intersects sides $AB$ and $AC$ at $X$ and $Y$ respectively. Let $P$ be the foot of altitude from $A$ to $BC$, and let $M$ be the midpoint of $BC$. Prove that the circumcentre of triangle $XSY$ is equidistant from $P$ and $M$.",,-1,-1
+2016 IMO Shortlist,2016 ,G6,"Let $ABCD$ be a convex quadrilateral with $\angle ABC = \angle ADC < 90^{\circ}$. The internal angle bisectors of $\angle ABC$ and $\angle ADC$ meet $AC$ at $E$ and $F$ respectively, and meet each other at point $P$. Let $M$ be the midpoint of $AC$ and let $\omega$ be the circumcircle of triangle $BPD$. Segments $BM$ and $DM$ intersect $\omega$ again at $X$ and $Y$ respectively. Denote by $Q$ the intersection point of lines $XE$ and $YF$. Prove that $PQ \perp AC$.",,-1,-1
+2016 IMO Shortlist,2016 ,G7,"Let $I$ be the incentre of a non-equilateral triangle $ABC$, $I_A$ be the $A$-excentre, $I'_A$ be the reflection of $I_A$ in $BC$, and $l_A$ be the reflection of line $AI'_A$ in $AI$. Define points $I_B$, $I'_B$ and line $l_B$ analogously. Let $P$ be the intersection point of $l_A$ and $l_B$.
+\begin{enumerate}
+\item Prove that $P$ lies on line $OI$ where $O$ is the circumcentre of triangle $ABC$.
+\item Let one of the tangents from $P$ to the incircle of triangle $ABC$ meet the circumcircle at points $X$ and $Y$. Show that $\angle XIY = 120^{\circ}$.
+\end{enumerate}
+",,-1,-1
+2016 IMO Shortlist,2016 ,G8,"Let $A_1, B_1$ and $C_1$ be points on sides $BC$, $CA$ and $AB$ of an acute triangle $ABC$ respectively, such that $AA_1$, $BB_1$ and $CC_1$ are the internal angle bisectors of triangle $ABC$. Let $I$ be the incentre of triangle $ABC$, and $H$ be the orthocentre of triangle $A_1B_1C_1$. Show that $$AH + BH + CH \geq AI + BI + CI.$$",,-1,-1
+2016 IMO Shortlist,2016 ,N1,"For any positive integer $k$, denote the sum of digits of $k$ in its decimal representation by $S(k)$. Find all polynomials $P(x)$ with integer coefficients such that for any positive integer $n \geq 2016$, the integer $P(n)$ is positive and $$S(P(n)) = P(S(n)).$$","Warut Suksompong, Thailand",-1,-1
+2016 IMO Shortlist,2016 ,N2,Let $\tau(n)$ be the number of positive divisors of $n$. Let $\tau_1(n)$ be the number of positive divisors of $n$ which have remainders $1$ when divided by $3$. Find all positive integral values of the fraction $\frac{\tau(10n)}{\tau_1(10n)}$.,,-1,-1
+2016 IMO Shortlist,2016 ,N3,"A set of positive integers is called \textit{fragrant} if it contains at least two elements and each of its elements has a prime factor in common with at least one of the other elements.  Let $P(n)=n^2+n+1$.  What is the least possible positive integer value of $b$ such that there exists a non-negative integer $a$ for which the set $$\{P(a+1),P(a+2),\ldots,P(a+b)\}$$is fragrant?",,-1,-1
+2016 IMO Shortlist,2016 ,N4,"Let $n, m, k$ and $l$ be positive integers with $n \neq 1$ such that $n^k + mn^l + 1$ divides $n^{k+l} - 1$. Prove that
+\begin{itemize}
+\item $m = 1$ and $l = 2k$; or
+\item $l|k$ and $m = \frac{n^{k-l}-1}{n^l-1}$.
+\end{itemize}
+",,-1,-1
+2016 IMO Shortlist,2016 ,N5,"Let $a$ be a positive integer which is not a perfect square, and consider the equation \[k = \frac{x^2-a}{x^2-y^2}.\]Let $A$ be the set of positive integers $k$ for which the equation admits a solution in $\mathbb Z^2$ with $x>\sqrt{a}$, and let $B$ be the set of positive integers for which the equation admits a solution in $\mathbb Z^2$ with $0\leq x<\sqrt{a}$. Show that $A=B$.",,-1,-1
+2016 IMO Shortlist,2016 ,N6,"Denote by $\mathbb{N}$ the set of all positive integers. Find all functions $f:\mathbb{N}\rightarrow \mathbb{N}$ such that for all positive integers $m$ and $n$, the integer $f(m)+f(n)-mn$ is nonzero and divides $mf(m)+nf(n)$.","Dorlir Ahmeti, Albania",-1,-1
+2016 IMO Shortlist,2016 ,N7,"Let $P=A_1A_2\cdots A_k$ be a convex polygon in the plane. The vertices $A_1, A_2, \ldots, A_k$ have integral coordinates and lie on a circle. Let $S$ be the area of $P$. An odd positive integer $n$ is given such that the squares of the side lengths of $P$ are integers divisible by $n$. Prove that $2S$ is an integer divisible by $n$.",,-1,-1
+2016 IMO Shortlist,2016 ,N8,"Find all polynomials $P(x)$ of odd degree $d$ and with integer coefficients satisfying the following property: for each positive integer $n$, there exists $n$ positive integers $x_1, x_2, \ldots, x_n$ such that $\frac12 < \frac{P(x_i)}{P(x_j)} < 2$ and $\frac{P(x_i)}{P(x_j)}$ is the $d$-th power of a rational number for every pair of indices $i$ and $j$ with $1 \leq i, j \leq n$.",,-1,-1
+2015 IMO Shortlist,2015 ,A1,"Suppose that a sequence $a_1,a_2,\ldots$ of positive real numbers satisfies \[a_{k+1}\geq\frac{ka_k}{a_k^2+(k-1)}\]for every positive integer $k$. Prove that $a_1+a_2+\ldots+a_n\geq n$ for every $n\geq2$.",,-1,-1
+2015 IMO Shortlist,2015 ,A2,"Determine all functions $f:\mathbb{Z}\rightarrow\mathbb{Z}$ with the property that \[f(x-f(y))=f(f(x))-f(y)-1\]holds for all $x,y\in\mathbb{Z}$.",,-1,-1
+2015 IMO Shortlist,2015 ,A3,"Let $n$ be a fixed positive integer. Find the maximum possible value of \[ \sum_{1 \le r < s \le 2n} (s-r-n)x_rx_s, \]where $-1 \le x_i \le 1$ for all $i = 1, \cdots , 2n$.",,-1,-1
+2015 IMO Shortlist,2015 ,A4,Let $\mathbb R$ be the set of real numbers. Determine all functions $f:\mathbb R\to\mathbb R$ that satisfy the equation\[f(x+f(x+y))+f(xy)=x+f(x+y)+yf(x)\]for all real numbers $x$ and $y$.,"Dorlir Ahmeti, Albania",-1,-1
+2015 IMO Shortlist,2015 ,A5,"Let $2\mathbb{Z} + 1$ denote the set of odd integers. Find all functions $f:\mathbb{Z} \mapsto 2\mathbb{Z} + 1$ satisfying \[ f(x + f(x) + y) + f(x - f(x) - y) = f(x+y) + f(x-y) \]for every $x, y \in \mathbb{Z}$.",,-1,-1
+2015 IMO Shortlist,2015 ,A6,"Let $n$ be a fixed integer with $n \ge 2$. We say that two polynomials $P$ and $Q$ with real coefficients are \textit{block-similar} if for each $i \in \{1, 2, \ldots, n\}$ the sequences
+
+\begin{eqnarray*}
+P(2015i), P(2015i - 1), \ldots, P(2015i - 2014) & \text{and}\\
+Q(2015i), Q(2015i - 1), \ldots, Q(2015i - 2014)
+\end{eqnarray*}
+are permutations of each other.
+
+(a) Prove that there exist distinct block-similar polynomials of degree $n + 1$.
+(b) Prove that there do not exist distinct block-similar polynomials of degree $n$.","David Arthur, Canada",-1,-1
+2015 IMO Shortlist,2015 ,C1,"In Lineland there are $n\geq1$ towns, arranged along a road running from left to right. Each town has a \textit{left bulldozer} (put to the left of the town and facing left) and a \textit{right bulldozer} (put to the right of the town and facing right). The sizes of the $2n$ bulldozers are distinct. Every time when a left and right bulldozer confront each other, the larger bulldozer pushes the smaller one off the road. On the other hand, bulldozers are quite unprotected at their rears; so, if a bulldozer reaches the rear-end of another one, the first one pushes the second one off the road, regardless of their sizes.
+
+Let $A$ and $B$ be two towns, with $B$ to the right of $A$. We say that town $A$ can \textit{sweep} town $B$ \textit{away} if the right bulldozer of $A$ can move over to $B$ pushing off all bulldozers it meets. Similarly town $B$ can sweep town $A$ away if the left bulldozer of $B$ can move over to $A$ pushing off all bulldozers of all towns on its way.
+
+Prove that there is exactly one town that cannot be swept away by any other one.",,-1,-1
+2015 IMO Shortlist,2015 ,C2,"We say that a finite set $\mathcal{S}$ of points in the plane is \textit{balanced} if, for any two different points $A$ and $B$ in $\mathcal{S}$, there is a point $C$ in $\mathcal{S}$ such that $AC=BC$. We say that $\mathcal{S}$ is \textit{centre-free} if for any three different points $A$, $B$ and $C$ in $\mathcal{S}$, there is no points $P$ in $\mathcal{S}$ such that $PA=PB=PC$.
+
+(a) Show that for all integers $n\ge 3$, there exists a balanced set consisting of $n$ points.
+
+(b) Determine all integers $n\ge 3$ for which there exists a balanced centre-free set consisting of $n$ points.
+
+Proposed by Netherlands",,-1,-1
+2015 IMO Shortlist,2015 ,C3,"For a finite set $A$ of positive integers, a partition of $A$ into two disjoint nonempty subsets $A_1$ and $A_2$ is $\textit{good}$ if the least common multiple of the elements in $A_1$ is equal to the greatest common divisor of the elements in $A_2$. Determine the minimum value of $n$ such that there exists a set of $n$ positive integers with exactly $2015$ good partitions.",,-1,-1
+2015 IMO Shortlist,2015 ,C4,"Let $n$ be a positive integer. Two players $A$ and $B$ play a game in which they take turns choosing positive integers $k \le n$. The rules of the game are:
+
+(i) A player cannot choose a number that has been chosen by either player on any previous turn.
+(ii) A player cannot choose a number consecutive to any of those the player has already chosen on any previous turn.
+(iii) The game is a draw if all numbers have been chosen; otherwise the player who cannot choose a number anymore loses the game.
+
+The player $A$ takes the first turn. Determine the outcome of the game, assuming that both players use optimal strategies.",Finland,-1,-1
+2015 IMO Shortlist,2015 ,C5,"The sequence $a_1,a_2,\dots$ of integers satisfies the conditions:
+
+(i) $1\le a_j\le2015$ for all $j\ge1$,
+(ii) $k+a_k\neq \ell+a_\ell$ for all $1\le k<\ell$.
+
+Prove that there exist two positive integers $b$ and $N$ for which\[\left\vert\sum_{j=m+1}^n(a_j-b)\right\vert\le1007^2\]for all integers $m$ and $n$ such that $n>m\ge N$.","Ivan Guo and Ross Atkins, Australia",-1,-1
+2015 IMO Shortlist,2015 ,C6,Let $S$ be a nonempty set of positive integers. We say that a positive integer $n$ is \textit{clean} if it has a unique representation as a sum of an odd number of distinct elements from $S$. Prove that there exist infinitely many positive integers that are not clean.,,-1,-1
+2015 IMO Shortlist,2015 ,C7,"In a company of people some pairs are enemies. A group of people is called \textit{unsociable} if the number of members in the group is odd and at least $3$, and it is possible to arrange all its members around a round table so that every two neighbors are enemies. Given that there are at most $2015$ unsociable groups, prove that it is possible to partition the company into $11$ parts so that no two enemies are in the same part.",Russia,-1,-1
+2015 IMO Shortlist,2015 ,G1,Let $ABC$ be an acute triangle with orthocenter $H$. Let $G$ be the point such that the quadrilateral $ABGH$ is a parallelogram. Let $I$ be the point on the line $GH$ such that $AC$ bisects $HI$. Suppose that the line $AC$ intersects the circumcircle of the triangle $GCI$ at $C$ and $J$. Prove that $IJ = AH$.,,-1,-1
+2015 IMO Shortlist,2015 ,G2,"Triangle $ABC$ has circumcircle $\Omega$ and circumcenter $O$. A circle $\Gamma$ with center $A$ intersects the segment $BC$ at points $D$ and $E$, such that $B$, $D$, $E$, and $C$ are all different and lie on line $BC$ in this order. Let $F$ and $G$ be the points of intersection of $\Gamma$ and $\Omega$, such that $A$, $F$, $B$, $C$, and $G$ lie on $\Omega$ in this order. Let $K$ be the second point of intersection of the circumcircle of triangle $BDF$ and the segment $AB$. Let $L$ be the second point of intersection of the circumcircle of triangle $CGE$ and the segment $CA$.
+
+Suppose that the lines $FK$ and $GL$ are different and intersect at the point $X$. Prove that $X$ lies on the line $AO$.",Greece,-1,-1
+2015 IMO Shortlist,2015 ,G3,"Let $ABC$ be a triangle with $\angle{C} = 90^{\circ}$, and let $H$ be the foot of the altitude from $C$. A point $D$ is chosen inside the triangle $CBH$ so that $CH$ bisects $AD$. Let $P$ be the intersection point of the lines $BD$ and $CH$. Let $\omega$ be the semicircle with diameter $BD$ that meets the segment $CB$ at an interior point. A line through $P$ is tangent to $\omega$ at $Q$. Prove that the lines $CQ$ and $AD$ meet on $\omega$.",,-1,-1
+2015 IMO Shortlist,2015 ,G4,Let $ABC$ be an acute triangle and let $M$ be the midpoint of $AC$. A circle $\omega$ passing through $B$ and $M$ meets the sides $AB$ and $BC$ at points $P$ and $Q$ respectively. Let $T$ be the point such that $BPTQ$ is a parallelogram. Suppose that $T$ lies on the circumcircle of $ABC$. Determine all possible values of $\frac{BT}{BM}$.,,-1,-1
+2015 IMO Shortlist,2015 ,G5,"Let $ABC$ be a triangle with $CA \neq CB$. Let $D$, $F$, and $G$ be the midpoints of the sides $AB$, $AC$, and $BC$ respectively. A circle $\Gamma$ passing through $C$ and tangent to $AB$ at $D$ meets the segments $AF$ and $BG$ at $H$ and $I$, respectively. The points $H'$ and $I'$ are symmetric to $H$ and $I$ about $F$ and $G$, respectively. The line $H'I'$ meets $CD$ and $FG$ at $Q$ and $M$, respectively. The line $CM$ meets $\Gamma$ again at $P$. Prove that $CQ = QP$.",El Salvador,-1,-1
+2015 IMO Shortlist,2015 ,G6,"Let $ABC$ be an acute triangle with $AB > AC$. Let $\Gamma $ be its circumcircle, $H$ its orthocenter, and $F$ the foot of the altitude from $A$. Let $M$ be the midpoint of $BC$. Let $Q$ be the point on $\Gamma$ such that $\angle HQA = 90^{\circ}$ and let $K$ be the point on $\Gamma$ such that $\angle HKQ = 90^{\circ}$. Assume that the points $A$, $B$, $C$, $K$ and $Q$ are all different and lie on $\Gamma$ in this order.
+
+Prove that the circumcircles of triangles $KQH$ and $FKM$ are tangent to each other.
+
+Proposed by Ukraine",,-1,-1
+2015 IMO Shortlist,2015 ,G7,"Let $ABCD$ be a convex quadrilateral, and let $P$, $Q$, $R$, and $S$ be points on the sides $AB$, $BC$, $CD$, and $DA$, respectively. Let the line segment $PR$ and $QS$ meet at $O$. Suppose that each of the quadrilaterals $APOS$, $BQOP$, $CROQ$, and $DSOR$ has an incircle. Prove that the lines $AC$, $PQ$, and $RS$ are either concurrent or parallel to each other.",,-1,-1
+2015 IMO Shortlist,2015 ,G8,"A \textit{triangulation} of a convex polygon $\Pi$ is a partitioning of $\Pi$ into triangles by diagonals having no common points other than the vertices of the polygon. We say that a triangulation is a \textit{Thaiangulation} if all triangles in it have the same area.
+
+Prove that any two different Thaiangulations of a convex polygon $\Pi$ differ by exactly two triangles. (In other words, prove that it is possible to replace one pair of triangles in the first Thaiangulation with a different pair of triangles so as to obtain the second Thaiangulation.)",Bulgaria,-1,-1
+2015 IMO Shortlist,2015 ,N1,"Determine all positive integers $M$ such that the sequence $a_0, a_1, a_2, \cdots$ defined by \[ a_0 = M + \frac{1}{2}   \qquad  \textrm{and} \qquad    a_{k+1} = a_k\lfloor a_k \rfloor   \quad \textrm{for} \, k = 0, 1, 2, \cdots \]contains at least one integer term.",,-1,-1
+2015 IMO Shortlist,2015 ,N2,Let $a$ and $b$ be positive integers such that $a! + b!$ divides $a!b!$. Prove that $3a \ge 2b + 2$.,,-1,-1
+2015 IMO Shortlist,2015 ,N3,"Let $m$ and $n$ be positive integers such that $m>n$. Define $x_k=\frac{m+k}{n+k}$ for $k=1,2,\ldots,n+1$. Prove that if all the numbers $x_1,x_2,\ldots,x_{n+1}$ are integers, then $x_1x_2\ldots x_{n+1}-1$ is divisible by an odd prime.",,-1,-1
+2015 IMO Shortlist,2015 ,N4,"Suppose that $a_0, a_1, \cdots $ and $b_0, b_1, \cdots$ are two sequences of positive integers such that $a_0, b_0 \ge 2$ and \[ a_{n+1} = \gcd{(a_n, b_n)} + 1, \qquad b_{n+1} = \operatorname{lcm}{(a_n, b_n)} - 1. \]Show that the sequence $a_n$ is eventually periodic; in other words, there exist integers $N \ge 0$ and $t > 0$ such that $a_{n+t} = a_n$ for all $n \ge N$.",,-1,-1
+2015 IMO Shortlist,2015 ,N5,"Find all positive integers $(a,b,c)$ such that
+$$ab-c,\quad bc-a,\quad ca-b$$are all powers of $2$.",Serbia,-1,-1
+2015 IMO Shortlist,2015 ,N6,"Let $\mathbb{Z}_{>0}$ denote the set of positive integers. Consider a function $f: \mathbb{Z}_{>0} \to \mathbb{Z}_{>0}$. For any $m, n \in \mathbb{Z}_{>0}$ we write $f^n(m) = \underbrace{f(f(\ldots f}_{n}(m)\ldots))$. Suppose that $f$ has the following two properties:
+
+(i) if $m, n \in \mathbb{Z}_{>0}$, then $\frac{f^n(m) - m}{n} \in \mathbb{Z}_{>0}$;
+(ii) The set $\mathbb{Z}_{>0} \setminus \{f(n) \mid n\in \mathbb{Z}_{>0}\}$ is finite.
+
+Prove that the sequence $f(1) - 1, f(2) - 2, f(3) - 3, \ldots$ is periodic.","Ang Jie Jun, Singapore",-1,-1
+2015 IMO Shortlist,2015 ,N7,"Let $\mathbb{Z}_{>0}$ denote the set of positive integers. For any positive integer $k$, a function $f: \mathbb{Z}_{>0} \to \mathbb{Z}_{>0}$ is called \textit{$k$-good} if $\gcd(f(m) + n, f(n) + m) \le k$ for all $m \neq n$. Find all $k$ such that there exists a $k$-good function.","James Rickards, Canada",-1,-1
+2015 IMO Shortlist,2015 ,N8,"For every positive integer $n$ with prime factorization $n = \prod_{i = 1}^{k} p_i^{\alpha_i}$, define
+\[\mho(n) = \sum_{i: \; p_i > 10^{100}} \alpha_i.\]That is, $\mho(n)$ is the number of prime factors of $n$ greater than $10^{100}$, counted with multiplicity.
+
+Find all strictly increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ such that
+\[\mho(f(a) - f(b)) \le \mho(a - b) \quad \text{for all integers } a \text{ and } b \text{ with } a > b.\]","Rodrigo Sanches Angelo, Brazil",-1,-1
+2014 IMO Shortlist,2014 ,A1,"Let $a_0 < a_1 < a_2 \ldots$ be an infinite sequence of positive integers. Prove that there exists a unique integer $n\geq 1$ such that
+\[a_n < \frac{a_0+a_1+a_2+\cdots+a_n}{n} \leq a_{n+1}.\]","Gerhard Wöginger, Austria.",-1,-1
+2014 IMO Shortlist,2014 ,A2,"Define the function $f:(0,1)\to (0,1)$ by \[\displaystyle f(x) = \left\{ \begin{array}{lr} x+\frac 12 & \text{if}\ \  x < \frac 12\\ x^2 & \text{if}\ \  x \ge \frac 12 \end{array} \right.\] Let $a$ and $b$ be two real numbers such that $0 < a < b < 1$. We define the sequences $a_n$ and $b_n$ by $a_0 = a, b_0 = b$, and $a_n = f( a_{n -1})$, $b_n = f (b_{n -1} )$ for $n > 0$. Show that there exists a positive integer $n$ such that \[(a_n - a_{n-1})(b_n-b_{n-1})<0.\]",Denmark,-1,-1
+2014 IMO Shortlist,2014 ,A3,"For a sequence $x_1,x_2,\ldots,x_n$ of real numbers, we define its $\textit{price}$ as \[\max_{1\le i\le n}|x_1+\cdots +x_i|.\] Given $n$ real numbers, Dave and George want to arrange them into a sequence with a low price. Diligent Dave checks all possible ways and finds the minimum possible price $D$. Greedy George, on the other hand, chooses $x_1$ such that $|x_1 |$ is as small as possible; among the remaining numbers, he chooses $x_2$ such that $|x_1 + x_2 |$ is as small as possible, and so on. Thus, in the $i$-th step he chooses $x_i$ among the remaining numbers so as to minimise the value of $|x_1 + x_2 + \cdots  x_i |$. In each step, if several numbers provide the same value, George chooses one at random. Finally he gets a sequence with price $G$.
+
+Find the least possible constant $c$ such that for every positive integer $n$, for every collection of $n$ real numbers, and for every possible sequence that George might obtain, the resulting values satisfy the inequality $G\le cD$.",Georgia,-1,-1
+2014 IMO Shortlist,2014 ,A4,Determine all functions $f: \mathbb{Z}\to\mathbb{Z}$ satisfying \[f\big(f(m)+n\big)+f(m)=f(n)+f(3m)+2014\] for all integers $m$ and $n$.,Netherlands,-1,-1
+2014 IMO Shortlist,2014 ,A5,Consider all polynomials $P(x)$ with real coefficients that have the following property: for any two real numbers $x$ and $y$ one has \[|y^2-P(x)|\le 2|x|\quad\text{if and only if}\quad |x^2-P(y)|\le 2|y|.\] Determine all possible values of $P(0)$.,Belgium,-1,-1
+2014 IMO Shortlist,2014 ,A6,"Find all functions $f : \mathbb{Z} \to\mathbb{ Z}$ such that
+\[ n^2+4f(n)=f(f(n))^2 \]
+for all $n\in \mathbb{Z}$.","Sahl Khan, UK",-1,-1
+2014 IMO Shortlist,2014 ,C1,Let $n$ points be given inside a rectangle $R$ such that no two of them lie on a line parallel to one of the sides of $R$. The rectangle $R$ is to be dissected into smaller rectangles with sides parallel to the sides of $R$ in such a way that none of these rectangles contains any of the given points in its interior. Prove that we have to dissect $R$ into at least $n + 1$ smaller rectangles.,Serbia,-1,-1
+2014 IMO Shortlist,2014 ,C2,"We have $2^m$ sheets of paper, with the number $1$ written on each of them. We perform the following operation. In every step we choose two distinct sheets; if the numbers on the two sheets are $a$ and $b$, then we erase these numbers and write the number $a + b$ on both sheets. Prove that after $m2^{m -1}$ steps, the sum of the numbers on all the sheets is at least $4^m$ .","Abbas Mehrabian, Iran",-1,-1
+2014 IMO Shortlist,2014 ,C3,"Let $n \ge 2$ be an integer. Consider an $n \times n$ chessboard consisting of $n^2$ unit squares. A configuration of $n$ rooks on this board is \textit{peaceful} if every row and every column contains exactly one rook. Find the greatest positive integer $k$ such that, for each peaceful configuration of $n$ rooks, there is a $k \times k$ square which does not contain a rook on any of its $k^2$ unit squares.",,-1,-1
+2014 IMO Shortlist,2014 ,C4,"Construct a tetromino by attaching two $2 \times 1$ dominoes along their longer sides such that the midpoint of the longer side of one domino is a corner of the other domino. This construction yields two kinds of tetrominoes with opposite orientations. Let us call them $S$- and $Z$-tetrominoes, respectively.
+Assume that a lattice polygon $P$ can be tiled with $S$-tetrominoes. Prove that no matter how we tile $P$ using only $S$- and $Z$-tetrominoes, we always use an even number of $Z$-tetrominoes.","Tamas Fleiner and Peter Pal Pach, Hungary",-1,-1
+2014 IMO Shortlist,2014 ,C5,"A set of lines in the plane is in \textit{general position} if no two are parallel and no three pass through the same point. A set of lines in general position cuts the plane into regions, some of which have finite area; we call these its \textit{finite regions}. Prove that for all sufficiently large $n$, in any set of $n$ lines in general position it is possible to colour at least $\sqrt{n}$ lines blue in such a way that none of its finite regions has a completely blue boundary.
+
+\textit{Note}: Results with $\sqrt{n}$ replaced by $c\sqrt{n}$ will be awarded points depending on the value of the constant $c$.",,-1,-1
+2014 IMO Shortlist,2014 ,C6,"We are given an infinite deck of cards, each with a real number on it. For every real number $x$, there is exactly one card in the deck that has $x$ written on it. Now two players draw disjoint sets $A$ and $B$ of $100$ cards each from this deck. We would like to define a rule that declares one of them a winner. This rule should satisfy the following conditions:
+1. The winner only depends on the relative order of the $200$ cards: if the cards are laid down in increasing order face down and we are told which card belongs to which player, but not what numbers are written on them, we can still decide the winner.
+2. If we write the elements of both sets in increasing order as $A =\{ a_1 , a_2 , \ldots, a_{100} \}$ and $B= \{ b_1 , b_2 , \ldots , b_{100} \}$, and $a_i > b_i$ for all $i$, then $A$ beats $B$.
+3. If three players draw three disjoint sets $A, B, C$ from the deck, $A$ beats $B$ and $B$ beats $C$  then $A$ also beats $C$.
+How many ways are there to define such a rule? Here, we consider two rules as different if there exist two sets $A$ and $B$ such that $A$ beats $B$ according to one rule, but $B$ beats $A$ according to the other.","Ilya Bogdanov, Russia",-1,-1
+2014 IMO Shortlist,2014 ,C7,"Let $M$ be a set of $n \ge 4$ points in the plane, no three of which are collinear. Initially these points are connected with $n$ segments so that each point in $M$ is the endpoint of exactly two segments. Then, at each step, one may choose two segments $AB$ and $CD$ sharing a common interior point and replace them by the segments $AC$ and $BD$ if none of them is present at this moment. Prove that it is impossible to perform $n^3 /4$ or more such moves.","Vladislav Volkov, Russia",-1,-1
+2014 IMO Shortlist,2014 ,C8,"A card deck consists of $1024$ cards. On each card, a set of distinct decimal digits is written in such a way that no two of these sets coincide (thus, one of the cards is empty). Two players alternately take cards from the deck, one card per turn. After the deck is empty, each player checks if he can throw out one of his cards so that each of the ten digits occurs on an even number of his remaining cards. If one player can do this but the other one cannot, the one who can is the winner; otherwise a draw is declared.
+Determine all possible first moves of the first player after which he has a winning strategy.","Ilya Bogdanov & Vladimir Bragin, Russia",-1,-1
+2014 IMO Shortlist,2014 ,C9,"There are $n$ circles drawn on a piece of paper in such a way that any two circles intersect in two points, and no three circles pass through the same point. Turbo the snail slides along the circles in the following fashion. Initially he moves on one of the circles in clockwise direction. Turbo always keeps sliding along the current circle until he reaches an intersection with another circle. Then he continues his journey on this new circle and also changes the direction of moving, i.e. from clockwise to anticlockwise or $\textit{vice versa}$.
+Suppose that Turbo’s path entirely covers all circles. Prove that $n$ must be odd.","Tejaswi Navilarekallu, India",-1,-1
+2014 IMO Shortlist,2014 ,G1,"Let $P$ and $Q$ be on segment $BC$ of an acute triangle $ABC$ such that $\angle PAB=\angle BCA$ and $\angle CAQ=\angle ABC$. Let $M$ and $N$ be the points on $AP$ and $AQ$, respectively, such that $P$ is the midpoint of $AM$ and $Q$ is the midpoint of $AN$. Prove that the intersection of $BM$ and $CN$ is on the circumference of triangle $ABC$.","Giorgi Arabidze, Georgia.",-1,-1
+2014 IMO Shortlist,2014 ,G2,"Let $ABC$ be a triangle. The points $K, L,$ and $M$ lie on the segments $BC, CA,$ and $AB,$ respectively, such that the lines $AK, BL,$ and $CM$ intersect in a common point. Prove that it is possible to choose two of the triangles $ALM, BMK,$ and $CKL$ whose inradii sum up to at least the inradius of the triangle $ABC$.",Estonia,-1,-1
+2014 IMO Shortlist,2014 ,G3,"Let $\Omega$ and $O$ be the circumcircle and the circumcentre of an acute-angled triangle $ABC$ with $AB > BC$. The angle bisector of $\angle ABC$ intersects $\Omega$ at $M \ne B$. Let $\Gamma$ be the circle with diameter $BM$. The angle bisectors of $\angle AOB$ and $\angle BOC$ intersect $\Gamma$ at points $P$ and $Q,$ respectively. The point $R$ is chosen on the line $P Q$ so that $BR = MR$. Prove that $BR\parallel AC$.
+(Here we always assume that an angle bisector is a ray.)","Sergey Berlov, Russia",-1,-1
+2014 IMO Shortlist,2014 ,G4,"Consider a fixed circle $\Gamma$ with three fixed points $A, B,$ and $C$ on it. Also, let us fix a real number $\lambda \in(0,1)$. For a variable point $P \not\in\{A, B, C\}$ on $\Gamma$, let $M$ be the point on the segment $CP$ such that $CM =\lambda\cdot  CP$ . Let $Q$ be the second point of intersection of the circumcircles of the triangles $AMP$ and $BMC$. Prove that as $P$ varies, the point $Q$ lies on a fixed circle.","Jack Edward Smith, UK",-1,-1
+2014 IMO Shortlist,2014 ,G5,"Convex quadrilateral $ABCD$ has $\angle ABC = \angle CDA = 90^{\circ}$. Point $H$ is the foot of the perpendicular from $A$ to $BD$. Points $S$ and $T$ lie on sides $AB$ and $AD$, respectively, such that $H$ lies inside triangle $SCT$ and \[
+\angle CHS - \angle CSB = 90^{\circ}, \quad \angle THC - \angle DTC = 90^{\circ}. \] Prove that line $BD$ is tangent to the circumcircle of triangle $TSH$.",,-1,-1
+2014 IMO Shortlist,2014 ,G6,"Let $ABC$ be a fixed acute-angled triangle. Consider some points $E$ and $F$ lying on the sides $AC$ and $AB$, respectively, and let $M$ be the midpoint of $EF$ . Let the perpendicular bisector of $EF$ intersect the line $BC$ at $K$, and let the perpendicular bisector of $MK$ intersect the lines $AC$ and $AB$ at $S$ and $T$ , respectively. We call the pair $(E, F )$ $\textit{interesting}$, if the quadrilateral $KSAT$ is cyclic.
+Suppose that the pairs $(E_1 , F_1 )$ and $(E_2 , F_2 )$ are interesting. Prove that $\displaystyle\frac{E_1 E_2}{AB}=\frac{F_1 F_2}{AC}$","Ali Zamani, Iran",-1,-1
+2014 IMO Shortlist,2014 ,G7,"Let $ABC$ be a triangle with circumcircle $\Omega$ and incentre $I$. Let the line passing through $I$ and perpendicular to $CI$ intersect the segment $BC$ and the arc $BC$ (not containing $A$) of $\Omega$ at points $U$ and $V$ , respectively. Let the line passing through $U$ and parallel to $AI$ intersect $AV$ at $X$, and let the line passing through $V$ and parallel to $AI$ intersect $AB$ at $Y$ . Let $W$ and $Z$ be the midpoints of $AX$ and $BC$, respectively. Prove that if the points $I, X,$ and $Y$ are collinear, then the points $I, W ,$ and $Z$ are also collinear.","David B. Rush, USA",-1,-1
+2014 IMO Shortlist,2014 ,N1,"Let $n \ge 2$ be an integer, and let $A_n$ be the set \[A_n = \{2^n  - 2^k\mid k \in \mathbb{Z},\, 0 \le k < n\}.\] Determine the largest positive integer that cannot be written as the sum of one or more (not necessarily distinct) elements of $A_n$ .",Serbia,-1,-1
+2014 IMO Shortlist,2014 ,N2,"Determine all pairs $(x, y)$ of positive integers such that \[\sqrt[3]{7x^2-13xy+7y^2}=|x-y|+1.\]","Titu Andreescu, USA",-1,-1
+2014 IMO Shortlist,2014 ,N3,"For each positive integer $n$, the Bank of Cape Town issues coins of denomination $\frac1n$. Given a finite collection of such coins (of not necessarily different denominations) with total value at most most $99+\frac12$, prove that it is possible to split this collection into $100$ or fewer groups, such that each group has total value at most $1$.",,-1,-1
+2014 IMO Shortlist,2014 ,N4,"Let $n > 1$ be a given integer. Prove that infinitely many terms of the sequence $(a_k )_{k\ge 1}$, defined by \[a_k=\left\lfloor\frac{n^k}{k}\right\rfloor,\] are odd. (For a real number $x$, $\lfloor x\rfloor$ denotes the largest integer not exceeding $x$.)",Hong Kong,-1,-1
+2014 IMO Shortlist,2014 ,N5,"Find all triples $(p, x, y)$ consisting of a prime number $p$ and two positive integers $x$ and $y$ such that $x^{p -1} + y$ and $x + y^ {p -1}$ are both powers of $p$.",Belgium,-1,-1
+2014 IMO Shortlist,2014 ,N6,"Let $a_1 < a_2 <  \cdots <a_n$ be pairwise coprime positive integers with $a_1$ being prime and $a_1 \ge n + 2$. On the segment $I = [0, a_1 a_2  \cdots a_n ]$ of the real line, mark all integers that are divisible by at least one of the numbers $a_1 ,   \ldots , a_n$ . These points split $I$ into a number of smaller segments. Prove that the sum of the squares of the lengths of these segments is divisible by $a_1$.",Serbia,-1,-1
+2014 IMO Shortlist,2014 ,N7,"Let $c \ge 1$ be an integer. Define a sequence of positive integers by $a_1 = c$ and \[a_{n+1}=a_n^3-4c\cdot a_n^2+5c^2\cdot a_n+c\] for all $n\ge 1$. Prove that for each integer $n \ge 2$ there exists a prime number $p$ dividing $a_n$ but none of the numbers $a_1 , \ldots , a_{n -1}$ .",Austria,-1,-1
+2014 IMO Shortlist,2014 ,N8,"For every real number $x$, let $||x||$ denote the distance between $x$ and the nearest integer.
+Prove that for every pair $(a, b)$ of positive integers there exist an odd prime $p$ and a positive integer $k$ satisfying \[\displaystyle\left|\left|\frac{a}{p^k}\right|\right|+\left|\left|\frac{b}{p^k}\right|\right|+\left|\left|\frac{a+b}{p^k}\right|\right|=1.\]","Geza Kos, Hungary",-1,-1
+2013 IMO Shortlist,2013 ,A1,"Let $n$ be a positive integer and let $a_1, \ldots, a_{n-1} $ be arbitrary real numbers. Define the sequences $u_0, \ldots, u_n $ and $v_0, \ldots, v_n $ inductively by $u_0 = u_1  = v_0 = v_1 = 1$, and $u_{k+1} = u_k + a_k u_{k-1}$, $v_{k+1} = v_k + a_{n-k} v_{k-1}$ for $k=1, \ldots, n-1.$
+
+Prove that $u_n = v_n.$",,-1,-1
+2013 IMO Shortlist,2013 ,A2,"Prove that in any set of $2000$ distinct real numbers there exist two pairs $a>b$ and $c>d$ with $a \neq c$ or $b \neq d $, such that  \[ \left| \frac{a-b}{c-d} - 1 \right|< \frac{1}{100000}. \]",,-1,-1
+2013 IMO Shortlist,2013 ,A3,"Let $\mathbb Q_{>0}$ be the set of all positive rational numbers. Let $f:\mathbb Q_{>0}\to\mathbb R$ be a function satisfying the following three conditions:
+
+(i) for all $x,y\in\mathbb Q_{>0}$, we have $f(x)f(y)\geq f(xy)$;
+(ii) for all $x,y\in\mathbb Q_{>0}$, we have $f(x+y)\geq f(x)+f(y)$;
+(iii) there exists a rational number $a>1$ such that $f(a)=a$.
+
+Prove that $f(x)=x$ for all $x\in\mathbb Q_{>0}$.",Bulgaria,-1,-1
+2013 IMO Shortlist,2013 ,A4,"Let $n$ be a positive integer, and consider a sequence $a_1 , a_2 , \cdots , a_n $ of positive integers. Extend it periodically to an infinite sequence $a_1 , a_2 , \cdots $ by defining $a_{n+i} = a_i $ for all $i \ge 1$. If \[a_1 \le a_2 \le \cdots \le a_n \le a_1 +n  \] and \[a_{a_i } \le n+i-1 \quad\text{for}\quad i=1,2,\cdots, n, \] prove that \[a_1 + \cdots +a_n \le n^2. \]",,-1,-1
+2013 IMO Shortlist,2013 ,A5,"Let $\mathbb{Z}_{\ge 0}$ be the set of all nonnegative integers. Find all the functions $f: \mathbb{Z}_{\ge 0} \rightarrow \mathbb{Z}_{\ge 0} $ satisfying the relation
+\[ f(f(f(n))) = f(n+1 ) +1 \]
+for all $ n\in \mathbb{Z}_{\ge 0}$.",,-1,-1
+2013 IMO Shortlist,2013 ,A6,"Let $m \neq 0 $ be an integer. Find all polynomials $P(x) $ with real coefficients such that
+\[ (x^3 - mx^2 +1 ) P(x+1)  + (x^3+mx^2+1) P(x-1) =2(x^3 - mx +1 ) P(x) \]
+for all real number $x$.",,-1,-1
+2013 IMO Shortlist,2013 ,C1,"Let $n$ be an positive integer. Find the smallest integer $k$ with the following property; Given any real numbers $a_1 , \cdots , a_d $ such that $a_1 + a_2 + \cdots + a_d = n$ and $0 \le a_i \le 1$ for $i=1,2,\cdots ,d$, it is possible to partition these numbers into $k$ groups (some of which may be empty) such that the sum of the numbers in each group is at most $1$.",,-1,-1
+2013 IMO Shortlist,2013 ,C2,"A configuration of $4027$ points in the plane is called Colombian if it consists of $2013$ red points and $2014$ blue points, and no three of the points of the configuration are collinear. By drawing some lines, the plane is divided into several regions. An arrangement of lines is good for a Colombian configuration if the following two conditions are satisfied:
+
+i) No line passes through any point of the configuration.
+
+ii) No region contains points of both colors.
+
+Find the least value of $k$ such that for any Colombian configuration of $4027$ points, there is a good arrangement of $k$ lines.
+
+Proposed by \textit{Ivan Guo} from \textit{Australia.}",,-1,-1
+2013 IMO Shortlist,2013 ,C3,"A crazy physicist discovered a new kind of particle wich he called an imon, after some of them mysteriously appeared in his lab. Some pairs of imons in the lab can be entangled, and each imon can participate in many entanglement relations. The physicist has found a way to perform the following two kinds of operations with these particles, one operation at a time.
+(i) If some imon is entangled with an odd number of other imons in the lab, then the physicist can destroy it.
+(ii) At any moment, he may double the whole family of imons in the lab by creating a copy $I'$ of each imon $I$. During this procedure, the two copies $I'$ and $J'$ become entangled if and only if the original imons $I$ and $J$ are entangled, and each copy $I'$ becomes entangled with its original imon $I$; no other entanglements occur or disappear at this moment.
+
+Prove that the physicist may apply a sequence of much operations resulting in a family of imons, no two of which are entangled.",,-1,-1
+2013 IMO Shortlist,2013 ,C4,"Let $n$ be a positive integer, and let $A$ be a subset of $\{ 1,\cdots ,n\}$. An $A$-partition of $n$ into $k$ parts is a representation of n as a sum $n = a_1 + \cdots + a_k$, where the parts $a_1 , \cdots , a_k $ belong to $A$ and are not necessarily distinct. The number of different parts in such a partition is the number of (distinct) elements in the set $\{ a_1 , a_2 , \cdots , a_k \} $.
+We say that an $A$-partition of $n$ into $k$ parts is optimal if there is no $A$-partition of $n$ into $r$ parts with $r<k$. Prove that any optimal $A$-partition of $n$ contains at most $\sqrt[3]{6n}$ different parts.",,-1,-1
+2013 IMO Shortlist,2013 ,C5,"Let $r$ be a positive integer, and let $a_0 , a_1 , \cdots $ be an infinite sequence of real numbers. Assume that for all nonnegative integers $m$ and $s$ there exists a positive integer $n \in [m+1, m+r]$ such that
+\[ a_m + a_{m+1} +\cdots +a_{m+s} = a_n + a_{n+1} +\cdots +a_{n+s} \]
+Prove that the sequence is periodic, i.e. there exists some $p \ge 1 $ such that $a_{n+p} =a_n $ for all $n \ge 0$.",,-1,-1
+2013 IMO Shortlist,2013 ,C6,In some country several pairs of cities are connected by direct two-way flights. It is possible to go from any city to any other by a sequence of flights. The distance between two cities is defined to be the least possible numbers of flights required to go from one of them to the other. It is known that for any city there are at most $100$ cities at distance exactly three from it. Prove that  there is no city such that more than $2550$ other cities have distance exactly four from it.,,-1,-1
+2013 IMO Shortlist,2013 ,C7,"Let $n \ge 3$ be an integer, and consider a circle with $n + 1$ equally spaced points marked on it. Consider all labellings of these points with the numbers $0, 1, ... , n$ such that each label is used exactly once; two such labellings are considered to be the same if one can be obtained from the other by a rotation of the circle. A labelling is called \textit{beautiful} if, for any four labels $a < b < c < d$ with $a + d = b + c$, the chord joining the points labelled $a$ and $d$ does not intersect the chord joining the points labelled $b$ and $c$.
+
+Let $M$ be the number of beautiful labelings, and let N be the number of ordered pairs $(x, y)$ of positive integers such that $x + y \le n$ and $\gcd(x, y) = 1$. Prove that $$M = N + 1.$$",,-1,-1
+2013 IMO Shortlist,2013 ,C8,"Players $A$ and $B$ play a ""paintful"" game on the real line. Player $A$ has a pot of paint with four units of black ink. A quantity $p$ of this ink suffices to blacken a (closed) real interval of length $p$. In every round, player $A$ picks some positive integer $m$ and provides $1/2^m $ units of ink from the pot. Player $B$ then picks an integer $k$ and blackens the interval from $k/2^m$ to $(k+1)/2^m$ (some parts of this interval may have been blackened before). The goal of player $A$ is to reach a situation where the pot is empty and the interval $[0,1]$ is not completely blackened.
+Decide whether there exists a strategy for player $A$ to win in a finite number of moves.",,-1,-1
+2013 IMO Shortlist,2013 ,G1,"Let $ABC$ be an acute triangle with orthocenter $H$, and let $W$ be a point on the side $BC$, lying strictly between $B$ and $C$. The points $M$ and $N$ are the feet of the altitudes from $B$ and $C$, respectively. Denote by $\omega_1$ is the circumcircle of $BWN$, and let $X$ be the point on $\omega_1$ such that $WX$ is a diameter of $\omega_1$. Analogously, denote by $\omega_2$ the circumcircle of triangle $CWM$, and let $Y$ be the point such that $WY$ is a diameter of $\omega_2$. Prove that $X,Y$ and $H$ are collinear.","Warut Suksompong and Potcharapol Suteparuk, Thailand",-1,-1
+2013 IMO Shortlist,2013 ,G2,"Let $\omega$ be the circumcircle of a triangle $ABC$. Denote by $M$ and $N$ the midpoints of the sides $AB$ and $AC$, respectively, and denote by $T$ the midpoint of the arc $BC$ of $\omega$ not containing $A$. The circumcircles of the triangles $AMT$ and $ANT$ intersect the perpendicular bisectors of $AC$ and $AB$ at points $X$ and $Y$, respectively; assume that $X$ and $Y$ lie inside the triangle $ABC$. The lines $MN$ and $XY$ intersect at $K$. Prove that $KA=KT$.",,-1,-1
+2013 IMO Shortlist,2013 ,G3,"In a triangle $ABC$, let $D$ and $E$ be the feet of the angle bisectors of angles $A$ and $B$, respectively. A rhombus is inscribed into the quadrilateral $AEDB$ (all vertices of the rhombus lie on different sides of $AEDB$). Let $\varphi$ be the non-obtuse angle of the rhombus. Prove that $\varphi \le \max \{  \angle BAC, \angle ABC  \}$.",,-1,-1
+2013 IMO Shortlist,2013 ,G4,Let $ABC$ be a triangle with $\angle B > \angle C$. Let $P$ and $Q$ be two different points on line $AC$ such that $\angle PBA = \angle QBA = \angle ACB $ and $A$ is located between $P$ and $C$. Suppose that there exists an interior point $D$ of segment $BQ$ for which $PD=PB$. Let the ray $AD$ intersect the circle $ABC$ at $R \neq A$. Prove that $QB = QR$.,,-1,-1
+2013 IMO Shortlist,2013 ,G5,"Let $ABCDEF$ be a convex hexagon with $AB=DE$, $BC=EF$, $CD=FA$, and $\angle A-\angle D = \angle C -\angle F = \angle E -\angle B$. Prove that the diagonals $AD$, $BE$, and $CF$ are concurrent.",,-1,-1
+2013 IMO Shortlist,2013 ,G6,"Let the excircle of triangle $ABC$ opposite the vertex $A$ be tangent to the side $BC$ at the point $A_1$. Define the points $B_1$ on $CA$ and $C_1$ on $AB$ analogously, using the excircles opposite $B$ and $C$, respectively. Suppose that the circumcentre of triangle $A_1B_1C_1$ lies on the circumcircle of triangle $ABC$. Prove that triangle $ABC$ is right-angled.","Alexander A. Polyansky, Russia",-1,-1
+2013 IMO Shortlist,2013 ,N1,"Let $\mathbb{Z} _{>0}$ be the set of positive integers. Find all functions  $f: \mathbb{Z} _{>0}\rightarrow \mathbb{Z} _{>0}$ such that
+\[ m^2 + f(n) \mid mf(m) +n \]
+for all positive integers $m$ and $n$.",,-1,-1
+2013 IMO Shortlist,2013 ,N2,"Assume that $k$ and $n$ are two positive integers. Prove that there exist positive integers $m_1 , \dots , m_k$ such that \[1+\frac{2^k-1}{n}=\left(1+\frac1{m_1}\right)\cdots \left(1+\frac1{m_k}\right).\]",Japan,-1,-1
+2013 IMO Shortlist,2013 ,N3,Prove that there exist infinitely many positive integers $n$ such that the largest prime divisor of $n^4 + n^2 + 1$ is equal to the largest prime divisor of $(n+1)^4 + (n+1)^2 +1$.,,-1,-1
+2013 IMO Shortlist,2013 ,N4,"Determine whether there exists an infinite sequence of nonzero digits $a_1 , a_2 , a_3 , \cdots $ and a positive integer $N$ such that for every integer $k > N$, the number $\overline{a_k a_{k-1}\cdots a_1 }$ is a perfect square.",,-1,-1
+2013 IMO Shortlist,2013 ,N5,"Fix an integer $k>2$. Two players, called Ana and Banana, play the following game of numbers. Initially, some integer $n \ge k$ gets written on the blackboard. Then they take moves in turn, with Ana beginning. A player making a move erases the number $m$ just written on the blackboard and replaces it by some number $m'$ with $k \le m' < m$ that is coprime to $m$. The first player who cannot move anymore loses.
+
+An integer $n \ge k $ is called good if Banana has a winning strategy when the initial number is $n$, and bad otherwise.
+
+Consider two integers $n,n' \ge k$ with the property that each prime number $p \le k$ divides $n$ if and only if it divides $n'$. Prove that either both $n$ and $n'$ are good or both are bad.",,-1,-1
+2013 IMO Shortlist,2013 ,N6,"Determine all functions $f: \mathbb{Q} \rightarrow \mathbb{Z} $ satisfying
+\[ f \left( \frac{f(x)+a} {b}\right) = f \left( \frac{x+a}{b} \right) \]
+for all  $x \in \mathbb{Q}$, $a \in \mathbb{Z}$, and $b \in \mathbb{Z}_{>0}$. (Here, $\mathbb{Z}_{>0}$ denotes the set of positive integers.)",,-1,-1
+2013 IMO Shortlist,2013 ,N7,"Let $\nu$ be an irrational positive number, and let $m$ be a positive integer. A pair of $(a,b)$ of positive integers is called \textit{good} if
+\[a \left \lceil b\nu \right \rceil - b \left \lfloor a \nu \right \rfloor = m.\] A good pair $(a,b)$ is called \textit{excellent} if neither of the pair $(a-b,b)$ and $(a,b-a)$ is good.
+
+Prove that the number of excellent pairs is equal to the sum of the positive divisors of $m$.",,-1,-1
+2012 IMO Shortlist,2012 ,A1,"Find all functions $f:\mathbb Z\rightarrow \mathbb Z$ such that, for all integers $a,b,c$ that satisfy $a+b+c=0$, the following equality holds:
+\[f(a)^2+f(b)^2+f(c)^2=2f(a)f(b)+2f(b)f(c)+2f(c)f(a).\]
+(Here $\mathbb{Z}$ denotes the set of integers.)","Liam Baker, South Africa",-1,-1
+2012 IMO Shortlist,2012 ,A2,"Let $\mathbb{Z}$ and $\mathbb{Q}$ be the sets of integers and rationals respectively.
+a) Does there exist a partition of $\mathbb{Z}$ into three non-empty subsets $A,B,C$ such that the sets $A+B, B+C, C+A$ are disjoint?
+b) Does there exist a partition of $\mathbb{Q}$ into three non-empty subsets $A,B,C$ such that the sets $A+B, B+C, C+A$ are disjoint?
+
+Here $X+Y$ denotes the set $\{ x+y : x \in X, y \in Y \}$, for $X,Y \subseteq \mathbb{Z}$ and  for $X,Y \subseteq \mathbb{Q}$.",,-1,-1
+2012 IMO Shortlist,2012 ,A3,"Let $n\ge 3$ be an integer, and let $a_2,a_3,\ldots ,a_n$ be positive real numbers such that $a_{2}a_{3}\cdots a_{n}=1$. Prove that
+\[(1 + a_2)^2 (1 + a_3)^3 \dotsm (1 + a_n)^n > n^n.\]","Angelo Di Pasquale, Australia",-1,-1
+2012 IMO Shortlist,2012 ,A4,Let $f$ and $g$ be two nonzero polynomials with integer coefficients and $\deg f>\deg g$.  Suppose that for infinitely many primes $p$ the polynomial $pf+g$ has a rational root. Prove that $f$ has a rational root.,,-1,-1
+2012 IMO Shortlist,2012 ,A5,"Find all functions $f:\mathbb{R} \rightarrow \mathbb{R}$ that satisfy the conditions
+\[f(1+xy)-f(x+y)=f(x)f(y) \quad \text{for all } x,y \in \mathbb{R},\]
+and $f(-1) \neq 0$.",,-1,-1
+2012 IMO Shortlist,2012 ,A6,"Let $f: \mathbb{N} \rightarrow \mathbb{N}$ be a function, and let $f^m$ be $f$ applied $m$ times. Suppose that for every $n \in \mathbb{N}$ there exists a $k \in \mathbb{N}$ such that $f^{2k}(n)=n+k$, and let $k_n$ be the smallest such $k$. Prove that the sequence $k_1,k_2,\ldots $ is unbounded.","Palmer Mebane, United States",-1,-1
+2012 IMO Shortlist,2012 ,A7,"We say that a function $f:\mathbb{R}^k \rightarrow \mathbb{R}$ is a metapolynomial if, for some positive integers $m$ and $n$, it can be represented in the form
+\[f(x_1,\cdots , x_k )=\max_{i=1,\cdots , m} \min_{j=1,\cdots , n}P_{i,j}(x_1,\cdots , x_k),\]
+where $P_{i,j}$ are multivariate polynomials. Prove that the product of two metapolynomials is also a metapolynomial.",,-1,-1
+2012 IMO Shortlist,2012 ,C1,"Several positive integers are written in a row. Iteratively, Alice chooses two adjacent numbers $x$ and $y$ such that $x>y$ and $x$ is to the left of $y$, and replaces the pair $(x,y)$ by either $(y+1,x)$ or $(x-1,x)$. Prove that she can perform only finitely many such iterations.","Warut Suksompong, Thailand",-1,-1
+2012 IMO Shortlist,2012 ,C2,"Let $n \geq 1$ be an integer. What is the maximum number of disjoint pairs of elements of the set $\{ 1,2,\ldots , n \}$ such that the sums of the different pairs are different integers not exceeding $n$?",,-1,-1
+2012 IMO Shortlist,2012 ,C3,"In a $999 \times 999$ square table some cells are white and the remaining ones are red. Let $T$ be the number of triples $(C_1,C_2,C_3)$ of cells, the first two in the same row and the last two in the same column, with $C_1,C_3$ white and $C_2$ red. Find the maximum value $T$ can attain.","Merlijn Staps, The Netherlands",-1,-1
+2012 IMO Shortlist,2012 ,C4,"Players $A$ and $B$ play a game with $N \geq 2012$ coins and $2012$ boxes arranged around a circle. Initially $A$ distributes the coins among the boxes so that there is at least $1$ coin in each box. Then the two of them make moves in the order $B,A,B,A,\ldots $ by the following rules:
+\textbf{(a)} On every move of his $B$ passes $1$ coin from every box to an adjacent box.
+\textbf{(b)} On every move of hers $A$ chooses several coins that were \textit{not} involved in $B$'s previous move and are in different boxes. She passes every coin to an adjacent box.
+Player $A$'s goal is to ensure at least $1$ coin in each box after every move of hers, regardless of how $B$ plays and how many moves are made. Find the least $N$ that enables her to succeed.",,-1,-1
+2012 IMO Shortlist,2012 ,C5,"The columns and the row of a $3n \times 3n$ square board are numbered $1,2,\ldots ,3n$. Every square $(x,y)$ with $1 \leq x,y \leq 3n$ is colored asparagus, byzantium or citrine according as the modulo $3$ remainder of $x+y$ is $0,1$ or $2$ respectively. One token colored asparagus, byzantium or citrine is placed on each square, so that there are $3n^2$ tokens of each color.
+Suppose that one can permute the tokens so that each token is moved to a distance of at most $d$ from its original position, each asparagus token replaces a byzantium token, each byzantium token replaces a citrine token, and each citrine token replaces an asparagus token. Prove that it is possible to permute the tokens so that each token is moved to a distance of at most $d+2$ from its original position, and each square contains a token with the same color as the square.",,-1,-1
+2012 IMO Shortlist,2012 ,C6,"The \textit{liar's guessing game} is a game played between two players $A$ and $B$. The rules of the game depend on two positive integers $k$ and $n$ which are known to both players.
+
+At the start of the game $A$ chooses integers $x$ and $N$ with $1 \le x \le N.$ Player $A$ keeps $x$ secret, and truthfully tells $N$ to player $B$. Player $B$ now tries to obtain information about $x$ by asking player $A$ questions as follows: each question consists of $B$ specifying an arbitrary set $S$ of positive integers (possibly one specified in some previous question), and asking $A$ whether $x$ belongs to $S$. Player $B$ may ask as many questions as he wishes. After each question, player $A$ must immediately answer it with \textit{yes} or \textit{no}, but is allowed to lie as many times as she wants; the only restriction is that, among any $k+1$ consecutive answers, at least one answer must be truthful.
+
+After $B$ has asked as many questions as he wants, he must specify a set $X$ of at most $n$ positive integers. If $x$ belongs to $X$, then $B$ wins; otherwise, he loses. Prove that:
+
+1. If $n \ge 2^k,$ then $B$ can guarantee a win.
+2. For all sufficiently large $k$, there exists an integer $n \ge (1.99)^k$ such that $B$ cannot guarantee a win.","David Arthur, Canada",-1,-1
+2012 IMO Shortlist,2012 ,C7,"There are given $2^{500}$ points on a circle labeled $1,2,\ldots ,2^{500}$ in some order. Prove that one can choose $100$ pairwise disjoint chords joining some of theses points so that the $100$ sums of the pairs of numbers at the endpoints of the chosen chord are equal.",,-1,-1
+2012 IMO Shortlist,2012 ,G1,"Given triangle $ABC$ the point $J$ is the centre of the excircle opposite the vertex $A.$ This excircle is tangent to the side $BC$ at $M$, and to the lines $AB$ and $AC$ at $K$ and $L$, respectively. The lines $LM$ and $BJ$ meet at $F$, and the lines $KM$ and $CJ$ meet at $G.$ Let $S$ be the point of intersection of the lines $AF$ and $BC$, and let $T$ be the point of intersection of the lines $AG$ and $BC.$ Prove that $M$ is the midpoint of $ST.$
+
+(The \textit{excircle} of $ABC$ opposite the vertex $A$ is the circle that is tangent to the line segment $BC$, to the ray $AB$ beyond $B$, and to the ray $AC$ beyond $C$.)","Evangelos Psychas, Greece",-1,-1
+2012 IMO Shortlist,2012 ,G2,"Let $ABCD$ be a cyclic quadrilateral whose diagonals $AC$ and $BD$ meet at $E$. The extensions of the sides $AD$ and $BC$ beyond $A$ and $B$ meet at $F$. Let $G$ be the point such that $ECGD$ is a parallelogram, and let $H$ be the image of $E$ under reflection in $AD$. Prove that $D,H,F,G$ are concyclic.",,-1,-1
+2012 IMO Shortlist,2012 ,G3,"In an acute triangle $ABC$ the points $D,E$ and $F$ are the feet of the altitudes through $A,B$ and $C$ respectively. The incenters of the triangles $AEF$ and $BDF$ are $I_1$ and $I_2$ respectively; the circumcenters of the triangles $ACI_1$ and $BCI_2$ are $O_1$ and $O_2$ respectively. Prove that $I_1I_2$ and $O_1O_2$ are parallel.",,-1,-1
+2012 IMO Shortlist,2012 ,G4,Let $ABC$ be a triangle with $AB \neq AC$ and circumcenter $O$. The bisector of $\angle BAC$ intersects $BC$ at $D$. Let $E$ be the reflection of $D$ with respect to the midpoint of $BC$. The lines through $D$ and $E$ perpendicular to $BC$ intersect the lines $AO$ and $AD$ at $X$ and $Y$ respectively. Prove that the quadrilateral $BXCY$ is cyclic.,,-1,-1
+2012 IMO Shortlist,2012 ,G5,"Let $ABC$ be a triangle with $\angle BCA=90^{\circ}$, and let $D$ be the foot of the altitude from $C$. Let $X$ be a point in the interior of the segment $CD$. Let $K$ be the point on the segment $AX$ such that $BK=BC$. Similarly, let $L$ be the point on the segment $BX$ such that $AL=AC$. Let $M$ be the point of intersection of $AL$ and $BK$.
+
+Show that $MK=ML$.","Josef Tkadlec, Czech Republic",-1,-1
+2012 IMO Shortlist,2012 ,G6,"Let $ABC$ be a triangle with circumcenter $O$ and incenter $I$. The points $D,E$ and $F$ on the sides $BC,CA$ and $AB$ respectively are such that $BD+BF=CA$ and $CD+CE=AB$. The circumcircles of the triangles $BFD$ and $CDE$ intersect at $P \neq D$. Prove that $OP=OI$.",,-1,-1
+2012 IMO Shortlist,2012 ,G7,Let $ABCD$ be a convex quadrilateral with non-parallel sides $BC$ and $AD$. Assume that there is a point $E$ on the side $BC$ such that the quadrilaterals $ABED$ and $AECD$ are circumscribed. Prove that there is a point $F$ on the side $AD$ such that the quadrilaterals $ABCF$ and $BCDF$ are circumscribed if and only if $AB$ is parallel to $CD$.,,-1,-1
+2012 IMO Shortlist,2012 ,G8,"Let $ABC$ be a triangle with circumcircle $\omega$ and $\ell$ a line without common points with $\omega$. Denote by $P$ the foot of the perpendicular from the center of $\omega$ to $\ell$. The side-lines $BC,CA,AB$ intersect $\ell$ at the points $X,Y,Z$ different from $P$. Prove that the circumcircles of the triangles $AXP$, $BYP$ and $CZP$ have a common point different from $P$ or are mutually tangent at $P$.","Cosmin Pohoata, Romania",-1,-1
+2012 IMO Shortlist,2012 ,N1,"Call admissible a set $A$ of integers that has the following property:
+If $x,y \in A$ (possibly $x=y$) then $x^2+kxy+y^2 \in A$ for every integer $k$.
+Determine all pairs $m,n$ of nonzero integers such that the only admissible set containing both $m$ and $n$ is the set of all integers.","Warut Suksompong, Thailand",-1,-1
+2012 IMO Shortlist,2012 ,N2,"Find all triples $(x,y,z)$ of positive integers such that $x \leq y \leq z$ and
+\[x^3(y^3+z^3)=2012(xyz+2).\]",,-1,-1
+2012 IMO Shortlist,2012 ,N3,Determine all integers $m \geq 2$ such that every $n$ with $\frac{m}{3} \leq n \leq \frac{m}{2}$ divides the binomial coefficient $\binom{n}{m-2n}$.,,-1,-1
+2012 IMO Shortlist,2012 ,N4,"An integer $a$ is called friendly if the equation $(m^2+n)(n^2+m)=a(m-n)^3$ has a solution over the positive integers.
+\textbf{a)} Prove that there are at least $500$ friendly integers in the set $\{ 1,2,\ldots ,2012\}$.
+\textbf{b)} Decide whether $a=2$ is friendly.",,-1,-1
+2012 IMO Shortlist,2012 ,N5,"For a nonnegative integer $n$ define $\operatorname{rad}(n)=1$ if $n=0$ or $n=1$, and $\operatorname{rad}(n)=p_1p_2\cdots p_k$ where $p_1<p_2<\cdots <p_k$ are all prime factors of $n$. Find all polynomials $f(x)$ with nonnegative integer coefficients such that $\operatorname{rad}(f(n))$ divides $\operatorname{rad}(f(n^{\operatorname{rad}(n)}))$ for every nonnegative integer $n$.",,-1,-1
+2012 IMO Shortlist,2012 ,N6,"Let $x$ and $y$ be positive integers. If ${x^{2^n}}-1$ is divisible by $2^ny+1$ for every positive integer $n$, prove that $x=1$.",,-1,-1
+2012 IMO Shortlist,2012 ,N7,"Find all positive integers $n$ for which there exist non-negative integers $a_1, a_2, \ldots, a_n$ such that
+\[
+\frac{1}{2^{a_1}} + \frac{1}{2^{a_2}} + \cdots + \frac{1}{2^{a_n}} = 
+\frac{1}{3^{a_1}} + \frac{2}{3^{a_2}} + \cdots + \frac{n}{3^{a_n}} = 1.
+\]","Dusan Djukic, Serbia",-1,-1
+2012 IMO Shortlist,2012 ,N8,"Prove that for every prime $p>100$ and every integer $r$, there exist two integers $a$ and $b$ such that $p$ divides $a^2+b^5-r$.",,-1,-1
+2011 IMO Shortlist,2011 ,1,"Given any set $A = \{a_1, a_2, a_3, a_4\}$ of four distinct positive integers, we denote the sum $a_1 +a_2 +a_3 +a_4$ by $s_A$. Let $n_A$ denote the number of pairs $(i, j)$ with $1 \leq  i < j \leq 4$ for which $a_i +a_j$ divides $s_A$. Find all sets $A$ of four distinct positive integers which achieve the largest possible value of $n_A$.","Fernando Campos, Mexico",-1,-1
+2011 IMO Shortlist,2011 ,2,"Determine all sequences $(x_1,x_2,\ldots,x_{2011})$ of positive integers, such that for every positive integer $n$ there exists an integer $a$ with \[\sum^{2011}_{j=1} j  x^n_j = a^{n+1} + 1\]","Warut Suksompong, Thailand",-1,-1
+2011 IMO Shortlist,2011 ,3,"Determine all pairs $(f,g)$ of functions from the set of real numbers to itself that satisfy \[g(f(x+y)) = f(x) + (2x + y)g(y)\] for all real numbers $x$ and $y$.",Japan,-1,-1
+2011 IMO Shortlist,2011 ,4,"Determine all pairs $(f,g)$ of functions from the set of positive integers to itself that satisfy \[f^{g(n)+1}(n) + g^{f(n)}(n) = f(n+1) - g(n+1) + 1\] for every positive integer $n$. Here, $f^k(n)$ means $\underbrace{f(f(\ldots f)}_{k}(n) \ldots ))$.","Bojan Bašić, Serbia",-1,-1
+2011 IMO Shortlist,2011 ,5,"Prove that for every positive integer $n,$ the set $\{2,3,4,\ldots,3n+1\}$ can be partitioned into $n$ triples in such a way that the numbers from each triple are the lengths of the sides of some obtuse triangle.",Canada,-1,-1
+2011 IMO Shortlist,2011 ,6,"Let $f : \mathbb R \to \mathbb R$ be a real-valued function defined on the set of real numbers that satisfies
+\[f(x + y) \leq yf(x) + f(f(x))\]
+for all real numbers $x$ and $y$. Prove that $f(x) = 0$ for all $x \leq 0$.","Igor Voronovich, Belarus",-1,-1
+2011 IMO Shortlist,2011 ,7,"Let $a,b$ and $c$ be positive real numbers satisfying $\min(a+b,b+c,c+a) > \sqrt{2}$ and $a^2+b^2+c^2=3.$ Prove that
+
+\[\frac{a}{(b+c-a)^2} + \frac{b}{(c+a-b)^2} + \frac{c}{(a+b-c)^2} \geq \frac{3}{(abc)^2}.\]","Titu Andreescu, Saudi Arabia",-1,-1
+2011 IMO Shortlist,2011 ,1,"Let $n > 0$ be an integer. We are given a balance and $n$ weights of weight $2^0, 2^1, \cdots, 2^{n-1}$. We are to place each of the $n$ weights on the balance, one after another, in such a way that the right pan is never heavier than the left pan. At each step we choose one of the weights that has not yet been placed on the balance, and place it on either the left pan or the right pan, until all of the weights have been placed.
+Determine the number of ways in which this can be done.","Morteza Saghafian, Iran",-1,-1
+2011 IMO Shortlist,2011 ,2,"Suppose that $1000$ students are standing in a circle. Prove that there exists an integer $k$ with $100 \leq k \leq 300$ such that in this circle there exists a contiguous group of $2k$ students, for which the first half contains the same number of girls as the second half.","Gerhard Wöginger, Austria",-1,-1
+2011 IMO Shortlist,2011 ,3,"Let $\mathcal{S}$ be a finite set of at least two points in the plane. Assume that no three points of $\mathcal S$ are collinear. A \textit{windmill} is a process that starts with a line $\ell$ going through a single point $P \in \mathcal S$. The line rotates clockwise about the \textit{pivot} $P$ until the first time that the line meets some other point belonging to $\mathcal S$. This point, $Q$, takes over as the new pivot, and the line now rotates clockwise about $Q$, until it next meets a point of $\mathcal S$. This process continues indefinitely.
+Show that we can choose a point $P$ in $\mathcal S$ and a line $\ell$ going through $P$ such that the resulting windmill uses each point of $\mathcal S$ as a pivot infinitely many times.","Geoffrey Smith, United Kingdom",-1,-1
+2011 IMO Shortlist,2011 ,4,"Determine the greatest positive integer $k$ that satisfies the following property: The set of positive integers can be partitioned into $k$ subsets $A_1, A_2, \ldots, A_k$ such that for all integers $n \geq 15$ and all $i \in \{1, 2, \ldots, k\}$ there exist two distinct elements of $A_i$ whose sum is $n.$","Igor Voronovich, Belarus",-1,-1
+2011 IMO Shortlist,2011 ,5,"Let $m$ be a positive integer, and consider a $m\times m$ checkerboard consisting of unit squares. At the centre of some of these unit squares there is an ant. At time $0$, each ant starts moving with speed $1$ parallel to some edge of the checkerboard. When two ants moving in the opposite directions meet, they both turn $90^{\circ}$ clockwise and continue moving with speed $1$. When more than $2$ ants meet, or when two ants moving in perpendicular directions meet, the ants continue moving in the same direction as before they met. When an ant reaches one of the edges of the checkerboard, it falls off and will not re-appear.
+
+Considering all possible starting positions, determine the latest possible moment at which the last ant falls off the checkerboard, or prove that such a moment does not necessarily exist.","Toomas Krips, Estonia",-1,-1
+2011 IMO Shortlist,2011 ,6,"Let $n$ be a positive integer, and let $W = \ldots x_{-1}x_0x_1x_2 \ldots$ be an infinite periodic word, consisting of just letters $a$ and/or $b$. Suppose that the minimal period $N$ of $W$ is greater than $2^n$.
+
+A finite nonempty word $U$ is said to \textit{appear} in $W$ if there exist indices $k \leq \ell$ such that $U=x_k x_{k+1} \ldots x_{\ell}$. A finite word $U$ is called \textit{ubiquitous} if the four words $Ua$, $Ub$, $aU$, and $bU$ all appear in $W$. Prove that there are at least $n$ ubiquitous finite nonempty words.","Grigory Chelnokov, Russia",-1,-1
+2011 IMO Shortlist,2011 ,7,"On a square table of $2011$ by $2011$ cells we place a finite number of napkins that each cover a square of $52$ by $52$ cells. In each cell we write the number of napkins covering it, and we record the maximal number $k$ of cells that all contain the same nonzero number. Considering all possible napkin configurations, what is the largest value of $k$?","Ilya Bogdanov and Rustem Zhenodarov, Russia",-1,-1
+2011 IMO Shortlist,2011 ,1,Let $ABC$ be an acute triangle. Let $\omega$ be a circle whose centre $L$ lies on the side $BC$. Suppose that $\omega$ is tangent to $AB$ at $B'$ and $AC$ at $C'$. Suppose also that the circumcentre $O$ of triangle $ABC$ lies on the shorter arc $B'C'$ of $\omega$. Prove that the circumcircle of $ABC$ and $\omega$ meet at two points.,"Härmel Nestra, Estonia",-1,-1
+2011 IMO Shortlist,2011 ,2,"Let $A_1A_2A_3A_4$ be a non-cyclic quadrilateral. Let $O_1$ and $r_1$ be the circumcentre and the circumradius of the triangle $A_2A_3A_4$. Define $O_2,O_3,O_4$ and $r_2,r_3,r_4$ in a similar way. Prove that
+\[\frac{1}{O_1A_1^2-r_1^2}+\frac{1}{O_2A_2^2-r_2^2}+\frac{1}{O_3A_3^2-r_3^2}+\frac{1}{O_4A_4^2-r_4^2}=0.\]","Alexey Gladkich, Israel",-1,-1
+2011 IMO Shortlist,2011 ,3,"Let $ABCD$ be a convex quadrilateral whose sides $AD$ and $BC$ are not parallel. Suppose that the circles with diameters $AB$ and $CD$ meet at points $E$ and $F$ inside the quadrilateral. Let $\omega_E$ be the circle through the feet of the perpendiculars from $E$ to the lines $AB,BC$ and $CD$. Let $\omega_F$ be the circle through  the feet of the perpendiculars from $F$ to the lines $CD,DA$ and $AB$. Prove that the midpoint of the segment $EF$ lies on the line through the two intersections of $\omega_E$ and $\omega_F$.","Carlos Yuzo Shine, Brazil",-1,-1
+2011 IMO Shortlist,2011 ,4,"Let $ABC$ be an acute triangle with circumcircle $\Omega$. Let $B_0$ be the midpoint of $AC$ and let $C_0$ be the midpoint of $AB$. Let $D$ be the foot of the altitude from $A$ and let $G$ be the centroid of the triangle $ABC$. Let $\omega$ be a circle through $B_0$ and $C_0$ that is tangent to the circle $\Omega$ at a point $X\not= A$. Prove that the points $D,G$ and $X$ are collinear.","Ismail Isaev and Mikhail Isaev, Russia",-1,-1
+2011 IMO Shortlist,2011 ,5,"Let $ABC$ be a triangle with incentre $I$ and circumcircle $\omega$. Let $D$ and $E$ be the second intersection points of $\omega$ with $AI$ and $BI$, respectively. The chord $DE$ meets $AC$ at a point $F$, and $BC$ at a point $G$. Let $P$ be the intersection point of the line through $F$ parallel to $AD$ and the line through $G$ parallel to $BE$. Suppose that the tangents to $\omega$ at $A$ and $B$ meet at a point $K$. Prove that the three lines $AE,BD$ and $KP$ are either parallel or concurrent.","Irena Majcen and Kris Stopar, Slovenia",-1,-1
+2011 IMO Shortlist,2011 ,6,"Let $ABC$ be a triangle with $AB=AC$ and let $D$ be the midpoint of $AC$. The angle bisector of $\angle BAC$ intersects the circle through $D,B$  and $C$ at the point $E$  inside the triangle $ABC$. The line $BD$ intersects the circle through $A,E$ and $B$ in two points $B$ and $F$. The lines $AF$ and $BE$ meet at a point $I$, and the lines $CI$ and $BD$ meet at a point $K$. Show that $I$ is the incentre of triangle $KAB$.","Jan Vonk, Belgium and Hojoo Lee, South Korea",-1,-1
+2011 IMO Shortlist,2011 ,7,Let $ABCDEF$ be a convex hexagon all of whose sides are tangent to a circle $\omega$ with centre $O$. Suppose that the circumcircle of triangle $ACE$ is concentric with $\omega$. Let $J$ be the foot of the perpendicular from $B$ to $CD$. Suppose that the perpendicular from $B$ to $DF$ intersects the line $EO$ at a point $K$. Let $L$ be the foot of the perpendicular from $K$ to $DE$. Prove that $DJ=DL$.,Japan,-1,-1
+2011 IMO Shortlist,2011 ,8,"Let $ABC$ be an acute triangle with circumcircle $\Gamma$. Let $\ell$ be a tangent line to $\Gamma$, and let $\ell_a, \ell_b$ and $\ell_c$ be the lines obtained by reflecting $\ell$ in the lines $BC$, $CA$ and $AB$, respectively. Show that the circumcircle of the triangle determined by the lines $\ell_a, \ell_b$ and $\ell_c$ is tangent to the circle $\Gamma$.",Japan,-1,-1
+2011 IMO Shortlist,2011 ,1,"For any integer $d > 0,$ let $f(d)$ be the smallest possible integer that has exactly $d$ positive divisors (so for example we have $f(1)=1, f(5)=16,$ and $f(6)=12$). Prove that for every integer $k \geq 0$ the number $f\left(2^k\right)$ divides $f\left(2^{k+1}\right).$","Suhaimi Ramly, Malaysia",-1,-1
+2011 IMO Shortlist,2011 ,2,"Consider a polynomial $P(x) =  \prod^9_{j=1}(x+d_j),$ where $d_1, d_2, \ldots d_9$ are nine distinct integers. Prove that there exists an integer $N,$ such that for all integers $x \geq N$ the number $P(x)$ is divisible by a prime number greater than 20.",Luxembourg,-1,-1
+2011 IMO Shortlist,2011 ,3,"Let $n \geq 1$ be an odd integer. Determine all functions $f$ from the set of integers to itself, such that for all integers $x$ and $y$ the difference $f(x)-f(y)$ divides $x^n-y^n.$","Mihai Baluna, Romania",-1,-1
+2011 IMO Shortlist,2011 ,4,"For each positive integer $k,$ let $t(k)$ be the largest odd divisor of $k.$ Determine all positive integers $a$ for which there exists a positive integer $n,$ such that all the differences
+
+\[t(n+a)-t(n); t(n+a+1)-t(n+1), \ldots, t(n+2a-1)-t(n+a-1)\] are divisible by 4.","Gerhard Wöginger, Austria",-1,-1
+2011 IMO Shortlist,2011 ,5,"Let $f$ be a function from the set of integers to the set of positive integers. Suppose that, for any two integers $m$ and $n$, the difference $f(m) - f(n)$ is divisible by $f(m- n)$. Prove that, for all integers $m$ and $n$ with $f(m) \leq f(n)$, the number $f(n)$ is divisible by $f(m)$.","Mahyar Sefidgaran, Iran",-1,-1
+2011 IMO Shortlist,2011 ,6,"Let $P(x)$ and $Q(x)$ be two polynomials with integer coefficients, such that no nonconstant polynomial with rational coefficients divides both $P(x)$ and $Q(x).$ Suppose that for every positive integer $n$ the integers $P(n)$ and $Q(n)$ are positive, and $2^{Q(n)}-1$ divides $3^{P(n)}-1.$ Prove that $Q(x)$ is a constant polynomial.","Oleksiy Klurman, Ukraine",-1,-1
+2011 IMO Shortlist,2011 ,7,"Let $p$ be an odd prime number. For every integer $a,$ define the number $S_a = \sum^{p-1}_{j=1} \frac{a^j}{j}.$ Let $m,n \in \mathbb{Z},$ such that $S_3 + S_4 - 3S_2 = \frac{m}{n}.$ Prove that $p$ divides $m.$","Romeo Meštrović, Montenegro",-1,-1
+2011 IMO Shortlist,2011 ,8,"Let $k \in \mathbb{Z}^+$ and set $n=2^k+1.$ Prove that $n$ is a prime number if and only if the following holds: there is a permutation $a_{1},\ldots,a_{n-1}$ of the numbers $1,2, \ldots, n-1$ and a sequence of integers $g_{1},\ldots,g_{n-1},$ such that $n$ divides $g^{a_i}_i - a_{i+1}$ for every $i \in \{1,2,\ldots,n-1\},$ where we set $a_n = a_1.$","Vasily Astakhov, Russia",-1,-1
