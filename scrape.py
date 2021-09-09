@@ -2,40 +2,47 @@ from selenium import webdriver
 from bs4 import Tag, NavigableString, BeautifulSoup
 import pandas as pd
 import time
-from collections import deque
 import random
 import re
 from find_author import inc_author, extract_author, split_problem_author
 
+
+start_link = "https://artofproblemsolving.com/community/c3414_amc_10"
+AOPS = "https://artofproblemsolving.com"
+problems=[]
+
+
 class Problem:
-	def __init__(self, source="", year=-1, label="", statement="", author="", difficulty=-1, rating=-1):
+	"""The data structure for Problems."""
+	def __init__(self, source="", subtitle="", year=-1, label="", author="", statement="", difficulty=-1, rating=-1, url="", raw=""):
 		self.source = source
+		self.subtitle = subtitle
 		self.year = year
 		self.label = label
-		self.statement = statement
 		self.author = author
+		self.statement = statement
 		self.difficulty = difficulty
 		self.rating = rating
+		self.url = url
+		self.raw = raw
 	def pretty_print(self):
-		stri = "=================================\n"
-		stri += "SOURCE: " + self.source + "\n"
-		stri += "YEAR: " + str(self.year) + "\n"
-		stri += "LABEL: " + self.label + "\n"
-		stri += "AUTHOR: " + self.author + "\n"
-		stri += "DIFFICULTY: " + str(self.difficulty) + "\n"
-		stri += "RATING: " + str(self.rating) + "\n"
-		stri += "\n"
-		stri += self.statement + "\n"
-		return stri
-	
-
-problems=[]
-linkstack=deque()
-namestack=deque()
-AOPS = "https://artofproblemsolving.com"
-driver = webdriver.Chrome("/snap/chromium/current/usr/lib/chromium-browser/chromedriver")
+		msg = "=================================\n"
+		msg += "SOURCE: " + self.source + "\n"
+		msg += "SUBTITLE: " + self.subtitle + "\n"
+		msg += "YEAR: " + str(self.year) + "\n"
+		msg += "LABEL: " + self.label + "\n"
+		msg += "AUTHOR: " + self.author + "\n"
+		msg += "DIFFICULTY: " + str(self.difficulty) + "\n"
+		msg += "RATING: " + str(self.rating) + "\n"
+		msg += "URL: " + self.url + "\n"
+		msg += "\n"
+		msg += self.statement + "\n"
+		return msg
 
 def html_to_latex(temp_html = ""):
+	"""From the HTML, get the latex.
+	
+	Supports italics, bold, enumerate, and itemize."""
 	if temp_html == "":
 		print("GOT EMPTY STRING!!")
 		return ""
@@ -68,63 +75,91 @@ def html_to_latex(temp_html = ""):
 	return temp_statement
 
 def aops_dfs(link = ""):
-	c=0
+	"""Recursive depth-first search on AoPS, starting at the given link."""
 	driver.get(link)
+	folders = 0
 	time.sleep(3.5+random.random())
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	source_ = soup.find(class_ = "cmty-category-cell-title").string.strip()
-	print(source_)
+	folders_now = len(soup.find_all(class_ = "cmty-cat-cell-top-legit"))
+	#Keep scrolling down until no new folders appear.
+	while folders_now > folders:
+		folders = folders_now
+		driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+		time.sleep(3.5+random.random())
+		soup = BeautifulSoup(driver.page_source, 'html.parser')
+		folders_now = len(soup.find_all(class_ = "cmty-cat-cell-top-legit"))
+	
+	page_title = soup.find(class_ = "cmty-category-cell-title").string.strip()
+	print(page_title)
+	print("Number of folders found: " + str(folders_now))
 
-	#If page contains folders
-	if soup.find(class_ = "cmty-cat-cell-top-legit") is not None:
-		for element in soup.find_all(class_ = "cmty-cat-cell-top-legit", limit = 2):
-			aops_dfs(AOPS + str(element.a.get('href')))
+	#If page contains folders, continue with DFS.
+	if folders > 0:
+		for folder in soup.find_all(class_ = "cmty-cat-cell-top-legit"):
+			aops_dfs(AOPS + str(folder.a.get('href')))
 	#If page doesn't contain folders, it contains problems. Scrape time.
 	else:
-		for label_elt in soup.find_all('div', class_="cmty-view-post-item-label"):
-			year_ = -1
-			if re.match('(?:^|\D)((?:19|20)\d{2})(?:$|\D)', source_).group():
-				year_ = re.match('(?:^|\D)((?:19|20)\d{2})(?:$|\D)', source_).group()
-			label_ = ""
-			if label_elt.string:
-				label_ = label_elt.string
-			prob_elt = label_elt.find_next(class_="cmty-view-post-item-text")
+		print("Scrape Time.")
+		labels_since_last_subtitle = 0
+		source_ = page_title.strip(" -")
+		subtitle_ = ""
+		year_ = -1
+		url_ = driver.current_url
+		if re.match('(?:^|\D)((?:19|20)\d{2})(?:$|\D)', source_).group():
+			year_ = re.match('(?:^|\D)((?:19|20)\d{2})(?:$|\D)', source_).group(1)
+		#For each item on the page
+		for item in soup.find_all('div', class_="cmty-view-posts-item"):
+			print("Item found")
 			author_ = ""
+			label_ = ""
+			#Find item's label.
+			if item.find(class_="cmty-view-post-item-label"):
+				print("label found")
+				label_elt = item.find(class_="cmty-view-post-item-label")
+				if label_elt.string:
+					label_ = label_elt.string
+			#No label? We're in a subtitle. Get subtitlem overwrite/append, and continue.
+			elif labels_since_last_subtitle == 0:
+				print("No label found. Continued subtitle found")
+				if subtitle_ != "" and item.find(class_="cmty-view-post-item-text").string:
+					subtitle_ += " -- " + item.find(class_="cmty-view-post-item-text").string
+				elif item.find(class_="cmty-view-post-item-text").string:
+					subtitle_ = item.find(class_="cmty-view-post-item-text").string
+				continue
+			else:
+				print("No label found. New subtitle found")
+				if item.find(class_="cmty-view-post-item-text").string:
+					subtitle_ = item.find(class_="cmty-view-post-item-text").string
+				labels_since_last_subtitle = 0
+				continue
+			#If the label is empty, the item is probably not a problem. Skip item.
+			if label_ == "":
+				print("Label is Empty")
+				continue
+			#Our item has a populated label. Woohoo!
+			labels_since_last_subtitle += 1
+
+			prob_elt = label_elt.find_next(class_="cmty-view-post-item-text")
 			statement_ = html_to_latex(str(prob_elt)).strip()
-			with open("raw_html_to_latex.txt", "a") as g:
-				g.write("====================================\n")
-				g.write(statement_ + "\n")
-			#print(label_)
+			raw_ = statement_
 			has_author = inc_author(statement_)
-			#print("VERDICT: " + str(has_author))
-			# reg = re.match("([\s\S]*)\\\\textit\{Proposed by (.*)\}", statement_)
 			if has_author:
 				author_ = extract_author(statement_)
 				statement_ = split_problem_author(statement_)[0]
-				#print("AUTHOR: " + author_)
-			problems.append(Problem(statement=statement_, source=source_, year=year_, author=author_, label=label_))
+			problems.append(Problem(source_, subtitle_, year_, label_, author_, statement_, -1, -1, url_, raw_))
 
-
-aops_dfs("https://artofproblemsolving.com/community/c3223_imo_shortlist")
+driver = webdriver.Chrome("/snap/chromium/current/usr/lib/chromium-browser/chromedriver")
+aops_dfs(start_link)
 driver.quit()
 
+# with open("scrape.txt", "w") as f:
+# 	for problem in problems:
+# 		f.write(problem.pretty_print())
 
-
-with open("scrapetest.txt", "w") as f:
-	for problem in problems:
-		f.write(problem.pretty_print())
-
-
+#make scrape.csv
 df = pd.DataFrame([vars(v) for v in problems])
-df.to_csv('scrapetest.csv', index=False, encoding='utf-8')
+df.to_csv('scrape.csv', sep='|' ,index=False, encoding='utf-8')
 
-
-# for element in soup.find_all(class_ = "cmty-cat-cell-top-legit", limit=2):
-# 	linkstack.append(element.a.get('href'))
-# 	namestack.append(element.find(class_="cmty-category-cell-title").find(string=True).rstrip().lstrip())
-
-# print(linkstack)
-# print(namestack)
 
 # content = driver.page_source
 # soup = BeautifulSoup(content, 'html.parser')

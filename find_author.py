@@ -39,11 +39,13 @@ statements = []
 # Proposed by David B. Rush, USA""")
 
 textit = "\\textit"
+textbf = "\\textbf"
+dbs = "\\"
 emph = "\\emph"
 close_display = "\]"
 
 def split_problem_author(statement=""):
-	"""Finds the "last line" of a problem statement."""
+	"""Tries to split statement into the parts containing problem and author"""
 	reg = re.match(r"^([\s\S]*\n)(.*)$", statement)
 	if reg is None:
 		reg = re.match(r"^(.*" + re.escape(close_display) + r")((?!" + re.escape(close_display) + r").*)$", statement)
@@ -66,7 +68,7 @@ def split_problem_author(statement=""):
 				problem_part += reg2.group(1)
 				author_part = reg2.group(2)
 	
-	return [problem_part.strip(" ()\t\n"), author_part.strip(" ()\t\n")]
+	return [problem_part.strip(), author_part.strip()]
 
 def inc_author(statement=""):
 	"""Determines whether or not a problem statement includes the author."""
@@ -78,7 +80,7 @@ def inc_author(statement=""):
 	#print("lastline: " + lastline)
 	#print("Length: " + str(len(lastline)))
 
-	#1. Last line contains any country name and is less than 130 chars
+	#1. Last line contains any country name and is less than 130 chars, e.g. Proposed by \textit{India}
 	if len(lastline) < 130:
 		if any(re.match(r".*(?:^|\W)" + re.escape(country) + r"(?:\W|$).*", lastline) for country in countries):
 			#print("Matched a country name and <130 chars")
@@ -87,53 +89,66 @@ def inc_author(statement=""):
 			#print("Matched a country abbreviation and <130 chars")
 			return True
 
-	#2. Last line is fully italicized and less than 100 chars
-	if len(lastline) < 100:
-		if re.match(r".*\\textit\{.*\}", lastline):
-			#print("Matched fully \\textit last line and <100 chars")
+	#2. Last line is italicized and less than 60 chars, e.g. $(Ukraine)$   by \textit{Tony Wang}.
+	if len(lastline) < 60:
+		if re.match(r"^.{0,5}" + re.escape(textit) + r"\{.*?\}.{0,3}$", lastline):
+			#print("Matched \\textit last line and <100 chars")
 			return True
-		if re.match(r"\\emph\{.*\}", lastline):
-			#print("Matched fully \\emph last line and <100 chars")
+		if re.match(r"^.{0,5}" + re.escape(emph) + r"\{.*?\}.{0,3}$", lastline):
+			#print("Matched \\emph last line and <100 chars")
 			return True
-		if re.match(r"(?<!\$)\$(?!\$).*(?<!\$)\$(?!\$)", lastline):
+		if re.match(r"^.{0,5}(?<!\$)\$(?!\$)[^" + re.escape(dbs) + r"]*?(?<!\$)\$(?!\$).{0,3}$", lastline):
 			#print("Matched single dollars signs on last line and <100 chars")
 			return True
 
-	#3. Last line contains "Proposed"
-	if re.match(r".*Proposed.*", lastline):
-		#print("Matched the word \"Proposed\"")
+	#3. Last line contains "Propose" or "Author"
+	if re.match(r".*(P|p)ropose.*", lastline) or re.match(r".*(A|a)uthor.*", lastline):
+		#print("Matched the word \"proposed\" or \"author\"")
 		return True
+
 	return False
 
 def extract_author(statement=""):
 	"""Extracts the author"""
 	lastline = split_problem_author(statement)[1]
 
-	reg_textit = re.match(r".*" + re.escape(textit) + r"\{(.*)\}", lastline)
-	reg_emph = re.match(r".*" + re.escape(emph) + r"\{(.*)\}", lastline)
-	reg_dollar_sign = re.match(r"\$(.*)\$", lastline)
-	reg_proposed_by = re.match(r".*(?:P|p)roposed by(.*)", lastline)
-	reg_proposer = re.match(r".*(?:P|p)roposer(.*)", lastline)
-	while reg_textit or reg_emph or reg_dollar_sign or reg_proposed_by or reg_proposer:
-		if reg_textit:
-			lastline = reg_textit.group(1).strip(" ():\t\n")
-		elif reg_emph:
-			lastline = reg_emph.group(1).strip(" ():\t\n")
-		elif reg_dollar_sign:
-			lastline = reg_dollar_sign.group(1).strip(" ():\t\n")
-		elif reg_proposed_by:
-			lastline = reg_proposed_by.group(1).strip(" ():\t\n")
-		elif reg_proposer:
-			lastline = reg_proposer.group(1).strip(" ():\t\n")
-		reg_textit = re.match(r".*" + re.escape(textit) + r"\{(.*)\}", lastline)
-		reg_emph = re.match(r".*" + re.escape(emph) + r"\{(.*)\}", lastline)
-		reg_dollar_sign = re.match(r"\$(.*)\$", lastline)
-		reg_proposed_by = re.match(r".*(?:P|p)roposed by(.*)", lastline)
-		reg_proposer = re.match(r".*(?:P|p)roposer(.*)", lastline)
+	reg = {}
+	reg["textit"] = re.match(r".*" + re.escape(textit) + r"\{(.*?)\}", lastline)
+	reg["textbf"] = re.match(r".*" + re.escape(textbf) + r"\{(.*?)\}", lastline)
+	reg["emph"] = re.match(r".*" + re.escape(emph) + r"\{(.*?)\}", lastline)
+	reg["dollar_signs"] = re.match(r"\$(.*)\$", lastline)
+	reg["proposed_by"] = re.match(r".*(?:P|p)roposed (?:by|to)(.*)", lastline)
+	reg["proposer"] = re.match(r".*(?:P|p)roposer(.*)", lastline)
+	reg["author"] = re.match(r".*(?:A|a)uthor(.*)", lastline)
+	reg["parens"] = re.match(r"^\((.*)\)", lastline)
+
+	while any(reg[t] for t in reg):
+		if reg["textit"]:
+			lastline = reg["textit"].group(1).strip(" .:\t\n")
+		elif reg["textbf"]:
+			lastline = reg["textbf"].group(1).strip(" :.\t\n")
+		elif reg["emph"]:
+			lastline = reg["emph"].group(1).strip(" :.\t\n")
+		elif reg["dollar_signs"]:
+			lastline = reg["dollar_signs"].group(1).strip(" :.\t\n")
+		elif reg["proposed_by"]:
+			lastline = reg["proposed_by"].group(1).strip(" :.\t\n")
+		elif reg["proposer"]:
+			lastline = reg["proposer"].group(1).strip(" :.\t\n")
+		elif reg["author"]:
+			lastline = reg["author"].group(1).strip(" :.\t\n")
+		elif reg["parens"]:
+			lastline = reg["parens"].group(1).strip(" :.\t\n")
+		reg["textit"] = re.match(r".*" + re.escape(textit) + r"\{(.*?)\}", lastline)
+		reg["textbf"] = re.match(r".*" + re.escape(textbf) + r"\{(.*?)\}", lastline)
+		reg["emph"] = re.match(r".*" + re.escape(emph) + r"\{(.*?)\}", lastline)
+		reg["dollar_signs"] = re.match(r"\$(.*)\$", lastline)
+		reg["proposed_by"] = re.match(r".*(?:P|p)roposed (?:by|to)(.*)", lastline)
+		reg["proposer"] = re.match(r".*(?:P|p)roposer(.*)", lastline)
+		reg["author"] = re.match(r".*(?:A|a)uthor(.*)", lastline)
+		reg["parens"] = re.match(r"^\((.*)\)$", lastline)
 	
 	return lastline
-	
-
 
 
 for statement_ in statements:
