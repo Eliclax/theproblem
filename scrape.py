@@ -5,6 +5,7 @@ import time
 from collections import deque
 import random
 import re
+from find_author import inc_author, extract_author, split_problem_author
 
 class Problem:
 	def __init__(self, source="", year=-1, label="", statement="", author="", difficulty=-1, rating=-1):
@@ -71,12 +72,12 @@ def aops_dfs(link = ""):
 	driver.get(link)
 	time.sleep(3.5+random.random())
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	source_ = soup.find(class_ = "cmty-category-cell-title").string.rstrip().lstrip()
+	source_ = soup.find(class_ = "cmty-category-cell-title").string.strip()
 	print(source_)
 
 	#If page contains folders
 	if soup.find(class_ = "cmty-cat-cell-top-legit") is not None:
-		for element in soup.find_all(class_ = "cmty-cat-cell-top-legit"):
+		for element in soup.find_all(class_ = "cmty-cat-cell-top-legit", limit = 2):
 			aops_dfs(AOPS + str(element.a.get('href')))
 	#If page doesn't contain folders, it contains problems. Scrape time.
 	else:
@@ -89,16 +90,25 @@ def aops_dfs(link = ""):
 				label_ = label_elt.string
 			prob_elt = label_elt.find_next(class_="cmty-view-post-item-text")
 			author_ = ""
-			statement_ = html_to_latex(str(prob_elt))
-			reg = re.match("([\s\S]*)\\\\textit\{Proposed by (.*)\}", statement_)
-			if reg:
-				statement_ = reg.group(1).rstrip()
-				author_ = reg.group(2)
+			statement_ = html_to_latex(str(prob_elt)).strip()
+			with open("raw_html_to_latex.txt", "a") as g:
+				g.write("====================================\n")
+				g.write(statement_ + "\n")
+			#print(label_)
+			has_author = inc_author(statement_)
+			#print("VERDICT: " + str(has_author))
+			# reg = re.match("([\s\S]*)\\\\textit\{Proposed by (.*)\}", statement_)
+			if has_author:
+				author_ = extract_author(statement_)
+				statement_ = split_problem_author(statement_)[0]
+				#print("AUTHOR: " + author_)
 			problems.append(Problem(statement=statement_, source=source_, year=year_, author=author_, label=label_))
 
 
 aops_dfs("https://artofproblemsolving.com/community/c3223_imo_shortlist")
 driver.quit()
+
+
 
 with open("scrapetest.txt", "w") as f:
 	for problem in problems:

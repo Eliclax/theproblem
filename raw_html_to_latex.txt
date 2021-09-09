@@ -1,11 +1,4 @@
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A1
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 \textit{Version 1}. Let $n$ be a positive integer, and set $N=2^{n}$. Determine the smallest real number $a_{n}$ such that, for all real $x$,
 \[
 \sqrt[N]{\frac{x^{2 N}+1}{2}} \leqslant a_{n}(x-1)^{2}+x .
@@ -13,366 +6,154 @@ RATING: -1
 \[
 \sqrt[N]{\frac{x^{2 N}+1}{2}} \leqslant b_{N}(x-1)^{2}+x .
 \]
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A2
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $\mathcal{A}$ denote the set of all polynomials in three variables $x, y, z$ with integer coefficients. Let $\mathcal{B}$ denote the subset of $\mathcal{A}$ formed by all polynomials which can be expressed as
 \begin{align*}
 (x + y + z)P(x, y, z) + (xy + yz + zx)Q(x, y, z) + xyzR(x, y, z)
 \end{align*}with $P, Q, R \in \mathcal{A}$.  Find the smallest non-negative integer $n$ such that $x^i y^j z^k \in \mathcal{B}$ for all non-negative integers $i, j, k$ satisfying $i + j + k \geq n$.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A3
-AUTHOR: Israel
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Suppose that $a,b,c,d$ are positive real numbers satisfying $(a+c)(b+d)=ac+bd$. Find the smallest possible value of
-$$\frac{a}{b}+\frac{b}{c}+\frac{c}{d}+\frac{d}{a}.$$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A4
-AUTHOR: Stijn Cambie, Belgium
-DIFFICULTY: -1
-RATING: -1
-
+$$\frac{a}{b}+\frac{b}{c}+\frac{c}{d}+\frac{d}{a}.$$\textit{Israel}
+====================================
 The real numbers $a, b, c, d$ are such that $a\geq b\geq c\geq d>0$ and $a+b+c+d=1$. Prove that
-\[(a+2b+3c+4d)a^ab^bc^cd^d<1\]
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A5
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+\[(a+2b+3c+4d)a^ab^bc^cd^d<1\]\textit{Proposed by Stijn Cambie, Belgium}
+====================================
 A magician intends to perform the following trick. She announces a positive integer $n$, along with $2n$ real numbers $x_1 < \dots < x_{2n}$, to the audience. A member of the audience then secretly chooses a polynomial $P(x)$ of degree $n$ with real coefficients, computes the $2n$ values $P(x_1), \dots , P(x_{2n})$, and writes down these $2n$ values on the blackboard in non-decreasing order. After that the magician announces the secret polynomial to the audience. Can the magician find a strategy to perform such a trick?
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A6
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Find all functions $f : \mathbb{Z}\rightarrow \mathbb{Z}$ satisfying
 \[f^{a^{2} + b^{2}}(a+b) = af(a) +bf(b)\]for all integers $a$ and $b$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A7
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $n$ and $k$ be positive integers. Prove that for $a_1, \dots, a_n \in [1,2^k]$ one has
 \[ \sum_{i = 1}^n \frac{a_i}{\sqrt{a_1^2 + \dots + a_i^2}} \le 4 \sqrt{kn}. \]
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: A8
-AUTHOR: Ukraine
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $R+$ be the set of positive real numbers. Determine all functions $f:R+$ $\rightarrow$ $R+$ such that for all positive real numbers $x$ and $y$
 $f(x+f(xy))+y=f(x)f(y)+1$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C1
-AUTHOR: United Kingdom
-DIFFICULTY: -1
-RATING: -1
 
+$(Ukraine)$
+====================================
 Let $n$ be a positive integer. Find the number of permutations $a_1$, $a_2$, $\dots a_n$ of the
 sequence $1$, $2$, $\dots$ , $n$ satisfying
 $$a_1 \le 2a_2\le 3a_3 \le \dots \le na_n$$.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C2
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+Proposed by United Kingdom
+====================================
 In a regular 100-gon, 41 vertices are colored black and the remaining 59 vertices are colored white. Prove that there exist 24 convex quadrilaterals $Q_{1}, \ldots, Q_{24}$ whose corners are vertices of the 100-gon, so that
 \begin{itemize}
 \item the quadrilaterals $Q_{1}, \ldots, Q_{24}$ are pairwise disjoint, and
 \item every quadrilateral $Q_{i}$ has three corners of one color and one corner of the other color.
 \end{itemize}
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C3
-AUTHOR: Tejaswi Navilarekallu, India
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 There is an integer $n > 1$. There are $n^2$ stations on a slope of a mountain, all at different altitudes. Each of two cable car companies, $A$ and $B$, operates $k$ cable cars; each cable car provides a transfer from one of the stations to a higher one (with no intermediate stops). The $k$ cable cars of $A$ have $k$ different starting points and $k$ different finishing points, and a cable car which starts higher also finishes higher. The same conditions hold for $B$. We say that two stations are linked by a company if one can start from the lower station and reach the higher one by using one or more cars of that company (no other movements between stations are allowed). Determine the smallest positive integer $k$ for which one can guarantee that there are two stations that are linked by both companies.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C4
-AUTHOR: Proposed \;  by \; Croatia
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Tejaswi Navilarekallu, India}
+====================================
 The Fibonacci numbers $F_0, F_1, F_2, . . .$ are defined inductively by $F_0=0, F_1=1$, and $F_{n+1}=F_n+F_{n-1}$ for $n \ge 1$. Given an integer $n \ge 2$, determine the smallest size of a set $S$ of integers such that for every $k=2, 3, . . . , n$ there exist some $x, y \in S$ such that $x-y=F_k$.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C5
-AUTHOR: Netherlands
-DIFFICULTY: -1
-RATING: -1
 
+\textit{$Proposed \;  by \; Croatia$}
+====================================
 Let $p$ be an odd prime, and put $N=\frac{1}{4} (p^3 -p) -1.$ The numbers $1,2, \dots, N$ are painted arbitrarily in two colors, red and blue. For any positive integer $n \leqslant N,$ denote $r(n)$ the fraction of integers $\{ 1,2, \dots, n \}$ that are red.
 Prove that there exists a positive integer $a \in \{ 1,2, \dots, p-1\}$ such that $r(n) \neq a/p$ for all $n = 1,2, \dots , N.$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C6
-AUTHOR: Milan Haiman, Hungary and Carl Schildkraut, USA
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Netherlands}
+====================================
 There are $4n$ pebbles of weights $1, 2, 3, \dots, 4n.$ Each pebble is coloured in one of $n$ colours and there are four pebbles of each colour. Show that we can arrange the pebbles into two piles so that the following two conditions are both satisfied:
 \begin{itemize}
 \item The total weights of both piles are the same.
 \item Each pile contains two pebbles of each colour.
 \end{itemize}
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C7
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+\textit{Proposed by Milan Haiman, Hungary and Carl Schildkraut, USA}
+====================================
 Consider any rectangular table having finitely many rows and columns, with a real number $a(r, c)$ in the cell in row $r$ and column $c$. A pair $(R, C)$, where $R$ is a set of rows and $C$ a set of columns, is called a \textit{saddle pair} if the following two conditions are satisfied:
 \begin{itemize}
 \item $(i)$ For each row $r^{\prime}$, there is $r \in R$ such that $a(r, c) \geqslant a\left(r^{\prime}, c\right)$ for all $c \in C$;
 \item $(ii)$ For each column $c^{\prime}$, there is $c \in C$ such that $a(r, c) \leqslant a\left(r, c^{\prime}\right)$ for all $r \in R$.
 \end{itemize}
 A saddle pair $(R, C)$ is called a \textit{minimal pair} if for each saddle pair $\left(R^{\prime}, C^{\prime}\right)$ with $R^{\prime} \subseteq R$ and $C^{\prime} \subseteq C$, we have $R^{\prime}=R$ and $C^{\prime}=C$. Prove that any two minimal pairs contain the same number of rows.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: C8
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Players $A$ and $B$ play a game on a blackboard that initially contains 2020 copies of the number 1 . In every round, player $A$ erases two numbers $x$ and $y$ from the blackboard, and then player $B$ writes one of the numbers $x+y$ and $|x-y|$ on the blackboard. The game terminates as soon as, at the end of some round, one of the following holds:
 \begin{itemize}
 \item $(1)$ one of the numbers on the blackboard is larger than the sum of all other numbers;
 \item $(2)$ there are only zeros on the blackboard.
 \end{itemize}
 Player $B$ must then give as many cookies to player $A$ as there are numbers on the blackboard. Player $A$ wants to get as many cookies as possible, whereas player $B$ wants to give as few as possible. Determine the number of cookies that $A$ receives if both players play optimally.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G1
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $ABC$ be an isosceles triangle with $BC=CA$, and let $D$ be a point inside side $AB$ such that $AD< DB$. Let $P$ and $Q$ be two points inside sides $BC$ and $CA$, respectively, such that $\angle DPB = \angle DQA = 90^{\circ}$. Let the perpendicular bisector of $PQ$ meet line segment $CQ$ at $E$, and let the circumcircles of triangles $ABC$ and $CPQ$ meet again at point $F$, different from $C$.
 Suppose that $P$, $E$, $F$ are collinear. Prove that $\angle ACB = 90^{\circ}$.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G2
-AUTHOR: Dominik Burek, Poland
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Consider the convex quadrilateral $ABCD$. The point $P$ is in the interior of $ABCD$. The following ratio equalities hold:
 \[\angle PAD:\angle PBA:\angle DPA=1:2:3=\angle CBP:\angle BAP:\angle BPC\]Prove that the following three lines meet in a point: the internal bisectors of angles $\angle ADP$ and $\angle PCB$ and the perpendicular bisector of segment $AB$.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G3
-AUTHOR: Slovakia
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Dominik Burek, Poland}
+====================================
 Let $ABCD$ be a convex quadrilateral with $\angle ABC>90$, $CDA>90$ and $\angle DAB=\angle BCD$. Denote by $E$ and $F$ the reflections of $A$ in lines $BC$ and $CD$, respectively. Suppose that the segments $AE$ and $AF$ meet the line $BD$ at $K$ and $L$, respectively. Prove that the circumcircles of triangles $BEK$ and $DFL$ are tangent to each other.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G4
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+$\emph{Slovakia}$
+====================================
 In the plane, there are $n \geqslant 6$ pairwise disjoint disks $D_{1}, D_{2}, \ldots, D_{n}$ with radii $R_{1} \geqslant R_{2} \geqslant \ldots \geqslant R_{n}$. For every $i=1,2, \ldots, n$, a point $P_{i}$ is chosen in disk $D_{i}$. Let $O$ be an arbitrary point in the plane. Prove that \[O P_{1}+O P_{2}+\ldots+O P_{n} \geqslant R_{6}+R_{7}+\ldots+R_{n}.\](A disk is assumed to contain its boundary.)
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G5
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $ABCD$ be a cyclic quadrilateral. Points $K, L, M, N$ are chosen on $AB, BC, CD, DA$ such that $KLMN$ is a rhombus with $KL \parallel AC$ and $LM \parallel BD$. Let $\omega_A, \omega_B, \omega_C, \omega_D$ be the incircles of $\triangle ANK, \triangle BKL, \triangle CLM, \triangle DMN$.
 
 Prove that the common internal tangents to $\omega_A$, and $\omega_C$ and the common internal tangents to $\omega_B$ and $\omega_D$ are concurrent.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G6
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $ABC$ be a triangle with $AB < AC$, incenter $I$, and $A$ excenter $I_{A}$. The incircle meets $BC$ at $D$. Define $E = AD\cap BI_{A}$, $F = AD\cap CI_{A}$. Show that the circumcircle of $\triangle AID$ and $\triangle I_{A}EF$ are tangent to each other
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G7
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $P$ be a point on the circumcircle of acute triangle $ABC$. Let $D,E,F$ be the reflections of $P$ in the $A$-midline, $B$-midline, and $C$-midline. Let $\omega$ be the circumcircle of the triangle formed by the perpendicular bisectors of $AD, BE, CF$.
 
 Show that the circumcircles of $\triangle ADP, \triangle BEP, \triangle CFP,$ and $\omega$ share a common point.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G8
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $ABC$ be a triangle with incenter $I$ and circumcircle $\Gamma$. Circles $\omega_{B}$ passing through $B$ and $\omega_{C}$ passing through $C$ are tangent at $I$. Let $\omega_{B}$ meet minor arc $AB$ of $\Gamma$ at $P$ and $AB$ at $M\neq B$, and let $\omega_{C}$ meet minor arc $AC$ of $\Gamma$ at $Q$ and $AC$ at $N\neq C$. Rays $PM$ and $QN$ meet at $X$. Let $Y$ be a point such that $YB$ is tangent to $\omega_{B}$ and $YC$ is tangent to $\omega_{C}$.
 
 Show that $A,X,Y$ are collinear.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: G9
-AUTHOR: Ting-Feng Lin and Hung-Hsun Hans Yu, Taiwan
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Prove that there exists a positive constant $c$ such that the following statement is true:
 Consider an integer $n > 1$, and a set $\mathcal S$ of $n$ points in the plane such that the distance between any two different points in $\mathcal S$ is at least 1. It follows that there is a line $\ell$ separating $\mathcal S$ such that the distance from any point of $\mathcal S$ to $\ell$ is at least $cn^{-1/3}$.
 
 (A line $\ell$ separates a set of points S if some segment joining two points in $\mathcal S$ crosses $\ell$.)
 
 \textit{Note. Weaker results with $cn^{-1/3}$ replaced by $cn^{-\alpha}$ may be awarded points depending on the value of the constant $\alpha > 1/3$.}
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N1
-AUTHOR: South Africa
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Ting-Feng Lin and Hung-Hsun Hans Yu, Taiwan}
+====================================
 Given a positive integer $k$ show that there exists a prime $p$ such that one can choose distinct integers $a_1,a_2\cdots, a_{k+3} \in \{1, 2, \cdots ,p-1\}$  such that p divides $a_ia_{i+1}a_{i+2}a_{i+3}-i$ for all $i= 1, 2, \cdots, k$.
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N2
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+
+\textit{South Africa }
+====================================
 For each prime $p$, construct a graph $G_p$ on $\{1,2,\ldots p\}$, where $m\neq n$ are adjacent if and only if $p$ divides $(m^{2} + 1-n)(n^{2} + 1-m)$. Prove that $G_p$ is disconnected for infinitely many $p$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N3
-AUTHOR: Oleg Košik, Estonia
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 A deck of $n > 1$ cards is given. A positive integer is written on each card. The deck has the property that the arithmetic mean of the numbers on each pair of cards is also the geometric mean of the numbers on some collection of one or more cards.
 For which $n$ does it follow that the numbers on the cards are all equal?
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N4
-AUTHOR: United Kingdom
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Oleg Košik, Estonia}
+====================================
 For any odd prime $p$ and any integer $n,$ let $d_p (n) \in \{ 0,1, \dots, p-1 \}$ denote the remainder when $n$ is divided by $p.$ We say that $(a_0, a_1, a_2, \dots)$ is a \textit{p-sequence}, if $a_0$ is a positive integer coprime to $p,$ and $a_{n+1} =a_n + d_p (a_n)$ for $n \geqslant 0.$
 (a) Do there exist infinitely many primes $p$ for which there exist $p$-sequences $(a_0, a_1, a_2, \dots)$ and $(b_0, b_1, b_2, \dots)$ such that $a_n >b_n$ for infinitely many $n,$ and $b_n > a_n$ for infinitely many $n?$
 (b) Do there exist infinitely many primes $p$ for which there exist $p$-sequences $(a_0, a_1, a_2, \dots)$ and $(b_0, b_1, b_2, \dots)$ such that $a_0 <b_0,$ but $a_n >b_n$ for all $n \geqslant 1?$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N5
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+\textit{United Kingdom}
+====================================
 Determine all functions $f$ defined on the set of all positive integers and taking non-negative integer values, satisfying the three conditions:
 \begin{itemize}
 \item $(i)$ $f(n) \neq 0$ for at least one $n$;
 \item $(ii)$ $f(x y)=f(x)+f(y)$ for every positive integers $x$ and $y$;
 \item $(iii)$ there are infinitely many positive integers $n$ such that $f(k)=f(n-k)$ for all $k<n$.
 \end{itemize}
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N6
-AUTHOR: Cyprus
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 For a positive integer $n$, let $d(n)$ be the number of positive divisors of $n$, and let $\varphi(n)$ be the number of positive integers not exceeding $n$ which are coprime to $n$. Does there exist a constant $C$ such that
 
 $$ \frac {\varphi ( d(n))}{d(\varphi(n))}\le C$$for all $n\ge 1$
-=================================
-SOURCE: 2020 ISL
-YEAR: 2020 
-LABEL: N7
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Cyprus}
+====================================
 Let $\mathcal{S}$ be a set consisting of $n \ge 3$ positive integers, none of which is a sum of two other distinct members of $\mathcal{S}$. Prove that the elements of $\mathcal{S}$ may be ordered as $a_1, a_2, \dots, a_n$ so that $a_i$ does not divide $a_{i - 1} + a_{i + 1}$ for all $i = 2, 3, \dots, n - 1$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A1
-AUTHOR: Liam Baker, South Africa
-DIFFICULTY: -1
-RATING: -1
-
-Let $\mathbb{Z}$ be the set of integers. Determine all functions $f: \mathbb{Z} \rightarrow \mathbb{Z}$ such that, for all integers $a$ and $b$, $$f(2a)+2f(b)=f(f(a+b)).$$
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A2
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
+Let $\mathbb{Z}$ be the set of integers. Determine all functions $f: \mathbb{Z} \rightarrow \mathbb{Z}$ such that, for all integers $a$ and $b$, $$f(2a)+2f(b)=f(f(a+b)).$$\textit{Proposed by Liam Baker, South Africa}
+====================================
 Let $u_1, u_2, \dots, u_{2019}$ be real numbers satisfying \[u_{1}+u_{2}+\cdots+u_{2019}=0 \quad \text { and } \quad u_{1}^{2}+u_{2}^{2}+\cdots+u_{2019}^{2}=1.\]Let $a=\min \left(u_{1}, u_{2}, \ldots, u_{2019}\right)$ and $b=\max \left(u_{1}, u_{2}, \ldots, u_{2019}\right)$. Prove that
 \[
 a b \leqslant-\frac{1}{2019}.
 \]
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A3
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $n \geqslant 3$ be a positive integer and let $\left(a_{1}, a_{2}, \ldots, a_{n}\right)$ be a strictly increasing sequence of $n$ positive real numbers with sum equal to 2. Let $X$ be a subset of $\{1,2, \ldots, n\}$ such that the value of
 \[
 \left|1-\sum_{i \in X} a_{i}\right|
@@ -380,96 +161,44 @@ Let $n \geqslant 3$ be a positive integer and let $\left(a_{1}, a_{2}, \ldots, a
 \[
 \sum_{i \in X} b_{i}=1.
 \]
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A4
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $n\geqslant 2$ be a positive integer and $a_1,a_2, \ldots ,a_n$ be real numbers such that \[a_1+a_2+\dots+a_n=0.\]Define the set $A$ by
 \[A=\left\{(i, j)\,|\,1 \leqslant i<j \leqslant n,\left|a_{i}-a_{j}\right| \geqslant 1\right\}\]Prove that, if $A$ is not empty, then
 \[\sum_{(i, j) \in A} a_{i} a_{j}<0.\]
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A5
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $x_1, x_2, \dots, x_n$ be different real numbers. Prove that
 \[\sum_{1 \leqslant i \leqslant n} \prod_{j \neq i} \frac{1-x_{i} x_{j}}{x_{i}-x_{j}}=\left\{\begin{array}{ll}
 0, & \text { if } n \text { is even; } \\
 1, & \text { if } n \text { is odd. }
 \end{array}\right.\]
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A6
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 A polynomial $P(x, y, z)$ in three variables with real coefficients satisfies the identities
 
 $$P(x, y, z)=P(x, y, xy-z)=P(x, zx-y, z)=P(yz-x, y, z).$$
 Prove that there exists a polynomial $F(t)$ in one variable such that
 
 $$P(x,y,z)=F(x^2+y^2+z^2-xyz).$$
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: A7
-AUTHOR: Netherlands
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $\mathbb Z$ be the set of integers. We consider functions $f :\mathbb Z\to\mathbb Z$ satisfying
 \[f\left(f(x+y)+y\right)=f\left(f(x)+y\right)\]for all integers $x$ and $y$. For such a function, we say that an integer $v$ is \textit{f-rare} if the set
 \[X_v=\{x\in\mathbb Z:f(x)=v\}\]is finite and nonempty.
 (a) Prove that there exists such a function $f$ for which there is an $f$-rare integer.
 (b) Prove that no such function $f$ can have more than one $f$-rare integer.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C1
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Netherlands}
+====================================
 The infinite sequence $a_0,a _1, a_2, \dots$ of (not necessarily distinct) integers has the following properties: $0\le a_i \le i$ for all integers $i\ge 0$, and \[\binom{k}{a_0} + \binom{k}{a_1} + \dots + \binom{k}{a_k} = 2^k\]for all integers $k\ge 0$. Prove that all integers $N\ge 0$ occur in the sequence (that is, for all $N\ge 0$, there exists $i\ge 0$ with $a_i=N$).
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C2
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 You are given a set of $n$ blocks, each weighing at least $1$; their total weight is $2n$. Prove that for every real number $r$ with $0 \leq r \leq 2n-2$ you can choose a subset of the blocks whose total weight is at least $r$ but at most $r + 2$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C3
-AUTHOR: David Altizio, USA
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 The Bank of Bath issues coins with an $H$ on one side and a $T$ on the other. Harry has $n$ of these coins arranged in a line from left to right. He repeatedly performs the following operation: if there are exactly $k>0$ coins showing $H$, then he turns over the $k$th coin from the left; otherwise, all coins show $T$ and he stops. For example, if $n=3$ the process starting with the configuration $THT$ would be $THT \to HHT  \to HTT \to TTT$, which stops after three operations.
 
 (a) Show that, for each initial configuration, Harry stops after a finite number of operations.
 
 (b) For each initial configuration $C$, let $L(C)$ be the number of operations before Harry stops. For example, $L(THT) = 3$ and $L(TTT) = 0$. Determine the average value of $L(C)$ over all $2^n$ possible initial configurations $C$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C4
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by David Altizio, USA}
+====================================
 On a flat plane in Camelot, King Arthur builds a labyrinth $\mathfrak{L}$ consisting of $n$ walls, each of which is an infinite straight line. No two walls are parallel, and no three walls have a common point. Merlin then paints one side of each wall entirely red and the other side entirely blue.
 
 At the intersection of two walls there are four corners: two diagonally opposite corners where a red side and a blue side meet, one corner where two red sides meet, and one corner where two blue sides meet. At each such intersection, there is a two-way door connecting the two diagonally opposite corners at which sides of different colours meet.
@@ -477,212 +206,89 @@ At the intersection of two walls there are four corners: two diagonally opposite
 After Merlin paints the walls, Morgana then places some knights in the labyrinth. The knights can walk through doors, but cannot walk through walls.
 
 Let $k(\mathfrak{L})$ be the largest number $k$ such that, no matter how Merlin paints the labyrinth $\mathfrak{L},$ Morgana can always place at least $k$ knights such that no two of them can ever meet. For each $n,$ what are all possible values for $k(\mathfrak{L}),$ where $\mathfrak{L}$ is a labyrinth with $n$ walls?
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C5
-AUTHOR: Adrian Beker, Croatia
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 A social network has $2019$ users, some pairs of whom are friends. Whenever user $A$ is friends with user $B$, user $B$ is also friends with user $A$. Events of the following kind may happen repeatedly, one at a time:
 \begin{itemize}
 \item Three users $A$, $B$, and $C$ such that $A$ is friends with both $B$ and $C$, but $B$ and $C$ are not friends, change their friendship statuses such that $B$ and $C$ are now friends, but $A$ is no longer friends with $B$, and no longer friends with $C$. All other friendship statuses are unchanged.
 \end{itemize}
 Initially, $1010$ users have $1009$ friends each, and $1009$ users have $1010$ friends each. Prove that there exists a sequence of such events after which each user is friends with at most one other user.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C6
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Adrian Beker, Croatia}
+====================================
 Let $n>1$ be an integer. Suppose we are given $2n$ points in the plane such that no three of them are collinear. The points are to be labelled $A_1, A_2, \dots , A_{2n}$ in some order. We then consider the $2n$ angles $\angle A_1A_2A_3, \angle A_2A_3A_4, \dots , \angle A_{2n-2}A_{2n-1}A_{2n}, \angle A_{2n-1}A_{2n}A_1, \angle A_{2n}A_1A_2$. We measure each angle in the way that gives the smallest positive value (i.e. between $0^{\circ}$ and $180^{\circ}$). Prove that there exists an ordering of the given points such that the resulting $2n$ angles can be separated into two groups with the sum of one group of angles equal to the sum of the other group.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C7
-AUTHOR: Czech Republic
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 There are 60 empty boxes $B_1,\ldots,B_{60}$ in a row on a table and an unlimited supply of pebbles. Given a positive integer $n$, Alice and Bob play the following game.
 In the first round, Alice takes $n$ pebbles and distributes them into the 60 boxes as she wishes. Each subsequent round consists of two steps:
 (a) Bob chooses an integer $k$ with $1\leq k\leq 59$ and splits the boxes into the two groups $B_1,\ldots,B_k$ and $B_{k+1},\ldots,B_{60}$.
 (b) Alice picks one of these two groups, adds one pebble to each box in that group, and removes one pebble from each box in the other group.
 Bob wins if, at the end of any round, some box contains no pebbles. Find the smallest $n$ such that Alice can prevent Bob from winning.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C8
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Czech Republic}
+====================================
 Alice has a map of Wonderland, a country consisting of $n \geq 2$ towns. For every pair of towns, there is a narrow road going from one town to the other. One day, all the roads are declared to be “one way” only. Alice has no information on the direction of the roads, but the King of Hearts has offered to help her. She is allowed to ask him a number of questions. For each question in turn, Alice chooses a pair of towns and the King of Hearts tells her the direction of the road connecting those two towns.
 
 Alice wants to know whether there is at least one town in Wonderland with at most one outgoing road. Prove that she can always find out by asking at most $4n$ questions.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: C9
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 For any two different real numbers $x$ and $y$, we define $D(x,y)$ to be the unique integer $d$ satisfying $2^d\le |x-y| < 2^{d+1}$. Given a set of reals $\mathcal F$, and an element $x\in \mathcal F$, we say that the \textit{scales} of $x$ in $\mathcal F$ are the values of $D(x,y)$ for $y\in\mathcal F$ with $x\neq y$. Let $k$ be a given positive integer.
 
 Suppose that each member $x$ of $\mathcal F$ has at most $k$ different scales in $\mathcal F$ (note that these scales may depend on $x$). What is the maximum possible size of $\mathcal F$?
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G1
-AUTHOR: Nigeria
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $ABC$ be a triangle. Circle $\Gamma$ passes through $A$, meets segments $AB$ and $AC$ again at points $D$ and $E$ respectively, and intersects segment $BC$ at $F$ and $G$ such that $F$ lies between $B$ and $G$. The tangent to circle $BDF$ at $F$ and the tangent to circle $CEG$ at $G$ meet at point $T$. Suppose that points $A$ and $T$ are distinct. Prove that line $AT$ is parallel to $BC$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G2
-AUTHOR: Vietnam
-DIFFICULTY: -1
-RATING: -1
 
+(Nigeria)
+====================================
 Let $ABC$ be an acute-angled triangle and let $D, E$, and $F$ be the feet of altitudes from $A, B$, and $C$ to sides $BC, CA$, and $AB$, respectively. Denote by $\omega_B$ and $\omega_C$ the incircles of triangles $BDF$ and $CDE$, and let these circles be tangent to segments $DF$ and $DE$ at $M$ and $N$, respectively. Let line $MN$ meet circles $\omega_B$ and $\omega_C$ again at $P \ne M$ and $Q \ne N$, respectively. Prove that $MP = NQ$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G3
-AUTHOR: Anton Trygub, Ukraine
-DIFFICULTY: -1
-RATING: -1
 
+(Vietnam)
+====================================
 In triangle $ABC$, point $A_1$ lies on side $BC$ and point $B_1$ lies on side $AC$. Let $P$ and $Q$ be points on segments $AA_1$ and $BB_1$, respectively, such that $PQ$ is parallel to $AB$. Let $P_1$ be a point on line $PB_1$, such that $B_1$ lies strictly between $P$ and $P_1$, and $\angle PP_1C=\angle BAC$. Similarly, let $Q_1$ be the point on line $QA_1$, such that $A_1$ lies strictly between $Q$ and $Q_1$, and $\angle CQ_1Q=\angle CBA$.
 
 Prove that points $P,Q,P_1$, and $Q_1$ are concyclic.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G4
-AUTHOR: Australia
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Anton Trygub, Ukraine}
+====================================
 Let $P$ be a point inside triangle $ABC$. Let $AP$ meet $BC$ at $A_1$, let $BP$ meet $CA$ at $B_1$, and let $CP$ meet $AB$ at $C_1$. Let $A_2$ be the point such that $A_1$ is the midpoint of $PA_2$, let $B_2$ be the point such that $B_1$ is the midpoint of $PB_2$, and let $C_2$ be the point such that $C_1$ is the midpoint of $PC_2$. Prove that points $A_2, B_2$, and $C_2$ cannot all lie strictly inside the circumcircle of triangle $ABC$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G5
-AUTHOR: Hungary
-DIFFICULTY: -1
-RATING: -1
 
+(Australia)
+====================================
 Let $ABCDE$ be a convex pentagon with $CD= DE$ and $\angle EDC \ne 2 \cdot \angle ADB$.
 Suppose that a point $P$ is located in the interior of the pentagon such that $AP =AE$ and $BP= BC$.
 Prove that $P$ lies on the diagonal $CE$ if and only if area $(BCD)$ + area $(ADE)$ = area $(ABD)$ + area $(ABP)$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G6
-AUTHOR: Slovakia
-DIFFICULTY: -1
-RATING: -1
 
+(Hungary)
+====================================
 Let $I$ be the incentre of acute-angled triangle $ABC$. Let the incircle meet $BC, CA$, and $AB$ at $D, E$, and $F,$ respectively. Let line $EF$ intersect the circumcircle of the triangle at $P$ and $Q$, such that $F$ lies between $E$ and $P$. Prove that $\angle DPA + \angle AQD =\angle QIP$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G7
-AUTHOR: Anant Mudgal, India
-DIFFICULTY: -1
-RATING: -1
 
+(Slovakia)
+====================================
 Let $I$ be the incentre of acute triangle $ABC$ with $AB\neq AC$. The incircle $\omega$ of $ABC$ is tangent to sides $BC, CA$, and $AB$ at $D, E,$ and $F$, respectively. The line through $D$ perpendicular to $EF$ meets $\omega$ at $R$. Line $AR$ meets $\omega$ again at $P$. The circumcircles of triangle $PCE$ and $PBF$ meet again at $Q$.
 
 Prove that lines $DI$ and $PQ$ meet on the line through $A$ perpendicular to $AI$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: G8
-AUTHOR: Australia
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Proposed by Anant Mudgal, India}
+====================================
 Let $\mathcal L$ be the set of all lines in the plane and let $f$ be a function that assigns to each line $\ell\in\mathcal L$ a point $f(\ell)$ on $f(\ell)$. Suppose that for any point $X$, and for any three lines $\ell_1,\ell_2,\ell_3$ passing through $X$, the points $f(\ell_1),f(\ell_2),f(\ell_3)$, and $X$ lie on a circle.
 Prove that there is a unique point $P$ such that $f(\ell)=P$ for any line $\ell$ passing through $P$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N1
-AUTHOR: Gabriel Chicas Reyes, El Salvador
-DIFFICULTY: -1
-RATING: -1
 
-Find all pairs $(k,n)$ of positive integers such that \[ k!=(2^n-1)(2^n-2)(2^n-4)\cdots(2^n-2^{n-1}). \]
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N2
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+\textit{Australia}
+====================================
+Find all pairs $(k,n)$ of positive integers such that \[ k!=(2^n-1)(2^n-2)(2^n-4)\cdots(2^n-2^{n-1}). \]\textit{Proposed by Gabriel Chicas Reyes, El Salvador}
+====================================
 Find all triples $(a, b, c)$ of positive integers such that $a^3 + b^3 + c^3 = (abc)^2$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N3
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 We say that a set $S$ of integers is \textit{rootiful} if, for any positive integer $n$ and any $a_0, a_1, \cdots, a_n \in S$, all integer roots of the polynomial $a_0+a_1x+\cdots+a_nx^n$ are also in $S$. Find all rootiful sets of integers that contain all numbers of the form $2^a - 2^b$ for positive integers $a$ and $b$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N4
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Find all functions $f:\mathbb Z_{>0}\to \mathbb Z_{>0}$ such that $a+f(b)$ divides $a^2+bf(a)$ for all positive integers $a$ and $b$ with $a+b>2019$.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N5
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $a$ be a positive integer. We say that a positive integer $b$ is \textit{$a$-good} if $\tbinom{an}{b}-1$ is divisible by $an+1$ for all positive integers $n$ with $an \geq b$. Suppose $b$ is a positive integer such that $b$ is $a$-good, but $b+2$ is not $a$-good. Prove that $b+1$ is prime.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N6
-AUTHOR: 
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Let $H = \{ \lfloor i\sqrt{2}\rfloor : i \in \mathbb Z_{>0}\} = \{1,2,4,5,7,\dots \}$ and let $n$ be a positive integer. Prove that there exists a constant $C$ such that, if $A\subseteq \{1,2,\dots, n\}$ satisfies $|A| \ge C\sqrt{n}$, then there exist $a,b\in A$ such that $a-b\in H$. (Here $\mathbb Z_{>0}$ is the set of positive integers, and $\lfloor z\rfloor$ denotes the greatest integer less than or equal to $z$.)
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N7
-AUTHOR: Canada
-DIFFICULTY: -1
-RATING: -1
-
+====================================
 Prove that there is a constant $c>0$ and infinitely many positive integers $n$ with the following property: there are infinitely many positive integers that cannot be expressed as the sum of fewer than $cn\log(n)$ pairwise coprime $n$th  powers.
-=================================
-SOURCE: 2019 ISL
-YEAR: 2019 
-LABEL: N8
-AUTHOR: Russia
-DIFFICULTY: -1
-RATING: -1
 
+\textit{Canada}
+====================================
 Let $a$ and $b$ be two positive integers. Prove that the integer
-\[a^2+\left\lceil\frac{4a^2}b\right\rceil\]is not a square. (Here $\lceil z\rceil$ denotes the least integer greater than or equal to $z$.
+\[a^2+\left\lceil\frac{4a^2}b\right\rceil\]is not a square. (Here $\lceil z\rceil$ denotes the least integer greater than or equal to $z$.)
+
+\textit{Russia}
